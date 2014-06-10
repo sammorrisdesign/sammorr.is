@@ -1,0 +1,20 @@
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid $light-grey;
+    background-color: $off-white;
+
+    @include mq($to: mobile) {
+        padding: 0;
+    }
+
+    .container {
+        @include mq($to: mobile) {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include mq($from: mobile) {
+        float: right;
+    }
+
+    .navigation__link {
+        float: left;
+        color: $red;
+        font-family: $sans-serif;
+        font-size: $font-size-medium;
+        cursor: pointer;
+
+        @include mq($from: mobile) {
+            padding: 8px 0 8px 40px;
+        }
+
+        @include mq($to: mobile) {
+            width: 33%;
+            padding: 16px 0;
+            text-align: center;
+        }
+
+        &:hover {
+            color: $dark-grey;
+        }
+
+        .navigation__link__anchor {
+            text-decoration: none;
+            padding: 4px 6px;
+        }
+    }
+    
+    .navigation__link--active {
+        .navigation__link__anchor {
+            border: 1px solid $red;
+            border-radius: 3px;
+        }
+    }
+    
+    .navigation__link--mobile {
+        @include mq($from: mobile) {
+            display: none;
+        }
+    }
+    
+    .navigation__link--desktop {
+        @include mq($to: mobile) {
+            display: none;
+        }
+    }
+}

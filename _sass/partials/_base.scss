@@ -1,3 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 99px 0 0 0;
+    font-family: $serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: $red;
+
+    &:hover {
+        color: $dark-grey;
+    }
+}
+
 .container {
     overflow: auto;
     padding: 0 20px;

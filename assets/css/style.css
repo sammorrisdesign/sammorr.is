@@ -1,3 +1,17 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 99px 0 0 0;
+  font-family: "ff-tisa-web-pro", Georgia, serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #ef3f42; }
+  a:hover {
+    color: #666666; }
+
 .container {
   overflow: auto;
   padding: 0 20px;
@@ -5,3 +19,76 @@
   @media all and (min-width: 58.75em) {
     .container {
       width: 900px; } }
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  padding: 16px 0;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fcfcfc; }
+  @media all and (max-width: 39.99em) {
+    header {
+      padding: 0; } }
+  @media all and (max-width: 39.99em) {
+    header .container {
+      margin: 0;
+      padding: 0; } }
+
+.logo {
+  margin: 0;
+  background-color: #ef3f42;
+  font-family: "Apercu Bold", "Futura", sans-serif;
+  font-size: 1.8rem; }
+  @media all and (min-width: 40em) {
+    .logo {
+      float: left;
+      padding: 8px 10px;
+      border-radius: 3px; } }
+  @media all and (max-width: 39.99em) {
+    .logo {
+      width: 100%;
+      padding: 16px 0;
+      text-align: center; } }
+  .logo:hover {
+    background-color: #666666; }
+  .logo .logo__anchor {
+    color: #fcfcfc;
+    text-decoration: none; }
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  @media all and (min-width: 40em) {
+    .navigation {
+      float: right; } }
+  .navigation .navigation__link {
+    float: left;
+    color: #ef3f42;
+    font-family: "Apercu Bold", "Futura", sans-serif;
+    font-size: 1.8rem;
+    cursor: pointer; }
+    @media all and (min-width: 40em) {
+      .navigation .navigation__link {
+        padding: 8px 0 8px 40px; } }
+    @media all and (max-width: 39.99em) {
+      .navigation .navigation__link {
+        width: 33%;
+        padding: 16px 0;
+        text-align: center; } }
+    .navigation .navigation__link:hover {
+      color: #666666; }
+    .navigation .navigation__link .navigation__link__anchor {
+      text-decoration: none;
+      padding: 4px 6px; }
+  .navigation .navigation__link--active .navigation__link__anchor {
+    border: 1px solid #ef3f42;
+    border-radius: 3px; }
+  @media all and (min-width: 40em) {
+    .navigation .navigation__link--mobile {
+      display: none; } }
+  @media all and (max-width: 39.99em) {
+    .navigation .navigation__link--desktop {
+      display: none; } }

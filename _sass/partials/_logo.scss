@@ -1,0 +1,27 @@
+.logo {
+    margin: 0;
+    background-color: $red;
+    font-family: $sans-serif;
+    font-size: $font-size-medium;
+
+    @include mq($from: mobile) {
+        float: left;
+        padding: 8px 10px;
+        border-radius: 3px;
+    }
+
+    @include mq($to: mobile) {
+        width: 100%;
+        padding: 16px 0;
+        text-align: center;
+    }
+
+    &:hover {
+        background-color: $dark-grey;
+    }
+
+    .logo__anchor {
+        color: $off-white;
+        text-decoration: none;
+    }
+}
