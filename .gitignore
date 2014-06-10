@@ -1,3 +1,5 @@
 _site
 .DS_Store
 .sass-cache
+/_sass/vendor/*.css
+/assets/css/vendor

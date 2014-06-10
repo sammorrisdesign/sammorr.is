@@ -1,0 +1,7 @@
+.container {
+  overflow: auto;
+  padding: 0 20px;
+  margin: 10px auto; }
+  @media all and (min-width: 58.75em) {
+    .container {
+      width: 900px; } }
