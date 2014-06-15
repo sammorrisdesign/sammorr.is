@@ -92,3 +92,24 @@ header {
   @media all and (max-width: 39.99em) {
     .navigation .navigation__link--desktop {
       display: none; } }
+
+.intro {
+  padding: 20px 0;
+  text-align: center; }
+  .intro .intro__title {
+    margin: 20px 0;
+    color: #ef3f42;
+    font-family: "Apercu Bold", "Futura", sans-serif;
+    font-size: 4.4rem; }
+  .intro .intro__paragraph {
+    margin-bottom: 12px;
+    color: #666666;
+    font-size: 1.6rem;
+    line-height: 2.4rem; }
+    .intro .intro__paragraph:after {
+      display: block;
+      width: 20px;
+      height: 1px;
+      margin: 20px auto;
+      background-color: #eeeeee;
+      content: " "; }
