@@ -113,3 +113,51 @@ header {
       margin: 20px auto;
       background-color: #eeeeee;
       content: " "; }
+
+.project {
+  position: relative;
+  margin-bottom: 120px;
+  height: 644px; }
+  .project .project__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: #eeeeee;
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms; }
+    .project .project__content--phone {
+      width: 270px;
+      padding: 80px 20px;
+      border-radius: 20px; }
+  .project .project__description {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 280px;
+    opacity: 0;
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms; }
+    .project .project__description .project__description__title {
+      margin: 20px 0;
+      color: #ef3f42;
+      font-family: "Apercu Bold", "Futura", sans-serif;
+      font-size: 4.4rem; }
+    .project .project__description .project__description__content {
+      color: #666666;
+      font-size: 1.6rem;
+      line-height: 2.4rem; }
+
+.project--active .project__content {
+  right: 400px; }
+.project--active .project__description {
+  left: 340px;
+  opacity: 1; }

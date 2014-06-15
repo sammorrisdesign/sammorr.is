@@ -1,16 +1,11 @@
     /* Video Fade out */
-    $(".project-content").hover(function(){
-        $(this).siblings().addClass("active");
-        $(this).addClass("active");
-        $(this).find("video").get(0).play();
+    $(".project__content").hover(function(){
+        $(this).parent().addClass("project--active");
+        $(this).find(".project__content__video").get(0).play();
     });
 
-    $(".project").hover(function(){
-
-    },
-    function(){
-        $(this).find(".project-description").removeClass("active");
-        $(this).find(".project-content").removeClass("active");
+    $(".project").mouseleave(function(){
+        $(this).removeClass("project--active");
         $(this).find("video").get(0).pause();
     });
 
