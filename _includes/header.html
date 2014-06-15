@@ -2,10 +2,12 @@
     <div class="container">
         <h1 class="logo"><a class="logo__anchor" href="{{ site.baseurl}}/">{{ site.title }}</a></h1>
         <ul class="navigation">
-            <li class="navigation__link navigation__link--active"><a class="navigation__link__anchor" href="{{ site.baseurl }}">Portfolio</a></li>
-            <li class="navigation__link"><a class="navigation__link__anchor" href="{{ site.baseurl }}/blog">Blog</a></li>
+            <li class="navigation__link{% if page.active == "home" %} navigation__link--active{% endif %}"><a class="navigation__link__anchor" href="{{ site.url }}">Portfolio</a></li>
+            <li class="navigation__link{% if page.active == "blog" %} navigation__link--active{% endif %}"><a class="navigation__link__anchor" href="{{ site.baseurl }}/blog">Blog</a></li>
             <li class="navigation__link navigation__link--desktop">Contact</li>
             <li class="navigation__link navigation__link--mobile"><a class="navigation__link__anchor" href="mailto:mail@sammorrisdesign.co.uk">Contact</a></li>
         </ul>
     </div>
 </header>
+
+{{page.active}}
