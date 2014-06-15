@@ -1,0 +1,51 @@
+    <footer>
+        &copy; 2013 Sam Morris
+    </footer>
+
+    <!-- Site Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "assets/js/main.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-3361191-7']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- GoSquared -->
+    <script type="text/javascript">
+        var GoSquared = {};
+        GoSquared.acct = "GSN-657543-J";
+        (function(w){
+            function gs(){
+                w._gstc_lt = +new Date;
+                var d = document, g = d.createElement("script");
+                g.type = "text/javascript";
+                g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+                var s = d.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(g, s);
+            }
+            w.addEventListener ?
+            w.addEventListener("load", gs, false) :
+            w.attachEvent("onload", gs);
+        })(window);
+    </script>
+
+    <!-- Fusion Ads -->
+    <script type="text/javascript">
+        (function(){
+            var fusion = document.createElement('script');
+            fusion.src = window.location.protocol + '//adn.fusionads.net/api/1.0/ad.js?zoneid=278&rand=' + Math.floor(Math.random()*9999999);
+            fusion.async = true;
+            (document.head || document.getElementsByTagName('head')[0]).appendChild(fusion);
+        })();
+    </script>
+
+</body>
+</html>

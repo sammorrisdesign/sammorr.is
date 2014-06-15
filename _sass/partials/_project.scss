@@ -1,0 +1,57 @@
+.project {
+    position: relative;
+    margin-bottom: 120px;
+    height: 644px; // this is specific to iphone, change this
+
+    .project__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 2;
+        background-color: $light-grey;
+        @include transition-duration(300ms);
+
+        &--phone {
+            width: 270px;
+            padding: 80px 20px;
+            border-radius: 20px;
+        }
+    }
+
+    .project__description {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 280px;
+        opacity: 0;
+        @include transition-duration(300ms);
+
+        .project__description__title {
+            margin: 20px 0;
+            color: $red;
+            font-family: $sans-serif;
+            font-size: $font-size-large;
+        }
+
+        .project__description__content {
+            color: $dark-grey;
+            font-size: $font-size-body;
+            line-height: $line-height-body;
+        }
+    }
+}
+
+.project--active {
+    .project__content {
+        right: 400px;
+    }
+
+    .project__description {
+        left: 340px;
+        opacity: 1;
+    }
+}
