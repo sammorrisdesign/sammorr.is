@@ -1,0 +1,27 @@
+.blog {
+    width: 600px;
+    margin: 0 auto;
+
+    .blog__description {
+        margin-bottom: 60px;
+    }
+
+    .blog__list {
+        padding: 0;
+        list-style: none;
+
+        .blog__list__item {
+            .blog__list__item__date {
+                width: 140px;
+                display: inline-block;
+                color: $grey;
+            }
+
+            .blog__list__item__title {
+                font-family: $sans-serif;
+                font-size: $font-size-medium;
+                text-decoration: none;
+            }
+        }
+    }
+}

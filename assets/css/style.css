@@ -202,3 +202,20 @@ footer {
   color: #bbbbbb;
   text-align: center;
   font-size: 1.6rem; }
+
+.blog {
+  width: 600px;
+  margin: 0 auto; }
+  .blog .blog__description {
+    margin-bottom: 60px; }
+  .blog .blog__list {
+    padding: 0;
+    list-style: none; }
+    .blog .blog__list .blog__list__item .blog__list__item__date {
+      width: 140px;
+      display: inline-block;
+      color: #bbbbbb; }
+    .blog .blog__list .blog__list__item .blog__list__item__title {
+      font-family: "Apercu Bold", "Futura", sans-serif;
+      font-size: 1.8rem;
+      text-decoration: none; }
