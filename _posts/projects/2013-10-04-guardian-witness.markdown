@@ -3,7 +3,6 @@ layout: phone
 title:  "Guardian Witness"
 date:   2014-06-11 17:16:49
 categories: project
-poster: "Fo sho"
 ---
 
 GuardianWitness is the home for user-generated content on the Guardian. The service allows Guardian readers to collaborate with journalists by contributing videos, photos and stories based on assignments. The best content can then appear on theguardian.com and in the newspaper.

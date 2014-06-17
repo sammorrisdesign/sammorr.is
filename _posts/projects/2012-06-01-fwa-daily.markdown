@@ -1,0 +1,10 @@
+---
+layout: tablet--landscape
+title:  "FWA Daily"
+date:   2012-06-01 12:00:00
+categories: project
+---
+
+FWA Daily is an iPad magazine that combines all of the daily awards and long form articles that The FWA outputs into one tablet optimised app.
+
+[Download on the App store](https://itunes.apple.com/gb/app/fwa-daily/id580866377?mt=8)
