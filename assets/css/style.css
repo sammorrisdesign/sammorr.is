@@ -228,6 +228,21 @@ footer {
   .post .post__header .post__header__title {
     margin-top: 0px; }
 .post .post__content p {
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  color: #333333; }
 .post .post__onward .post__onward__share {
   float: right; }
+.post .post__bio {
+  margin: 40px 0;
+  border-top: 1px solid #eeeeee;
+  padding: 40px 0; }
+  .post .post__bio .post__bio__avatar {
+    float: left;
+    margin-right: 20px; }
+  .post .post__bio .post__bio__title {
+    margin: 0;
+    color: #ef3f42;
+    font-family: "Apercu Bold", "Futura", sans-serif;
+    font-size: 1.8rem; }
+  .post .post__bio .post__bio__paragraph {
+    margin-top: 6px; }

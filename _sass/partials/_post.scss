@@ -15,12 +15,35 @@
     .post__content {
         p {
             margin-bottom: 24px;
+            color: $black;
         }
     }
 
     .post__onward {
         .post__onward__share {
             float: right;
+        }
+    }
+
+    .post__bio {
+        margin: 40px 0;
+        border-top: 1px solid $light-grey;
+        padding: 40px 0;
+
+        .post__bio__avatar {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .post__bio__title {
+            margin: 0;
+            color: $red;
+            font-family: $sans-serif;
+            font-size: $font-size-medium;
+        }
+
+        .post__bio__paragraph {
+            margin-top: 6px;
         }
     }
 }
