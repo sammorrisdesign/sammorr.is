@@ -197,3 +197,9 @@ header {
   .project--tablet--landscape.project--active .project__description {
     left: 630px;
     opacity: 1; }
+
+footer {
+  margin: 20px 0;
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 1.6rem; }
