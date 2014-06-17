@@ -1,0 +1,25 @@
+.project--tablet--landscape {
+    height:  430px;
+
+    .project__content {
+        width: 480px;
+        padding: 30px 60px 25px 60px;
+        border-radius: 15px;
+        background-color: $light-grey;
+    }
+
+    .project__description {
+        top: 80px;
+    }
+
+    &.project--active {
+        .project__content {
+            right: 360px;
+        }
+
+        .project__description {
+            left: 630px;
+            opacity: 1;
+        }
+    }
+}

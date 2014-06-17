@@ -1,7 +1,7 @@
 .project {
     position: relative;
     margin-bottom: 120px;
-    height: 644px; // this is specific to iphone, change this
+    height: 644px;
 
     .project__content {
         position: absolute;
@@ -10,19 +10,17 @@
         right: 0;
         margin: 0 auto;
         z-index: 2;
-        background-color: $light-grey;
         @include transition-duration(300ms);
 
-        &--phone {
-            width: 270px;
-            padding: 80px 20px;
-            border-radius: 20px;
+        .project__content__video {
+            width: 100%;
+            height: auto;
         }
     }
 
     .project__description {
         position: absolute;
-        top: 100px;
+        top: 0;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -42,16 +40,5 @@
             font-size: $font-size-body;
             line-height: $line-height-body;
         }
-    }
-}
-
-.project--active {
-    .project__content {
-        right: 400px;
-    }
-
-    .project__description {
-        left: 340px;
-        opacity: 1;
     }
 }

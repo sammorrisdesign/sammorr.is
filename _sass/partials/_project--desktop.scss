@@ -1,0 +1,24 @@
+.project--desktop {
+    height:  460px;
+
+    .project__content {
+        width: 600px;
+        padding-top: 27px;
+        background: url("../images/project--desktop.png") no-repeat;
+    }
+
+    .project__description {
+        top: 80px;
+    }
+
+    &.project--active {
+        .project__content {
+            right: 360px;
+        }
+
+        .project__description {
+            left: 630px;
+            opacity: 1;
+        }
+    }
+}

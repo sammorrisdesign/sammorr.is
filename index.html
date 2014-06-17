@@ -10,8 +10,8 @@ active: home
 </div>
 
 {% for post in site.categories.project %}
-<div class="project" id="{{ post.title | handleize }}">
-    <div class="project__content project__content--{{ post.layout }}">
+<div class="project project--{{ post.layout }}" id="{{ post.title | handleize }}">
+    <div class="project__content">
         <video class="project__content__video" preload="auto" loop autobuffer="false" poster="{{ site.url }}assets/images/projects/{{ post.title | handleize }}.jpg">
             <source src="{{ site.url }}assets/videos/{{ post.title | handleize }}.mp4" type="video/mp4">
             <source src="{{ site.url }}assets/videos/{{ post.title | handleize }}.webm" type="video/webm">

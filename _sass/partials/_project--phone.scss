@@ -1,0 +1,25 @@
+.project--phone {
+    height: 644px;
+
+    .project__content {
+        width: 270px;
+        padding: 80px 20px;
+        border-radius: 20px;
+        background-color: $light-grey;
+    }
+
+    .project__description {
+        top: 100px;
+    }
+
+    &.project--active {
+        .project__content {
+            right: 380px;
+        }
+
+        .project__description {
+            left: 320px;
+            opacity: 1;
+        }
+    }
+}
