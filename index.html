@@ -4,9 +4,9 @@ active: home
 ---
 
 <div class="intro">
-    <h2 class="intro__title">Hello, I&rsquo;m Sam Morris</h2>
-    <p class="intro__paragraph intro__bio">{% include /base/bio.html %}</p>
-    <p class="intro__paragraph intro__follow">You can follow me on Twitter</p>
+    <h2 class="intro__title title">Hello, I&rsquo;m Sam Morris</h2>
+    <p class="intro__paragraph paragraph intro__bio">{% include /base/bio.html %}</p>
+    <p class="intro__paragraph paragraph intro__follow">You can follow me on Twitter</p>
 </div>
 
 {% for post in site.categories.project %}
@@ -18,7 +18,7 @@ active: home
         </video>
     </div>
     <div class="project__description">
-        <h3 class="project__description__title">{{ post.title }}</h3>
+        <h3 class="project__description__title title">{{ post.title }}</h3>
         <div class="project__description__content">
             {{ post.content }}
         </div>

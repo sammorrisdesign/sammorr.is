@@ -27,18 +27,5 @@
         width: 280px;
         opacity: 0;
         @include transition-duration(300ms);
-
-        .project__description__title {
-            margin: 20px 0;
-            color: $red;
-            font-family: $sans-serif;
-            font-size: $font-size-large;
-        }
-
-        .project__description__content {
-            color: $dark-grey;
-            font-size: $font-size-body;
-            line-height: $line-height-body;
-        }
     }
 }
