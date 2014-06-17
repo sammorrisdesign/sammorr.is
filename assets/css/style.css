@@ -9,7 +9,7 @@ p,
   margin-bottom: 12px;
   color: #666666;
   font-size: 1.6rem;
-  line-height: 2.4rem; }
+  line-height: 2.6rem; }
 
 html {
   font-size: 62.5%; }
@@ -113,7 +113,7 @@ header {
     margin-bottom: 12px;
     color: #666666;
     font-size: 1.6rem;
-    line-height: 2.4rem; }
+    line-height: 2.6rem; }
     .intro .intro__paragraph:after {
       display: block;
       width: 20px;
@@ -219,3 +219,15 @@ footer {
       font-family: "Apercu Bold", "Futura", sans-serif;
       font-size: 1.8rem;
       text-decoration: none; }
+
+.post .post__header {
+  margin-bottom: 60px; }
+  .post .post__header .post__header__date {
+    margin-bottom: 0;
+    color: #bbbbbb; }
+  .post .post__header .post__header__title {
+    margin-top: 0px; }
+.post .post__content p {
+  margin-bottom: 24px; }
+.post .post__onward .post__onward__share {
+  float: right; }

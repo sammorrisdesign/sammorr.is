@@ -1,0 +1,26 @@
+.post {
+    .post__header {
+        margin-bottom: 60px;
+
+        .post__header__date {
+            margin-bottom: 0;
+            color: $grey;
+        }
+
+        .post__header__title {
+            margin-top: 0px;
+        }
+    }
+
+    .post__content {
+        p {
+            margin-bottom: 24px;
+        }
+    }
+
+    .post__onward {
+        .post__onward__share {
+            float: right;
+        }
+    }
+}

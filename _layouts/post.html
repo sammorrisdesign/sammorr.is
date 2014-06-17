@@ -1,15 +1,18 @@
 ---
 layout: default
+active: blog
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
+<div class="post blog">
+    <div class="post__header">
+        <p class="post__header__date">{{ page.date | date: "%b %-d, %Y" }}</p>
+        <h2 class="post__header__title title">{{ page.title }}</h2>
+    </div>
+    <article class="post__content">
+        {{ content }}
+    </article>
+    <div class="post__onward paragraph">
+        <span class="post__onward__return"><a href="{{ "/blog" | prepend: site.url }}">&larr; Older posts</a></span>
+        <span class="post__onward__share">Tell your friends <a href="http://twitter.com/home?status=I just read {{ page.title }}%20→%20{{ page.url | prepend: site.url }}%20(via%20@sammorrisdesign)">Tweet</a></span>
+    </div>
 </div>
