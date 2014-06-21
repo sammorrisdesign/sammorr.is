@@ -14,34 +14,28 @@ $(document).ready(function(){
     /* Contact */
     contactShown = 0;
 
-    $("#contact-link").click(function(event){
-        $("#contact").toggleClass("contact-show");
-        $("#contact-link").toggleClass("active");
-        $(".contact-buttons input").select();
-        $("#contact-blocker").toggle();
-        contactShown = $(window).scrollTop();
+    $(".navigation__link--contact").click(function(event){
+        $(".contact").toggleClass("contact--visible");
+        $(".navigation__link--contact").toggleClass("navigation__link--active");
+        $(".contact__options__link--input").select();
+        contactShown = $(window).scrollTop(); // Captures point when user clicks into contact form
     });
 
-    function contactCheck() {
-        if ( $("#contact").hasClass("contact-show") ) {
-            $("#contact").removeClass("contact-show");
-            $("#contact-link").removeClass("active");
-            $("#contact-blocker").hide();
+    function contactHide() {
+        if ($(".contact").hasClass("contact--visible")) {
+            $(".contact").removeClass("contact--visible");
+            $(".navigation__link--contact").removeClass("navigation__link--active");
         }
     }
 
     $(window).scroll(function() {
-        if ( $(window).scrollTop() - 150 > contactShown  ) {
-            contactCheck();
-        }
-
-        if ( $(window).scrollTop() + 150 < contactShown ) {
-            contactCheck();
+        if ($(window).scrollTop() - 150 > contactShown || $(window).scrollTop() + 150 < contactShown) {
+            contactHide();
         }
     });
 
-    $("#contact-blocker").click(function(event){
-        contactCheck();
+    $(".contact__mask").click(function(event){
+        contactHide();
     });
 
     /* Widow Killa */
