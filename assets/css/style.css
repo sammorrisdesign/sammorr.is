@@ -156,6 +156,10 @@ header {
         right: 0;
         opacity: 0; } }
 
+#bbc-archive.project .project__description__content img {
+  float: left;
+  margin-right: 16px; }
+
 .project--desktop {
   min-height: 460px; }
   .project--desktop .project__content {

@@ -7,4 +7,9 @@ categories: project
 
 The BBC Archive is an interactive television channel. Designed to allow users to discover new content as well as indulging in nostalgia from the BBC’s rich history.
 
+![Yellow Pencil]({{ site.url }}/assets/images/projects/bbc-archive-pencil.png)
+D&AD Yellow Pencil Winner  
+2011 Student Awards  
+Interactive Design
+
 [Watch full video here](http://vimeo.com/22552332)
