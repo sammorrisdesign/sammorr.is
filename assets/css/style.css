@@ -124,43 +124,46 @@ header {
 
 .project {
   position: relative;
-  margin-bottom: 120px;
-  height: 644px; }
+  margin: 0 auto 120px auto; }
   .project .project__content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     margin: 0 auto;
-    z-index: 2;
     -webkit-transition-duration: 300ms;
     -moz-transition-duration: 300ms;
     -o-transition-duration: 300ms;
     transition-duration: 300ms; }
+    @media all and (min-width: 58.75em) {
+      .project .project__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2; } }
     .project .project__content .project__content__video {
       width: 100%;
       height: auto; }
   .project .project__description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     margin: 0 auto;
     width: 280px;
-    opacity: 0;
     -webkit-transition-duration: 300ms;
     -moz-transition-duration: 300ms;
     -o-transition-duration: 300ms;
     transition-duration: 300ms; }
+    @media all and (min-width: 58.75em) {
+      .project .project__description {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0; } }
 
 .project--desktop {
-  height: 460px; }
+  min-height: 460px; }
   .project--desktop .project__content {
     width: 600px;
     padding-top: 27px;
     background: url("../images/project--desktop.png") no-repeat; }
   .project--desktop .project__description {
-    top: 80px; }
+    margin-top: 80px; }
   .project--desktop.project--active .project__content {
     right: 360px; }
   .project--desktop.project--active .project__description {
@@ -168,14 +171,24 @@ header {
     opacity: 1; }
 
 .project--phone {
-  height: 644px; }
+  min-height: 644px; }
+  @media all and (min-width: 40em) and (max-width: 58.74em) {
+    .project--phone {
+      width: 600px; } }
   .project--phone .project__content {
     width: 270px;
     padding: 80px 20px;
     border-radius: 20px;
     background-color: #eeeeee; }
+    @media all and (min-width: 40em) and (max-width: 58.74em) {
+      .project--phone .project__content {
+        float: left; } }
   .project--phone .project__description {
-    top: 100px; }
+    margin-top: 70px; }
+    @media all and (min-width: 40em) and (max-width: 58.74em) {
+      .project--phone .project__description {
+        float: right;
+        width: 250px; } }
   .project--phone.project--active .project__content {
     right: 380px; }
   .project--phone.project--active .project__description {
@@ -183,14 +196,14 @@ header {
     opacity: 1; }
 
 .project--tablet--landscape {
-  height: 430px; }
+  min-height: 430px; }
   .project--tablet--landscape .project__content {
     width: 480px;
     padding: 30px 60px 25px 60px;
     border-radius: 15px;
     background-color: #eeeeee; }
   .project--tablet--landscape .project__description {
-    top: 80px; }
+    margin-top: 80px; }
   .project--tablet--landscape.project--active .project__content {
     right: 360px; }
   .project--tablet--landscape.project--active .project__description {

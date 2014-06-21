@@ -1,16 +1,17 @@
 .project {
     position: relative;
-    margin-bottom: 120px;
-    height: 644px;
+    margin: 0 auto 120px auto;
 
     .project__content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
         margin: 0 auto;
-        z-index: 2;
         @include transition-duration(300ms);
+        @include mq($from: desktop) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
 
         .project__content__video {
             width: 100%;
@@ -19,13 +20,15 @@
     }
 
     .project__description {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
         margin: 0 auto;
         width: 280px;
-        opacity: 0;
         @include transition-duration(300ms);
+        @include mq($from: desktop) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+        }
     }
 }

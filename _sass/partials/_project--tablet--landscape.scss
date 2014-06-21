@@ -1,5 +1,5 @@
 .project--tablet--landscape {
-    height:  430px;
+    min-height: 430px;
 
     .project__content {
         width: 480px;
@@ -9,7 +9,7 @@
     }
 
     .project__description {
-        top: 80px;
+        margin-top: 80px;
     }
 
     &.project--active {

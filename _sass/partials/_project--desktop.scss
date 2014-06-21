@@ -1,5 +1,5 @@
 .project--desktop {
-    height:  460px;
+    min-height:  460px;
 
     .project__content {
         width: 600px;
@@ -8,7 +8,7 @@
     }
 
     .project__description {
-        top: 80px;
+        margin-top: 80px;
     }
 
     &.project--active {
