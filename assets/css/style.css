@@ -40,23 +40,21 @@ main {
 .container {
   overflow: auto;
   padding: 0 20px;
-  margin: 10px auto; }
+  margin: 10px auto;
+  opacity: 0;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms; }
   @media all and (min-width: 58.75em) {
     .container {
       width: 900px; } }
+  .wf-apercubold-n7-active .container {
+    opacity: 1; }
 
 ::selection {
   background-color: #fffed7;
   color: #666666; }
-
-.container {
-  opacity: 0;
-  -webkit-transition-duration: 500ms;
-  -moz-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms; }
-  .wf-apercubold-n7-active .container {
-    opacity: 1; }
 
 header {
   position: fixed;
