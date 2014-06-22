@@ -3,12 +3,14 @@ header {
     z-index: 10;
     top: 0;
     width: 100%;
-    padding: 16px 0;
     border-bottom: 1px solid $light-grey;
     background-color: $off-white;
-
     @include mq($to: mobile) {
-        padding: 0;
+        height: 110px;
+    }
+    @include mq($from: mobile) {
+        height: 58px; 
+        padding: 16px 0;
     }
 
     .container {

@@ -18,12 +18,11 @@ a {
     &:hover {
         color: $dark-grey;
     }
-}
-header a:active,
-p a:active,
-h2 a:active {
-    top: 1px;
-    position: relative;
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
 }
 
 main {
@@ -43,4 +42,13 @@ main {
 ::selection {
     background-color: $yellow;
     color: $dark-grey;
+}
+
+.container {
+    opacity: 0;
+    @include transition-duration(500ms);
+
+    .wf-apercubold-n7-active & {
+        opacity: 1;
+    }
 }
