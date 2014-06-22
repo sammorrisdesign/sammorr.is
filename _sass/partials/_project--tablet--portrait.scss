@@ -1,0 +1,25 @@
+.project--tablet--portrait {
+    min-height: 700px;
+
+    .project__content {
+        width: 450px;
+        padding: 60px 30px 60px 25px;
+        border-radius: 15px;
+        background-color: $light-grey;
+    }
+
+    .project__description {
+        margin-top: 200px;
+    }
+
+    &.project--active {
+        .project__content {
+            right: 320px;
+        }
+
+        .project__description {
+            left: 580px;
+            opacity: 1;
+        }
+    }
+}

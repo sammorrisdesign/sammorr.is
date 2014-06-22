@@ -56,10 +56,13 @@
 
 // Project specific styling
 #bbc-archive.project {
-    .project__description__content {
-        img {
-            float: left;
-            margin-right: 16px;
+    .project__description {
+        margin-top: 14px;
+        .project__description__content {
+            img {
+                float: left;
+                margin-right: 16px;
+            }
         }
     }
 }
