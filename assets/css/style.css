@@ -31,6 +31,12 @@ a {
   a:hover {
     color: #666666; }
 
+header a:active,
+p a:active,
+h2 a:active {
+  top: 1px;
+  position: relative; }
+
 main {
   padding-top: 20px; }
 
