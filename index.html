@@ -8,7 +8,6 @@ active: home
     <p class="intro__paragraph paragraph intro__bio">{% include /base/bio.html %}</p>
     <p class="intro__paragraph paragraph intro__follow">You can follow me on Twitter</p>
 </div>
-
 <h3 class="project--mobile__title">Projects</h3>
 {% for post in site.categories.project %}
 <div class="project project--{{ post.layout }}" id="{{ post.title | handleize }}">
@@ -21,7 +20,7 @@ active: home
     <div class="project__description">
         <h3 class="project__description__title title">{{ post.title }}</h3>
         <div class="project__description__content">
-            {{ post.content }}
+            {{ post.content | indent: 12 }}
         </div>
     </div>
 </div>

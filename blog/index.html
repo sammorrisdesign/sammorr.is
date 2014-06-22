@@ -7,13 +7,11 @@ active: blog
 <div class="blog">
     <h2 class="title blog__title">Blog Posts</h2>
     <p class="blog__description paragraph">A list of all my blog posts in one place. <br />You should keep up to date through <a target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> or on <a target="_blank" href="http://www.twitter.com/sammorrisdesign">Twitter</a>.</p>
-    
     <ul class="blog__list paragraph">
-    {% for post in site.categories.blog %}
-        <li class="blog__list__item">
+        {% for post in site.categories.blog %}<li class="blog__list__item">
             <span class="blog__list__item__date">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a class="blog__list__item__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
-    {% endfor %}
+        {% endfor %}
     </ul>
 </div>

@@ -9,7 +9,7 @@ active: blog
         <h2 class="post__header__title title">{{ page.title }}</h2>
     </div>
     <article class="post__content">
-        {{ content }}
+        {{ content | indent: 8 }}
     </article>
     <div class="post__onward paragraph">
         <span class="post__onward__return"><a href="{{ "/blog" | prepend: site.url }}">&larr; Older posts</a></span>

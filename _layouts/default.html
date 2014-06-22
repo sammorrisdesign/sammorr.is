@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
+{% include /structure/head.html %}
 
-    {% include /structure/head.html %}
+<body class="no-touch">
 
-    <body class="no-touch">
+    {% indent_include /structure/header.html 4 %}
 
-    {% include /structure/header.html %}
-
-    {% include /structure/contact.html %}
+    {% indent_include /structure/contact.html 4 %}
 
     <main>
         <div class="container">
-            {{content}}
+            {{content | indent: 12}}
         </div>
     </main>
 
-    {% include /structure/footer.html %}
-
-    </body>
+    {% indent_include /structure/footer.html 4 %}
+</body>
 </html>
