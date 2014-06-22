@@ -1,5 +1,5 @@
 .intro {
-    padding: 20px 0;
+    padding-top: 20px;
     text-align: center;
 
     .intro__paragraph {
@@ -7,7 +7,7 @@
         color: $dark-grey;
         font-size: $font-size-body;
         line-height: $line-height-body;
-        
+
         &:after {
             display: block;
             width: 20px;
@@ -15,6 +15,12 @@
             margin: 20px auto;
             background-color: $light-grey;
             content: " ";
+        }
+
+         br {
+            @include mq($to: mobile) {
+                display: none;
+            }
         }
     }
 }

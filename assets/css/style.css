@@ -107,7 +107,7 @@ header {
       display: none; } }
 
 .intro {
-  padding: 20px 0;
+  padding-top: 20px;
   text-align: center; }
   .intro .intro__paragraph {
     margin-bottom: 12px;
@@ -121,10 +121,16 @@ header {
       margin: 20px auto;
       background-color: #eeeeee;
       content: " "; }
+    @media all and (max-width: 39.99em) {
+      .intro .intro__paragraph br {
+        display: none; } }
 
 .project {
   position: relative;
-  margin: 0 auto 120px auto; }
+  margin: 40px auto 100px auto; }
+  @media all and (max-width: 39.99em) {
+    .project {
+      display: none; } }
   .project .project__content {
     margin: 0 auto;
     -webkit-transition-duration: 300ms;
@@ -155,6 +161,22 @@ header {
         left: 0;
         right: 0;
         opacity: 0; } }
+
+.project--mobile,
+.project--mobile__title {
+  display: block;
+  margin: 0 0 12px 0;
+  font-family: "Apercu Bold", "Futura", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none; }
+  @media all and (min-width: 40em) {
+    .project--mobile,
+    .project--mobile__title {
+      display: none; } }
+
+.project--mobile__title {
+  color: #666666; }
 
 #bbc-archive.project .project__description__content img {
   float: left;

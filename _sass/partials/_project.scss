@@ -1,6 +1,9 @@
 .project {
     position: relative;
-    margin: 0 auto 120px auto;
+    margin: 40px auto 100px auto;
+    @include mq($to: mobile) {
+        display: none;
+    }
 
     .project__content {
         margin: 0 auto;
@@ -31,6 +34,24 @@
             opacity: 0;
         }
     }
+}
+
+// Mobile Project
+.project--mobile,
+.project--mobile__title {
+    display: block;
+    margin: 0 0 12px 0;
+    font-family: $sans-serif;
+    font-size: $font-size-medium;
+    text-align: center;
+    text-decoration: none;
+    @include mq($from: mobile) {
+        display: none;
+    }
+}
+
+.project--mobile__title {
+    color: $dark-grey;
 }
 
 // Project specific styling

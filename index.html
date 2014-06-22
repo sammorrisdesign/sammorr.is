@@ -9,6 +9,7 @@ active: home
     <p class="intro__paragraph paragraph intro__follow">You can follow me on Twitter</p>
 </div>
 
+<h3 class="project--mobile__title">Projects</h3>
 {% for post in site.categories.project %}
 <div class="project project--{{ post.layout }}" id="{{ post.title | handleize }}">
     <div class="project__content">
@@ -24,4 +25,5 @@ active: home
         </div>
     </div>
 </div>
+<a class="project--mobile" href="{{ post.project-url }}">{{ post.title }}</a>
 {% endfor %}
