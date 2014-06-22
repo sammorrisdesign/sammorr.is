@@ -6,22 +6,30 @@
 
     @include mq($from: mobile) {
         float: left;
-        padding: 8px 10px;
         border-radius: 3px;
     }
 
     @include mq($to: mobile) {
         width: 100%;
-        padding: 16px 0;
         text-align: center;
     }
 
     &:hover {
         background-color: $dark-grey;
+        @include transition-duration(500ms);
+
+        .logo__anchor {
+            color: $white;
+        }
     }
 
     .logo__anchor {
+        display: block;
+        padding: 8px 10px;
         color: $off-white;
         text-decoration: none;
+        @include mq($to: mobile) {
+            padding: 16px 0;
+        }
     }
 }

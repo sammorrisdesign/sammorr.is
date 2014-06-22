@@ -1,0 +1,6 @@
+.no-touch {
+    a:hover {
+        color: $dark-grey;
+        @include transition-duration(500ms);
+    }
+}
