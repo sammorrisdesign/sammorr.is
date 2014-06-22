@@ -3,6 +3,9 @@
   color: #ef3f42;
   font-family: "Apercu Bold", "Futura", sans-serif;
   font-size: 4.4rem; }
+  @media all and (max-width: 39.99em) {
+    .title {
+      font-size: 3.2rem; } }
 
 p,
 .paragraph {
@@ -19,6 +22,9 @@ body {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
+  @media all and (max-width: 39.99em) {
+    body {
+      margin-top: 110px; } }
 
 a {
   color: #ef3f42; }
@@ -245,8 +251,12 @@ footer {
 .blog {
   width: 600px;
   margin: 0 auto; }
-  .blog .blog__description {
-    margin-bottom: 60px; }
+  @media all and (max-width: 39.99em) {
+    .blog {
+      width: 100%; } }
+  @media all and (min-width: 40em) {
+    .blog .blog__description {
+      margin-bottom: 60px; } }
   .blog .blog__list {
     padding: 0;
     list-style: none; }
@@ -254,6 +264,9 @@ footer {
       width: 140px;
       display: inline-block;
       color: #bbbbbb; }
+      @media all and (max-width: 39.99em) {
+        .blog .blog__list .blog__list__item .blog__list__item__date {
+          display: block; } }
     .blog .blog__list .blog__list__item .blog__list__item__title {
       font-family: "Apercu Bold", "Futura", sans-serif;
       font-size: 1.8rem;
@@ -271,13 +284,22 @@ footer {
   color: #333333; }
 .post .post__onward .post__onward__share {
   float: right; }
+  @media all and (max-width: 39.99em) {
+    .post .post__onward .post__onward__share {
+      display: none; } }
 .post .post__bio {
   margin: 40px 0;
   border-top: 1px solid #eeeeee;
   padding: 40px 0; }
+  @media all and (max-width: 39.99em) {
+    .post .post__bio br {
+      display: none; } }
   .post .post__bio .post__bio__avatar {
     float: left;
     margin-right: 20px; }
+    @media all and (max-width: 39.99em) {
+      .post .post__bio .post__bio__avatar {
+        display: none; } }
   .post .post__bio .post__bio__title {
     margin: 0;
     color: #ef3f42;

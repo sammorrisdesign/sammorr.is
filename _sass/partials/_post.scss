@@ -22,6 +22,9 @@
     .post__onward {
         .post__onward__share {
             float: right;
+            @include mq($to: mobile) {
+                display: none;
+            }
         }
     }
 
@@ -30,9 +33,18 @@
         border-top: 1px solid $light-grey;
         padding: 40px 0;
 
+        br {
+            @include mq($to: mobile) {
+                display: none;
+            }
+        }
+
         .post__bio__avatar {
             float: left;
             margin-right: 20px;
+            @include mq($to: mobile) {
+                display: none;
+            }
         }
 
         .post__bio__title {

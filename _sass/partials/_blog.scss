@@ -1,9 +1,14 @@
 .blog {
     width: 600px;
     margin: 0 auto;
+    @include mq($to: mobile) {
+        width: 100%;
+    }
 
     .blog__description {
-        margin-bottom: 60px;
+        @include mq($from: mobile) {
+            margin-bottom: 60px;
+        }
     }
 
     .blog__list {
@@ -15,6 +20,9 @@
                 width: 140px;
                 display: inline-block;
                 color: $grey;
+                @include mq($to: mobile) {
+                    display: block;
+                }
             }
 
             .blog__list__item__title {

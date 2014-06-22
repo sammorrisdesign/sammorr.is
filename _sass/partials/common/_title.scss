@@ -2,5 +2,8 @@
     margin: 20px 0;
     color: $red;
     font-family: $sans-serif;
-    font-size: $font-size-large;
+    font-size: $font-size-extralarge;
+    @include mq($to: mobile) {
+        font-size: $font-size-large;
+    }
 }
