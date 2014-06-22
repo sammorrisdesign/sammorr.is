@@ -39,3 +39,8 @@ main {
         width: 900px;
     }
 }
+
+::selection {
+    background-color: $yellow;
+    color: $dark-grey;
+}

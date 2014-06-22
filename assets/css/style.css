@@ -48,6 +48,10 @@ main {
     .container {
       width: 900px; } }
 
+::selection {
+  background-color: #fffed7;
+  color: #666666; }
+
 header {
   position: fixed;
   z-index: 10;
