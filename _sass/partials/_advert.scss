@@ -1,0 +1,33 @@
+.advert {
+    font-size: 1.2rem;
+    @include mq($to: desktop) {
+        height: 100px;
+        border: $light-grey 1px solid;
+        padding: 14px;
+        background-color: $off-white;
+    }
+    @include mq($from: desktop) {
+        position: fixed;
+        right: 14px;
+        bottom: 14px;
+        width: 130px;
+    }
+
+    .fusionimg {
+        @include mq($to: desktop) {
+            float: left;
+            margin-right: 14px;
+        }
+    }
+
+    .fusiontext {
+        color: $dark-grey;
+        text-decoration: none;
+    }
+
+    .fusionpowered {
+        display: block;
+        margin-top: 10px;
+        color: $grey;
+    }
+}
