@@ -6,10 +6,17 @@
         padding: 60px 30px 60px 25px;
         border-radius: 15px;
         background-color: $light-grey;
+
+        .project__content__image {
+            width: 450px;
+        }
     }
 
     .project__description {
-        margin-top: 200px;
+        margin-top: 40px;
+        @include mq($from: desktop) {
+            margin-top: 200px;
+        }
     }
 
     &.project--active {

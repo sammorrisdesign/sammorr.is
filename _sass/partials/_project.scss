@@ -16,9 +16,19 @@
             z-index: 2;
         }
 
+        .project__content__image {
+            display: none;
+            @include mq(mobile, desktop) {
+                display: block;
+            }
+        }
+
         .project__content__video {
             width: 100%;
             height: auto;
+            @include mq($to: desktop) {
+                display: none;
+            }
         }
     }
 
@@ -58,6 +68,9 @@
 #bbc-archive.project {
     .project__description {
         margin-top: 14px;
+        @include mq(mobile, desktop) {
+            margin-top: 40px;
+        }
         .project__description__content {
             img {
                 float: left;

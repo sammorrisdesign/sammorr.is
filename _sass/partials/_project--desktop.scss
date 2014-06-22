@@ -5,10 +5,17 @@
         width: 600px;
         padding-top: 27px;
         background: url("../images/project--desktop.png") no-repeat;
+
+        .project__content__image {
+            width: 600px;
+        }
     }
 
     .project__description {
         margin-top: 80px;
+        @include mq(mobile, desktop) {
+            margin-top: 40px;
+        }
     }
 
     &.project--active {

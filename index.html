@@ -12,6 +12,7 @@ active: home
 {% for post in site.categories.project %}
 <div class="project project--{{ post.layout }}" id="{{ post.title | handleize }}">
     <div class="project__content">
+        <img class="project__content__image" src="{{ '/assets/images/projects/' | prepend: site.url }}{{ post.title | handleize }}.jpg" />
         <video class="project__content__video" preload="auto" loop autobuffer="false" poster="{{ "/assets/images/projects/" | prepend: site.url }}{{ post.title | handleize }}.jpg">
             <source src="{{ "/assets/videos/" | prepend: site.url }}{{ post.title | handleize }}.mp4" type="video/mp4">
             <source src="{{ "/assets/videos/" | prepend: site.url }}{{ post.title | handleize }}.webm" type="video/webm">

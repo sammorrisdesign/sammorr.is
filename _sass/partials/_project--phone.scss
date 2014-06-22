@@ -12,6 +12,10 @@
         @include mq(mobile, desktop) {
             float: left;
         }
+
+        .project__content__image {
+            width: 270px;
+        }
     }
 
     .project__description {
