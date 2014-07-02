@@ -1,6 +1,9 @@
 .post {
     .post__header {
         margin-bottom: 60px;
+        @include mq($to: mobile) {
+            margin-bottom: 20px;
+        }
 
         .post__header__date {
             margin-bottom: 0;
@@ -16,6 +19,12 @@
         p {
             margin-bottom: 24px;
             color: $black;
+        }
+
+        img {
+            height: auto;
+            width: 100%;
+            max-width: 600px;
         }
     }
 
