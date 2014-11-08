@@ -17,7 +17,7 @@ From then on use `bundle exec guard` to start Guard and watch for changes in sas
 
 Locally run `git remote add droplet user@**.***.***.**:repos/sammorr.is.git` for the first time. From then on use `git push droplet master` to push to server where a shell script will upload the _site folder to the correct location.
 
-## Video Processing
+## Video Capture Process
 
 Use [Reflector](http://www.airsquirrels.com/reflector/) to capture footage from iPad or iPhone.
 
