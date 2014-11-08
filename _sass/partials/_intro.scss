@@ -17,7 +17,7 @@
         }
 
          br {
-            @include mq($to: mobile) {
+            @include mq($until: mobile) {
                 display: none;
             }
         }

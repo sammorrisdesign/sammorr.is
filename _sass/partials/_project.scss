@@ -1,7 +1,7 @@
 .project {
     position: relative;
     margin: 40px auto 100px auto;
-    @include mq($to: mobile) {
+    @include mq($until: mobile) {
         display: none;
     }
 
@@ -26,7 +26,7 @@
         .project__content__video {
             width: 100%;
             height: auto;
-            @include mq($to: desktop) {
+            @include mq($until: desktop) {
                 display: none;
             }
         }

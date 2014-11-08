@@ -1,7 +1,7 @@
 .post {
     .post__header {
         margin-bottom: 60px;
-        @include mq($to: mobile) {
+        @include mq($until: mobile) {
             margin-bottom: 20px;
         }
 
@@ -31,7 +31,7 @@
     .post__onward {
         .post__onward__share {
             float: right;
-            @include mq($to: mobile) {
+            @include mq($until: mobile) {
                 display: none;
             }
         }
@@ -43,7 +43,7 @@
         padding: 40px 0 20px 0;
 
         br {
-            @include mq($to: mobile) {
+            @include mq($until: mobile) {
                 display: none;
             }
         }
@@ -51,7 +51,7 @@
         .post__bio__avatar {
             float: left;
             margin-right: 20px;
-            @include mq($to: mobile) {
+            @include mq($until: mobile) {
                 display: none;
             }
         }

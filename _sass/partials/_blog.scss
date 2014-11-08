@@ -1,7 +1,7 @@
 .blog {
     width: 600px;
     margin: 0 auto;
-    @include mq($to: mobile) {
+    @include mq($until: mobile) {
         width: 100%;
     }
 
@@ -20,7 +20,7 @@
                 width: 140px;
                 display: inline-block;
                 color: $grey;
-                @include mq($to: mobile) {
+                @include mq($until: mobile) {
                     display: block;
                 }
             }

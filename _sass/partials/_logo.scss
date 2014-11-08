@@ -9,7 +9,7 @@
         border-radius: 3px;
     }
 
-    @include mq($to: mobile) {
+    @include mq($until: mobile) {
         width: 100%;
         text-align: center;
     }
@@ -28,7 +28,7 @@
         padding: 8px 10px;
         color: $off-white;
         text-decoration: none;
-        @include mq($to: mobile) {
+        @include mq($until: mobile) {
             padding: 16px 0;
         }
     }

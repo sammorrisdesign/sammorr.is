@@ -1,6 +1,6 @@
 .advert {
     font-size: 1.2rem;
-    @include mq($to: desktop) {
+    @include mq($until: desktop) {
         height: 100px;
         border: $light-grey 1px solid;
         padding: 14px;
@@ -14,7 +14,7 @@
     }
 
     .fusionimg {
-        @include mq($to: desktop) {
+        @include mq($until: desktop) {
             float: left;
             margin-right: 14px;
         }

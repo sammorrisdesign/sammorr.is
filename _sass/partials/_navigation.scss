@@ -18,7 +18,7 @@
             padding: 8px 0 8px 40px;
         }
 
-        @include mq($to: mobile) {
+        @include mq($until: mobile) {
             width: 33%;
             padding: 16px 0;
             text-align: center;
@@ -48,7 +48,7 @@
     }
     
     .navigation__link--desktop {
-        @include mq($to: mobile) {
+        @include mq($until: mobile) {
             display: none;
         }
     }
