@@ -8,5 +8,4 @@ project-url: http://www.lessonsix.com
 
 Lesson Six is a collective of writers, bloggers and music lovers in search for the best Cliché-Free Hip-Hop out there.
 
-Visit Lessonsix.com
 [Visit Lessonsix.com](http://www.lessonsix.com/)
