@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Dirty Laundry"
-date: 2014-12-20 00:00:00
-real-date:   2015-01-06 00:00:00
+date:   2015-01-06 10:00:00
 categories: blog
 ---
 
