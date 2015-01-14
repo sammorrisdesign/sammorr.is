@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Fear of Blogging"
-date:   2013-05-26 12:00:00
-categories: blog
+layout:         post
+title:          "Fear of Blogging"
+date:           2013-05-26 12:00:00
+categories:     blog
 ---
 
 Over the past six months I’ve been gradually entering sentences into my phone with a view to publishing them on a blog. Every time I got close to posting one of these thoughts, I was reminded of a conversation with a friend where we both developed a fear of blogging through a fear of being wrong. I presume this comes from most design writing sounding so sure of itself.

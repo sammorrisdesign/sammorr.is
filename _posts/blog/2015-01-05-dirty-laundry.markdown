@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Dirty Laundry"
-date:   2015-01-05 08:00:00
-categories: blog
+layout:         post
+title:          "Dirty Laundry"
+date:           2015-01-05 08:00:00
+categories:     blog
 ---
 
 ![Dirty Laundry Illustration](/assets/images/blog/dirty-laundry.gif)

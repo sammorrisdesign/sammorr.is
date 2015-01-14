@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Concrete Treehouses"
-date:   2014-07-02 00:00:00
-categories: blog
+layout:         post
+title:          "Concrete Treehouses"
+date:           2014-07-02 00:00:00
+categories:     blog
 ---
 
 ![Concrete Treehouses Illustration](/assets/images/blog/concrete-treehouse.jpg)
