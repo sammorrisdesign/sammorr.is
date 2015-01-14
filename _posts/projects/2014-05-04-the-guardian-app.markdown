@@ -1,9 +1,9 @@
 ---
-layout: tablet--portrait
-title:  "The Guardian App"
-date:   2014-05-26 12:00:00
-categories: project
-project-url: http://guardian.co.uk/guardianapp
+type:         tablet--portrait
+title:          "The Guardian App"
+date:           2014-05-26 12:00:00
+categories:     project
+project-url:    http://guardian.co.uk/guardianapp
 ---
 
 Lead designer and front-end developer for the new Guardian app. Available for both Android and iOS devices.
