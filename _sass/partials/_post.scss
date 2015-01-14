@@ -12,6 +12,11 @@
 
         .post__header__title {
             margin-top: 0px;
+
+            // To compensate for Apercu's wide glyphs if it's loaded
+            .wf-apercubold-n7-active & {
+                margin-left: -3px;
+            }
         }
     }
 
