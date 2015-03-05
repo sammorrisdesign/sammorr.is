@@ -5,7 +5,7 @@ date:           2015-03-05 14:00:00
 categories:     blog
 ---
 
-![List of Shame Illustration](https://s3.amazonaws.com/f.cl.ly/items/3L0w210C182r1H2E0L2D/list-of-shame.gif)
+![List of Shame Illustration](/assets/images/blog/list-of-shame.gif)
 
 I’ll be presumptuous and guess that if you’re reading this you too keep a list of ideas somewhere. Made up of apps, websites and side projects. Intentions made to yourself to learn something new, create something useful or simply to be something different from the day job.
 
