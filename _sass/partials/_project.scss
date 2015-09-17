@@ -46,26 +46,50 @@
     }
 }
 
-// Mobile Project
+// Other projects & mobile
+.other-projects {
+    padding: 0;
+
+    &:before,
+    &:after {
+        display: block;
+        width: 20px;
+        height: 1px;
+        margin: 20px auto;
+        background-color: $light-grey;
+        content: " ";
+    }
+}
+
 .project--mobile,
-.project--mobile__title {
+.project--mobile__title,
+.other-project,
+.other-projects__title {
     display: block;
     margin: 0 0 12px 0;
     font-family: $sans-serif;
     font-size: $font-size-medium;
     text-align: center;
     text-decoration: none;
+}
+
+.project--mobile__title,
+.other-projects__title {
+    color: $dark-grey;
+}
+
+.project--mobile,
+.project--mobile__title {
     @include mq($from: mobile) {
         display: none;
     }
 }
 
-.project--mobile__title {
-    color: $dark-grey;
-}
-
 // Project specific styling
 #bbc-archive.project {
+    min-height: 400px;
+    margin-bottom: 40px;
+
     .project__description {
         margin-top: 14px;
         @include mq(mobile, desktop) {

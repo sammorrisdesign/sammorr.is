@@ -27,3 +27,10 @@ active: home
 </div>
 <a class="project--mobile" href="{{ post.project-url }}">{{ post.title }}</a>
 {% endfor %}
+
+<ul class="other-projects">
+<h3 class="other-projects__title">Other projects</h3>
+{% for post in site.categories.other-project %}
+    <li class="other-project"><a href="{{ post.project-url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
