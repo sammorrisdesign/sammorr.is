@@ -2,7 +2,7 @@
 type:           desktop
 title:          "Lesson Six"
 date:           2012-11-01 12:00:00
-categories:     project
+categories:     other-project
 project-url:    http://www.lessonsix.com
 ---
 
