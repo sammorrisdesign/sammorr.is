@@ -7,26 +7,32 @@ It's my online portfolio. View the live version at [sammorr.is](http://www.sammo
 
 * [Bundler](http://bundler.io). Install using `gem install bundler`.
 
-## Usage
+## Installation
 
 For first time usage, run `bundle install` to get the required Ruby dependancies like [Jekyll](https://github.com/jekyll/jekyll) and [Guard](https://github.com/guard/guard).
 
-From then on use `bundle exec guard` to start Guard and watch for changes in sass and run Jekyll. When running locally, visit [Localhost:4000](http://localhost:4000) to view.
+## Usage
+
+From then on use `bundle exec guard` to watch for changes to the SASS and to run Jekyll. When running locally, visit [Localhost:4000](http://localhost:4000) to view.
 
 ## Deployment
 
-To deploy to the server, you'll need to get the following [this guide](https://www.digitalocean.com/community/tutorials/how-to-deploy-jekyll-blogs-with-git) However, you'll also need to add the following extra lines to the `post-receive` script
-```shell
-PUBLIC_WWW=/var/www/sammorr.is/public_html
-SUBDOMAIN_FOLDER=/var/www/sammorr.is/subdomains/*
+If this is the first time deploying to the server, you'll need to set up a few things remotely. Install the correct version of `Jekyll` on the server with `gem install jekyll -v 2.50`.
+
+Then you'll need to run the following commands from your user's home folder.
+
+```
+mkdir repos && cd repos
+mkdir sammorr.is.git && cd sammorr.is.git
+git init --bare
+cd hooks
 ```
 
-Then after the `jekyll deploy...` line
-```shell
-cp -R $SUBDOMAIN_FOLDER $PUBLIC_WWW
-```
+Inside the `/hooks` folder you should upload the [`post-receive`](https://github.com/sammorrisdesign/sammorr.is/blob/master/post-receive) script. Give the file permissions with `chmod +x post-receive`.
 
-Locally run `git remote add deploy ssh://*********@***.**.***.**:*****/home/sammorris/repos/sammorr.is.git` for the first time. From then on use `git push deploy master` to push to server where a shell script will upload the `_site` folder to the correct location.
+Locally, you can now setup the git droplet with `git remote add deploy ssh://*********@***.***.***.***:**/home/sammorris/repos/sammorr.is.git`. From then on you can run `git push droplet master` locally to deploy the site.
+
+If you do not see an update, confirm the `post-receive` script is working by running `sh post-receive` within the `~/repos/sammorr.is.git/hooks` folder.
 
 ## Video Capture Process
 
