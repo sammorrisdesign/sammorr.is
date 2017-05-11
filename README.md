@@ -30,7 +30,7 @@ cd hooks
 
 Inside the `/hooks` folder you should upload the [`post-receive`](https://github.com/sammorrisdesign/sammorr.is/blob/master/post-receive) script. Give the file permissions with `chmod +x post-receive`.
 
-Locally, you can now setup the git droplet with `git remote add deploy ssh://*********@***.***.***.***:**/home/sammorris/repos/sammorr.is.git`. From then on you can run `git push droplet master` locally to deploy the site.
+Locally, you can now setup the git droplet with `git remote add deploy ssh://*********@***.***.***.***:**/home/sammorris/repos/sammorr.is.git`. From then on you can run `git push deploy master` locally to deploy the site.
 
 If you do not see an update, confirm the `post-receive` script is working by running `sh post-receive` within the `~/repos/sammorr.is.git/hooks` folder.
 
