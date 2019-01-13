@@ -1,5 +1,4 @@
-_site
+.build
 .DS_Store
-.sass-cache
-/_sass/vendor/*.css
-/assets/css/vendor
+node_modules
+package-lock.json

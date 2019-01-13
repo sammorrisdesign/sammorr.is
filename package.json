@@ -1,18 +1,32 @@
 {
-  "name": "sammorr.is",
-  "version": "1.0.0",
-  "description": "sammorr.is",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sammorrisdesign/sammorr.is.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sammorrisdesign/sammorr.is/issues"
-  },
-  "homepage": "https://github.com/sammorrisdesign/sammorr.is#readme"
+    "name": "sammorr.is",
+    "version": "1.0.0",
+    "description": "sammorr.is",
+    "scripts": {
+        "compile": "node scripts/compile.js false"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sammorrisdesign/sammorr.is.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sammorrisdesign/sammorr.is/issues"
+    },
+    "homepage": "https://github.com/sammorrisdesign/sammorr.is#readme",
+    "devDependencies": {
+        "deasync": "^0.1.14",
+        "fs-extra": "^7.0.1",
+        "glob-fs": "^0.1.7",
+        "handlebars": "^4.0.12",
+        "jquery": "^3.3.1",
+        "markdown": "^0.5.0",
+        "node-sass": "^4.11.0",
+        "rollup": "^1.1.0",
+        "rollup-plugin-babel-minify": "^6.2.0",
+        "rollup-plugin-commonjs": "^9.2.0",
+        "rollup-plugin-node-resolve": "^4.0.0",
+        "sync-request": "^6.0.0"
+    }
 }
