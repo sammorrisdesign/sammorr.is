@@ -72,7 +72,7 @@ module.exports = {
     },
 
     html: function(config) {
-        fs.removeSync(config.path + '/main.html');
+        fs.removeSync(config.path + '/index.html');
 
         handlebars.registerHelper('if_eq', function(a, b, opts) {
             if (a == b) {
@@ -146,7 +146,7 @@ module.exports = {
             return (index + 2) / 2;
         });
 
-        var html = fs.readFileSync('src/templates/main.html', 'utf8');
+        var html = fs.readFileSync('src/templates/index.html', 'utf8');
         var template = handlebars.compile(html);
 
         var partials = glob.readdirSync('src/templates/**/*.*');
@@ -158,7 +158,7 @@ module.exports = {
             handlebars.registerPartial(name, template);
         });
 
-        fs.writeFileSync(config.path + '/main.html', template(config.data));
+        fs.writeFileSync(config.path + '/index.html', template(config.data));
         console.log('Updated html!');
     },
 

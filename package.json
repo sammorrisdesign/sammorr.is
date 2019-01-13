@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "sammorr.is",
     "scripts": {
-        "compile": "node scripts/compile.js false"
+        "compile": "node scripts/compile.js false",
+        "prestart": "npm run compile -- local",
+        "start": "node scripts/local.js"
     },
     "repository": {
         "type": "git",
@@ -16,13 +18,16 @@
     },
     "homepage": "https://github.com/sammorrisdesign/sammorr.is#readme",
     "devDependencies": {
+        "browser-sync": "^2.26.3",
         "deasync": "^0.1.14",
         "fs-extra": "^7.0.1",
         "glob-fs": "^0.1.7",
         "handlebars": "^4.0.12",
         "jquery": "^3.3.1",
         "markdown": "^0.5.0",
+        "node-cmd": "^3.0.0",
         "node-sass": "^4.11.0",
+        "node-watch": "^0.6.0",
         "rollup": "^1.1.0",
         "rollup-plugin-babel-minify": "^6.2.0",
         "rollup-plugin-commonjs": "^9.2.0",

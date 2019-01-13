@@ -1,13 +1,12 @@
 // dependancies
 var watch = require('node-watch');
 var cmd = require('node-cmd');
-var config = require('../package.json').config;
 
 // create server
 var bs = require('browser-sync').create();
     bs.init({
         server: './.build',
-        port: config.local.port
+        port: 8000
     });
 
     bs.watch('./.build/*.css', function(event, file) {
