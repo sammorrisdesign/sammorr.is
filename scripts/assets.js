@@ -152,7 +152,7 @@ module.exports = {
         var partials = glob.readdirSync('src/templates/**/*.*');
 
         partials.forEach(function(partial) {
-            var name = partial.replace('src/templates/', '').split('.')[0];
+            var name = partial.replace('sammorr.is/src/templates/', '').split('.')[0];
             var template = fs.readFileSync(partial.replace('sammorr.is/', ''), 'utf8');
 
             handlebars.registerPartial(name, template);

@@ -7,7 +7,8 @@ config.specs =  {
     'modified': process.argv.slice(2)[1] ? process.argv.slice(2)[2] : 'none'
 };
 config.path = '.build/';
-config.version = 'v/' + Date.now();
-config.absolutePath = config.specs.deploy === false ? 'http://localhost:8000' : config.remote.url + '/' + config.remote.path + '/' + config.version;
+config.absolutePath = config.specs.deploy === false ? 'http://localhost:8000' :'http://sammorr.is';
+config.data = require('../data.json');
+config.data.path = config.absolutePath
 
 assets.compile(config);

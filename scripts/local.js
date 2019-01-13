@@ -16,7 +16,7 @@ var bs = require('browser-sync').create();
     });
 
 // watch src files
-watch('src', function(file) {
+watch('src', { recursive: true }, function(event, file) {
     var fileExt = file.substring(file.lastIndexOf('.') + 1);
     var isAssets = file.includes('/assets/');
 
