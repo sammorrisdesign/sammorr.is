@@ -4,16 +4,18 @@ html {
 
 body {
     margin: 91px 0 0 0;
+    font-family: $sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
     @include mq($until: mobile) {
         margin-top: 110px;
     }
-    font-family: $serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
 }
 
 a {
     color: $red;
+    text-decoration: none;
 
     &:hover {
         color: $dark-grey;
