@@ -5,6 +5,18 @@
             "type": "desktop",
             "url": "http://www.monthly.mx",
             "description": "Design and development for a personal project that showcases the newest music from each month. Listeners can subscribe to monthly newsletters and listen on the website"
+        },
+        {
+            "title": "Go Set A Watchman Extract",
+            "type": "desktop",
+            "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
+            "description": "Art direction, design and development for an exclusive extract of Harper Lee’s new novel."
+        },
+        {
+            "title": "BBC Archive",
+            "type": "desktop",
+            "url": "https://vimeo.com/22552332",
+            "description": "The BBC Archive is an interactive television channel. Designed to allow users to discover new content as well as indulging in nostalgia from the BBC’s rich history"
         }
     ]
 }
