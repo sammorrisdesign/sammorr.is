@@ -1,4 +1,6 @@
 import jquery from 'jquery';
 window.$ = jquery;
 
-console.log('hey');
+import projects from './modules/projects.js';
+
+projects.init();

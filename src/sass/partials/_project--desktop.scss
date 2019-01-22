@@ -4,7 +4,7 @@
     .project__content {
         width: 600px;
         padding-top: 27px;
-        background: url("../images/project--desktop.png") no-repeat;
+        background: url("{{ path }}/assets/images/project--desktop.png") no-repeat;
 
         .project__content__image {
             width: 600px;

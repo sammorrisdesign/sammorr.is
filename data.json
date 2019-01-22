@@ -1,3 +1,10 @@
 {
-    
+    "projects": [
+        {
+            "title": "Monthly Mix",
+            "type": "desktop",
+            "url": "http://www.monthly.mx",
+            "description": "Design and development for a personal project that showcases the newest music from each month. Listeners can subscribe to monthly newsletters and listen on the website"
+        }
+    ]
 }

@@ -8,7 +8,7 @@
     border-top: 2px solid darken($red, 20%);
     color: $white;
     text-align: center;
-    @include transition-duration(300ms);
+    transition-duration: 0.3s;
 
     .contact__title {
         margin-bottom: 20px;
@@ -31,13 +31,13 @@
         .contact__options__link--mailto {
             text-decoration: none;
         }
-        
+
         .contact__options__link--input {
             width: 200px;
             border: none;
             font-family: $serif;
             font-size: $font-size-body;
-            
+
             &:focus {
                 outline: none;
             }
