@@ -1,25 +1,8 @@
 .intro {
-    text-align: center;
-
-    .intro__paragraph {
+    .intro__par {
         margin-bottom: 12px;
         color: $dark-grey;
-        font-size: $font-size-body;
-        line-height: $line-height-body;
-
-        &:after {
-            display: block;
-            width: 20px;
-            height: 1px;
-            margin: 20px auto;
-            background-color: $light-grey;
-            content: " ";
-        }
-
-         br {
-            @include mq($until: mobile) {
-                display: none;
-            }
-        }
+        font-size: $font-size-medium;
+        max-width: 600px;
     }
 }

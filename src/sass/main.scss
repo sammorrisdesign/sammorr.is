@@ -6,10 +6,6 @@
 @import "modules/_typography";
 @import "modules/_mixins";
 
-// Common Partials
-@import "partials/common/_title";
-@import "partials/common/_paragraph";
-
 // Partials
 @import "partials/_base";
 @import "partials/_header";
@@ -20,7 +16,5 @@
 @import "partials/_project--tablet--landscape";
 @import "partials/_project--tablet--portrait";
 @import "partials/_footer";
-@import "partials/_blog";
-@import "partials/_post";
 @import "partials/_contact";
 @import "partials/_no-touch";
