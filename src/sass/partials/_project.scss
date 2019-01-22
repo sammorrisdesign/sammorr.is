@@ -16,20 +16,12 @@
     }
 }
 
-.project__about {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
 .project__video {
     width: 100%;
     height: auto;
 }
 
-.project__description {
+.project__about {
     margin: 0 auto;
     width: 280px;
     transition-duration: 0.3s;
@@ -40,6 +32,7 @@
         left: 0;
         right: 0;
         opacity: 0;
+        z-index: 1;
     }
 }
 

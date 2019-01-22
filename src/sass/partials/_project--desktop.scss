@@ -1,18 +1,15 @@
 .project--desktop {
-    min-height:  360px;
+    min-height: 360px;
 
     .project__content {
         width: 600px;
         padding-top: 27px;
         background: url("{{ path }}/assets/images/project--desktop.png") no-repeat;
-
-        .project__content__image {
-            width: 600px;
-        }
     }
 
-    .project__description {
+    .project__about {
         margin-top: 80px;
+
         @include mq(mobile, desktop) {
             margin-top: 40px;
         }
@@ -23,7 +20,7 @@
             right: 360px;
         }
 
-        .project__description {
+        .project__about {
             left: 630px;
             opacity: 1;
         }
