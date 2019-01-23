@@ -11,6 +11,4 @@ config.absolutePath = config.specs.deploy === false ? 'http://localhost:8000' :'
 config.data = require('../data.json');
 config.data.path = config.absolutePath
 
-console.log(config.data);
-
 assets.compile(config);
