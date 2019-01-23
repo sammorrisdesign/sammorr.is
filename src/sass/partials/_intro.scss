@@ -1,8 +1,14 @@
 .intro {
     .intro__par {
         margin-bottom: 12px;
-        color: $dark-grey;
-        font-size: $font-size-medium;
+        color: $black;
+        font-size: $font-size-large;
+        font-weight: bold;
         max-width: 600px;
+        line-height: 1.25;
+
+        @include mq(desktop) {
+            padding-left: 280px;
+        }
     }
 }
