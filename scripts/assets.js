@@ -95,7 +95,7 @@ module.exports = {
 
         handlebars.registerHelper('handlise', function(string) {
             if (string) {
-                return string.replace(/ /g, '-').toLowerCase();
+                return string.replace(/ /g, '-').replace(/,/g, '').toLowerCase();
             }
         });
 
