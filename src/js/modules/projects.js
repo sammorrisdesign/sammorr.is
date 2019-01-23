@@ -1,25 +1,54 @@
+let height, scrollTop, projects;
+
 export default {
     init: function () {
+        this.updateFixedValues();
         this.bindings();
+        this.checkForActiveProject();
     },
 
     bindings: function() {
-        $('.project__content').hover(function(e) {
-            this.showProject(e.currentTarget);
-        }.bind(this));
-
-        $('.project').mouseleave(function(e) {
-            this.hideProject(e.currentTarget);
+        $(window).scroll(function(e) {
+            this.updateDynamicValues();
+            this.checkForActiveProject();
         }.bind(this));
     },
 
-    showProject: function(el) {
-        $(el).parent().addClass('project--active');
-        $(el).find('.project__video').get(0).play();
+    updateDynamicValues: function() {
+        scrollTop = $(window).scrollTop();
     },
 
-    hideProject: function(el) {
-        $(el).removeClass('project--active');
-        $(el).find('.project__video').get(0).pause();
+    updateFixedValues: function() {
+        height = $(window).height();
+
+        projects = [];
+
+        $('.project').each(function() {
+            projects.push($(this).offset().top)
+        });
+    },
+
+    checkForActiveProject: function() {
+        let activeProject;
+
+        projects.forEach(function(top, i) {
+            if (scrollTop + (height / 2) > top) {
+                activeProject = i;
+            }
+        });
+
+        if (typeof activeProject === 'number') {
+            activeProject = $('.project').get(activeProject);
+
+            if (!$(activeProject).hasClass('.project--active')) {
+                if ($('.project--active').length) {
+                    $('.project--active').find('.project__video').get(0).pause();
+                    $('.project--active').removeClass('project--active');
+                }
+
+                $(activeProject).addClass('project--active');
+                $(activeProject).find('.project__video').get(0).play();
+            }
+        }
     }
 }
