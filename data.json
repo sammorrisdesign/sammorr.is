@@ -1,20 +1,37 @@
 {
     "projects": [
         {
+            "title": "The Guardian",
+            "url": "https://www.theguardian.com",
+            "description": "Design and development for the new fully responsive theguardian.com, mainly focused on the fronts."
+        },
+        {
+            "title": "Firings and the Fury",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/05/donald-trump-firings-resignations-white-house-full-list-latest",
+            "description": "TK TK TK"
+        },
+        {
+            "title": "3,121 deseparate journeys",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
+            "description": "TK TK TK"
+        },
+        {
+            "title": "The World Cook",
+            "url": "http://www.theworldcook.com",
+            "description": "An interactive cookbook for the 2018 FIFA World Cup featuring recipes for all 32 represented teams. Development, design and photography"
+        },
+        {
             "title": "Monthly Mix",
-            "type": "desktop",
             "url": "http://www.monthly.mx",
             "description": "Design and development for a personal project that showcases the newest music from each month. Listeners can subscribe to monthly newsletters and listen on the website"
         },
         {
             "title": "Go Set A Watchman Extract",
-            "type": "desktop",
             "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
             "description": "Art direction, design and development for an exclusive extract of Harper Lee’s new novel."
         },
         {
             "title": "BBC Archive",
-            "type": "desktop",
             "url": "https://vimeo.com/22552332",
             "description": "The BBC Archive is an interactive television channel. Designed to allow users to discover new content as well as indulging in nostalgia from the BBC’s rich history"
         }

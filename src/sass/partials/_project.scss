@@ -1,46 +1,121 @@
+// .project {
+//     position: relative;
+//     margin: 40px auto 100px auto;
+// }
+//
+// .project__content {
+//     margin: 0 auto;
+//     transition-duration: 0.3s;
+//
+//     @include mq(desktop) {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         z-index: 2;
+//     }
+// }
+//
+// .project__video {
+//     width: 100%;
+//     height: auto;
+// }
+//
+// .project__about {
+//     margin: 0 auto;
+//     width: 280px;
+//     transition-duration: 0.3s;
+//
+//     @include mq(desktop) {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         opacity: 0;
+//         z-index: 1;
+//     }
+// }
+//
+//
+// .project {
+//     min-height: 360px;
+//
+//     .project__content {
+//         width: 600px;
+//         padding-top: 27px;
+//         background: url("{{ path }}/assets/images/project--desktop.png") no-repeat;
+//     }
+//
+//     .project__about {
+//         margin-top: 80px;
+//
+//         @include mq(mobile, desktop) {
+//             margin-top: 40px;
+//         }
+//     }
+//
+//     &.project--active {
+//         .project__content {
+//             right: 360px;
+//         }
+//
+//         .project__about {
+//             left: 630px;
+//             opacity: 1;
+//         }
+//     }
+// }
+
 .project {
-    position: relative;
-    margin: 40px auto 100px auto;
+    @include mq(desktop) {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 24px 0;
+    }
 }
 
 .project__content {
-    margin: 0 auto;
-    transition-duration: 0.3s;
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+    background-color: $light-grey;
+    overflow: hidden;
 
     @include mq(desktop) {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 2;
+        width: 620px;
+        height: 348.75px;
+        flex-shrink: 0;
+        padding-top: 0;
     }
 }
 
 .project__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: auto;
 }
 
 .project__about {
-    margin: 0 auto;
-    width: 280px;
-    transition-duration: 0.3s;
+    margin: 24px 0;
 
     @include mq(desktop) {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 1;
+        margin: 0 20px 0 0;
     }
 }
 
 .project__title {
     font-size: $font-size-large;
     color: $red;
+    margin: 0;
 }
 
 .project__description {
     font-size: $font-size-medium;
+
+    p {
+        margin: 0;
+    }
 }

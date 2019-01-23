@@ -1,5 +1,5 @@
 // Vendor / Mixins from Kaelig
-@import "vendor/sass-mq/_mq";
+@import "vendor/_mq";
 
 // Modules and Variables
 @import "modules/_colors";
@@ -10,10 +10,6 @@
 @import "partials/_header";
 @import "partials/_intro";
 @import "partials/_project";
-@import "partials/_project--desktop";
-@import "partials/_project--phone";
-@import "partials/_project--tablet--landscape";
-@import "partials/_project--tablet--portrait";
 @import "partials/_footer";
 @import "partials/_contact";
 @import "partials/_no-touch";
