@@ -41,17 +41,23 @@ export default {
             activeProject = $('.project').get(activeProject);
 
             if (!$(activeProject).hasClass('project--active')) {
-                if ($('.project--active').length) {
-                    $('.project--active').find('.project__video').get(0).pause();
-                    $('.project--active').find('.project__video').get(0).currentTime = 0;
-                    $('.project--active').removeClass('project--active');
-                }
+                this.resetActiveProject();
 
                 $(activeProject).addClass('project--active');
-                // console.log($(activeProject).find('.project__video').get(0));
-                $(activeProject).find('.project__video').get(0).play();
+                $('.project--active .project__video').get(0).play();
                 $('body').removeClass().addClass('is-' + $(activeProject).data('color'));
             }
+        } else {
+            this.resetActiveProject();
+            $('body').removeClass();
+        }
+    },
+
+    resetActiveProject: function() {
+        if ($('.project--active').length) {
+            $('.project--active .project__video').get(0).pause();
+            $('.project--active .project__video').get(0).currentTime = 0;
+            $('.project--active').removeClass('project--active');
         }
     }
 }
