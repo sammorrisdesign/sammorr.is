@@ -1,12 +1,20 @@
 .project {
+    opacity: 0.2;
+    transition: opacity 0.4s linear;
+
     @include mq(desktop) {
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
         align-items: stretch;
         justify-content: space-between;
-        margin: 48px 0;
+        padding: 120px 0;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     }
+}
+
+.project--active {
+    opacity: 1;
 }
 
 .project__content {
@@ -45,12 +53,13 @@
 
 .project__title {
     font-size: $font-size-medium;
-    color: $red;
+    color: $black;
     margin: 0;
 }
 
 .project__description {
     font-size: $font-size-medium;
+    color: $black;
 
     p {
         margin: 0;

@@ -1,7 +1,7 @@
 <div class='projects'>
     <div class='container'>
         {{#each projects}}
-        <div class='project'>
+        <div class='project' data-color='{{ color }}'>
             <div class='project__content'>
                 <video class='project__video' preload='auto' playsinline loop autobuffer='false' poster='{{ path }}/assets/images/projects/{{ handlise title }}.jpg'>
                     <source src='{{ path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>

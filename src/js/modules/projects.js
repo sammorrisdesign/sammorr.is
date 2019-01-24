@@ -40,14 +40,17 @@ export default {
         if (typeof activeProject === 'number') {
             activeProject = $('.project').get(activeProject);
 
-            if (!$(activeProject).hasClass('.project--active')) {
+            if (!$(activeProject).hasClass('project--active')) {
                 if ($('.project--active').length) {
                     $('.project--active').find('.project__video').get(0).pause();
+                    $('.project--active').find('.project__video').get(0).currentTime = 0;
                     $('.project--active').removeClass('project--active');
                 }
 
                 $(activeProject).addClass('project--active');
+                // console.log($(activeProject).find('.project__video').get(0));
                 $(activeProject).find('.project__video').get(0).play();
+                $('body').removeClass().addClass('is-' + $(activeProject).data('color'));
             }
         }
     }

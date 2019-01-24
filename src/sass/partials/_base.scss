@@ -7,14 +7,36 @@ body {
     font-family: $sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    background: white;
+    transition: background 0.4s linear;
 
     @include mq($until: mobile) {
         margin-top: 110px;
     }
 }
 
+.is-red {
+    background: $light-red
+}
+
+.is-blue {
+    background: $light-blue;
+}
+
+.is-green {
+    background: $light-green;
+}
+
+.is-yellow {
+    background: $light-yellow;
+}
+
+.is-grey {
+    background-color: $off-white;
+}
+
 a {
-    color: $red;
+    color: $black;
     text-decoration: none;
 
     &:hover {
@@ -33,8 +55,8 @@ main {
 
 .container {
     overflow: auto;
-    padding: 0 20px;
-    margin: 10px auto;
+    padding: 10px 20px;
+    margin: 0 auto;
     opacity: 0;
 
     @include mq(desktop) {
