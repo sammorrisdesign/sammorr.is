@@ -32,8 +32,8 @@
     overflow: hidden;
 
     @include mq(desktop) {
-        width: 620px;
-        height: 348.75px;
+        width: 760px;
+        height: 427.5px;
         flex-shrink: 0;
         padding-top: 0;
     }

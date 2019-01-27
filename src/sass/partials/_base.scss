@@ -60,7 +60,7 @@ main {
     opacity: 0;
 
     @include mq(desktop) {
-        width: 900px;
+        width: 1040px;
     }
 
     .wf-active & {
