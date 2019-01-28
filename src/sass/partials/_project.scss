@@ -72,3 +72,15 @@
         margin: 0;
     }
 }
+
+.project__link {
+    color: $dark-grey;
+    border-bottom: 1px solid $dark-grey;
+    transition: all 0.6s linear;
+    cursor: pointer;
+
+    &:hover {
+        color: $black;
+        border-bottom-color: $black;
+    }
+}

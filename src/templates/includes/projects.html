@@ -11,7 +11,10 @@
             </div>
             <div class="project__about">
                 <h3 class='project__title'>{{ title }}</h3>
-                <div class='project__description'>{{{ marked description }}}</div>
+                <div class='project__description'>
+                    {{{ marked description }}}
+                    <p><a class='project__link' url='{{ url }}'>Visit project</a></p>
+                </div>
             </div>
         </div>
         {{/each}}
