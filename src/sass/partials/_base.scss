@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    margin: 91px 0 0 0;
+    margin: 0;
     font-family: $sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -35,12 +35,13 @@ main {
 }
 
 .container {
+    position: relative;
     overflow: auto;
     padding: 10px 20px;
     margin: 0 auto;
 
     @include mq(desktop) {
-        width: 1040px;
+        width: 940px;
     }
 }
 
