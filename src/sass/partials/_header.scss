@@ -2,6 +2,7 @@ header .container {
     @include mq(desktop) {
         display: flex;
         justify-content: space-between;
+        min-height: 400px;
     }
 }
 

@@ -5,8 +5,12 @@
         flex-direction: row-reverse;
         align-items: stretch;
         justify-content: space-between;
-        padding: 120px 0;
+        padding-bottom: 200px;
     }
+}
+
+.project__filter {
+    display: none;
 }
 
 .project__content {

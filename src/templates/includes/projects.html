@@ -1,7 +1,6 @@
 <div class='projects'>
     <div class='container'>
-
-        <svg xmlns='http://www.w3.org/2000/svg' class='svg-filters'>
+        <svg class='project__filter' xmlns='http://www.w3.org/2000/svg' class='svg-filters'>
           <filter id='duotone'>
               <feComponentTransfer color-interpolation-filters='sRGB' result='duotone'>
                 <feFuncR type='table' tableValues='0.050980392 0.835294118'></feFuncR>
@@ -13,7 +12,6 @@
         </svg>
 
         {{#each projects}}
-        <div class='project__divider'></div>
         <div class='project' data-color='{{ color }}'>
             <div class='project__content'>
                 <div class='project__video-crop'>
