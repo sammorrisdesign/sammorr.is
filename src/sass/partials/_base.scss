@@ -17,11 +17,13 @@ body {
 }
 
 a {
-    color: $black;
+    color: $blue;
+    border-bottom: 1px solid transparent;
+    transition: border 0.4s linear;
     text-decoration: none;
 
     &:hover {
-        color: $dark-grey;
+        border-bottom-color: $blue;
     }
 
     &:active {

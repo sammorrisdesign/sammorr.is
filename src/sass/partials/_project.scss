@@ -1,7 +1,4 @@
 .project {
-    opacity: 0.2;
-    transition: opacity 0.4s linear;
-
     @include mq(desktop) {
         display: flex;
         align-items: center;
@@ -10,10 +7,6 @@
         justify-content: space-between;
         padding: 120px 0;
     }
-}
-
-.project--active {
-    opacity: 1;
 }
 
 .project__content {
@@ -62,17 +55,5 @@
 
     p {
         margin: 0;
-    }
-}
-
-.project__link {
-    color: $dark-grey;
-    border-bottom: 1px solid $dark-grey;
-    transition: all 0.6s linear;
-    cursor: pointer;
-
-    &:hover {
-        color: $black;
-        border-bottom-color: $black;
     }
 }
