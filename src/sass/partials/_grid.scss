@@ -1,0 +1,23 @@
+.grid {
+    position: fixed;
+    z-index: 1;
+    display: grid;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0 10px;
+    border-left: 1px solid $blue;
+    border-right: 1px solid $blue;
+
+    @include mq(desktop) {
+        grid-template-columns: 170px 50px 230px 230px 230px;
+        grid-column-gap: 10px;
+    }
+}
+
+.grid__section {
+    border-right: 1px solid $blue;
+}
