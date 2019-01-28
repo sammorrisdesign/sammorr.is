@@ -36,6 +36,7 @@
     position: relative;
     width: 100%;
     display: block;
+    border: none;
 
     @include mq(desktop) {
         width: auto;
@@ -43,8 +44,6 @@
     }
 
     &:hover {
-        border-bottom: transparent;
-
         .other__title {
             border-bottom-color: $blue;
         }
