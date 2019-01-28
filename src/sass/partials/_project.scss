@@ -50,7 +50,7 @@
 }
 
 .project__about {
-    margin: 24px 0;
+    margin-bottom: 60px;
     font-size: $font-size-body;
     line-height: $line-height-body;
 
@@ -65,8 +65,11 @@
 
 .project__link {
     position: relative;
+    width: 100%;
+    display: block;
 
     @include mq(desktop) {
+        width: auto;
         padding-right: 60px;
     }
 
@@ -87,6 +90,7 @@
     margin: 0;
     font-size: $font-size-body;
     line-height: $line-height-body;
+    font-weight: normal;
     border-bottom: 1px solid transparent;
     transition: border 0.4s linear;
     display: inline;
@@ -104,10 +108,8 @@
 
 .project__description {
     color: $black;
-
-    @include mq(desktop) {
-        padding-right: 80px;
-    }
+    background-color: $light-blue;
+    margin-right: 60px;
 
     p {
         margin: 0;
