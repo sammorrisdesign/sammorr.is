@@ -6,14 +6,7 @@ body {
     margin: 0;
     font-family: $sans-serif;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background: white;
-    transition: background 0.4s linear;
     background-color: $light-blue;
-
-    @include mq($until: mobile) {
-        margin-top: 110px;
-    }
 }
 
 a {
