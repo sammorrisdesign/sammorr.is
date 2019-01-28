@@ -2,6 +2,7 @@ footer {
     margin: 20px 0;
     color: $dark-grey;
     font-size: $font-size-body;
+    line-height: $line-height-body;
 
     .container {
         @include mq(desktop) {

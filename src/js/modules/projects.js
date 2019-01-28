@@ -3,12 +3,19 @@ let height, scrollTop, projects;
 export default {
     init: function () {
         this.updateFixedValues();
-        this.bindings();
+        this.updateDynamicValues();
         this.checkForActiveProject();
+        this.bindings();
     },
 
     bindings: function() {
         $(window).scroll(function(e) {
+            this.updateDynamicValues();
+            this.checkForActiveProject();
+        }.bind(this));
+
+        $(window).resize(function() {
+            this.updateFixedValues();
             this.updateDynamicValues();
             this.checkForActiveProject();
         }.bind(this));
@@ -45,11 +52,9 @@ export default {
 
                 $(activeProject).addClass('project--active');
                 $('.project--active .project__video').get(0).play();
-                $('body').removeClass().addClass('is-' + $(activeProject).data('color'));
             }
         } else {
             this.resetActiveProject();
-            $('body').removeClass();
         }
     },
 
