@@ -19,7 +19,6 @@
     position: relative;
     height: 0;
     padding-top: 56.25%;
-    background-color: $black;
     overflow: hidden;
 
     @include mq(desktop) {
@@ -36,6 +35,14 @@
     left: 0;
     right: 0;
     width: 100%;
+    filter: grayscale(1) url('#duotone');
+    transition: filter 0.4s linear;
+}
+
+.project--active {
+    .project__video {
+        filter: none;
+    }
 }
 
 .project__about {
