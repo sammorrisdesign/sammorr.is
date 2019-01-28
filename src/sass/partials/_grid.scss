@@ -3,10 +3,10 @@
     z-index: 1;
     display: grid;
     pointer-events: none;
-    top: 0;
+    top: -100px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -100px;
     margin: auto;
     padding: 0 10px;
     border-left: 1px solid $blue;
