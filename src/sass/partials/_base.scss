@@ -9,30 +9,11 @@ body {
     -webkit-font-smoothing: antialiased;
     background: white;
     transition: background 0.4s linear;
+    background-color: $light-blue;
 
     @include mq($until: mobile) {
         margin-top: 110px;
     }
-}
-
-.is-red {
-    background: $light-red
-}
-
-.is-blue {
-    background: $light-blue;
-}
-
-.is-green {
-    background: $light-green;
-}
-
-.is-yellow {
-    background: $light-yellow;
-}
-
-.is-grey {
-    background-color: $off-white;
 }
 
 a {
@@ -57,18 +38,13 @@ main {
     overflow: auto;
     padding: 10px 20px;
     margin: 0 auto;
-    opacity: 0;
 
     @include mq(desktop) {
         width: 1040px;
     }
-
-    .wf-active & {
-        opacity: 1;
-    }
 }
 
 ::selection {
-    background-color: $yellow;
-    color: $dark-grey;
+    background-color: $black;
+    color: $light-blue;
 }
