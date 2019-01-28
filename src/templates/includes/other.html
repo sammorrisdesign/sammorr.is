@@ -1,0 +1,20 @@
+<div class='other'>
+    <div class='container'>
+        <h3 class='other__main-title'>Other projects</h3>
+        <ul class='other__projects'>
+            {{#each otherProjects}}
+                <li class='other__project'>
+                    <a class='other__link' href='{{ url }}'>
+                        <h3 class='other__title'>
+                            {{ title }}
+                        </h3>
+                        <img class='other__arrow' src='{{ path }}/assets/link.svg' />
+                    </a>
+                    <div class='other__description'>
+                        {{{ marked description }}}
+                    </div>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
