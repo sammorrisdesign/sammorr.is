@@ -4,16 +4,20 @@
         <div class='project__divider'></div>
         <div class='project' data-color='{{ color }}'>
             <div class='project__content'>
-                <video class='project__video' preload='auto' playsinline loop autobuffer='false' poster='{{ path }}/assets/images/projects/{{ handlise title }}.jpg'>
-                    <source src='{{ path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
-                    <source src='{{ path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
-                </video>
+                <div class='project__video-crop'>
+                    <video class='project__video' preload='auto' playsinline loop autobuffer='false' poster='{{ path }}/assets/images/projects/{{ handlise title }}.jpg'>
+                        <source src='{{ path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
+                        <source src='{{ path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
+                    </video>
+                </div>
             </div>
+            <a class='project__link' url='{{ url }}'>
+                <img class='project__arrow' src='{{ path }}/assets/link.svg' />
+            </a>
             <div class="project__about">
                 <h3 class='project__title'>{{ title }}</h3>
                 <div class='project__description'>
                     {{{ marked description }}}
-                    <p><a class='project__link' url='{{ url }}'>Visit project</a></p>
                 </div>
             </div>
         </div>

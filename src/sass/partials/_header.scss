@@ -23,6 +23,7 @@ header .container {
 
 .header__content {
     margin: 0;
+    font-weight: normal;
 
     @include mq(desktop) {
         width: 700px;

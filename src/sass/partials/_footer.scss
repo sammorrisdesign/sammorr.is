@@ -1,11 +1,11 @@
 footer {
     margin: 20px 0;
-    color: $grey;
+    color: $dark-grey;
     font-size: $font-size-body;
 
     .container {
         @include mq(desktop) {
-            padding-left: 280px;
+            padding-left: 240px;
             box-sizing: border-box;
         }
     }

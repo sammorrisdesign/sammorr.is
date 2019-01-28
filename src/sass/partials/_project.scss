@@ -10,15 +10,21 @@
 }
 
 .project__content {
+    background-color: $light-blue;
+    margin-top: -10px;
+    padding: 10px 0;
+}
+
+.project__video-crop {
     position: relative;
     height: 0;
     padding-top: 56.25%;
-    background-color: $light-grey;
+    background-color: $black;
     overflow: hidden;
 
     @include mq(desktop) {
-        width: 760px;
-        height: 427.5px;
+        width: 700px;
+        height: 393.75px;
         flex-shrink: 0;
         padding-top: 0;
     }
@@ -32,25 +38,41 @@
     width: 100%;
 }
 
+.project__link {
+    width: 40px;
+
+    &:hover {
+        border: none;
+    }
+}
+
+.project__arrow {
+    width: 20px;
+    display: block;
+    margin: auto;
+}
+
 .project__about {
     margin: 24px 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
 
     @include mq(desktop) {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 0 20px 0 0;
+        margin: 0;
+        width: 160px;
     }
 }
 
 .project__title {
-    font-size: $font-size-body;
-    color: $black;
     margin: 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
 }
 
 .project__description {
-    font-size: $font-size-body;
     color: $black;
 
     p {
