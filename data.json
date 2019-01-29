@@ -3,32 +3,32 @@
         {
             "title": "The World Cook",
             "url": "http://www.theworldcook.com",
-            "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World Cup"
+            "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
         },
         {
             "title": "Firings and the Fury",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/05/donald-trump-firings-resignations-white-house-full-list-latest",
-            "description": "A way to keep track of President Trump's ever-changing inside circle"
+            "description": "A way to keep track of President Trump's ever-changing inside&nbsp;circle"
         },
         {
             "title": "Monthly Mix",
             "url": "http://www.monthly.mx",
-            "description": "Design and development for a personal project that highlights the best new music of the month"
+            "description": "Design and development for a personal project that highlights the best new music of the&nbsp;month"
         },
         {
             "title": "3,121 Desperate Journeys",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
-            "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance policy"
+            "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance&nbsp;policy"
         },
         {
             "title": "Trump-Russia Investigation – The Key Questions",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
-            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's Trump-Russia investigation"
+            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's investigation"
         },
         {
             "title": "Go Set A Watchman Extract",
             "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
-            "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second novel"
+            "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
         },
         {
             "title": "The Guardian",
@@ -38,7 +38,7 @@
         {
             "title": "BBC Archive",
             "url": "https://vimeo.com/22552332",
-            "description": "D&AD award winning entry that pitched a more interactive and representive version of the BBC Archive"
+            "description": "D&AD award winning entry that pitched a more interactive and representive version of the BBC&nbsp;Archive"
         }
     ],
 
@@ -46,37 +46,37 @@
         {
             "title": "Rothko Me",
             "url": "http://www.rothko.me",
-            "description": "An experiment with CSS filters based on the art of Mark Rothko"
+            "description": "An experiment with CSS filters based on the art of Mark&nbsp;Rothko"
         },
         {
             "title": "Qhuery",
             "url": "http://www.qhuery.com/",
-            "description": "A CSS colour picker using only media queries"
+            "description": "A CSS colour picker using only media&nbsp;queries"
         },
         {
             "title": "US Midterms 2018 Results",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/06/midterm-elections-2018-live-results-latest-winners-and-seats",
-            "description": "Live results page for 2018 US Midterms"
+            "description": "Live results page for 2018 US&nbsp;Midterms"
         },
         {
             "title": "Black Radicals – in Pictures",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/30/america-black-radicals-timeline-in-pictures",
-            "description": "Archive photography and video provide historic background for a series on black radicials"
+            "description": "Archive photography and video provide historic background for a series on black&nbsp;radicials"
         },
         {
             "title": "Who Will Run in 2020?",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jan/17/2020-election-candidates-list-democrats-primaries-trump-bernie-sanders-joe-biden-elizabeth-warren-kamala-harris-beto-o-rourke-running",
-            "description": "A complete list of Democrat candidates vying to to take on Trump in 2020"
+            "description": "A complete list of Democrat candidates vying to to take on Trump in&nbsp;2020"
         },
         {
             "title": "Sound of Atlanta",
             "url": "https://www.theguardian.com/cities/ng-interactive/2018/oct/22/sound-of-atlanta",
-            "description": "An interactive playlist of Atlanta's up and coming music artists"
+            "description": "An interactive playlist of Atlanta's up and coming music&nbsp;artists"
         },
         {
             "title": "How Much Does a Tech Bro Cost?",
             "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
-            "description": "Analysis of the US government's tax giveaways to big tech"
+            "description": "Analysis of the US government's tax giveaways to big&nbsp;tech"
         }
     ]
 }
