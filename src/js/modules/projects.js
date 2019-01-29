@@ -12,6 +12,7 @@ export default {
         $(window).scroll(function(e) {
             this.updateDynamicValues();
             this.checkForActiveProject();
+            this.resetPlayedVideos();
         }.bind(this));
 
         $(window).resize(function() {
@@ -50,7 +51,7 @@ export default {
             if (!$(activeProject).hasClass('project--active')) {
                 this.resetActiveProject();
 
-                $(activeProject).addClass('project--active');
+                $(activeProject).addClass('project--active project--played');
                 $('.project--active .project__video').get(0).play();
             }
         } else {
@@ -61,8 +62,19 @@ export default {
     resetActiveProject: function() {
         if ($('.project--active').length) {
             $('.project--active .project__video').get(0).pause();
-            $('.project--active .project__video').get(0).currentTime = 0;
             $('.project--active').removeClass('project--active');
         }
+    },
+
+    resetPlayedVideos: function() {
+        $('.project--played').each(function(i , el) {
+            const videoTop = $(el).find('.project__content').offset().top;
+            const videoBottom = videoTop + $(el).find('.project__content').height();
+
+            if (videoTop > scrollTop + height || videoBottom < scrollTop) {
+                $(el).removeClass('project--played');
+                $(el).find('.project__video').get(0).currentTime = 0;
+            }
+        }.bind(this));
     }
 }
