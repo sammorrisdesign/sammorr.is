@@ -53,6 +53,7 @@ export default {
 
                 $(activeProject).addClass('project--active project--played');
                 $('.project--active .project__video').get(0).play();
+                $('.project--active .project__video').get(1).play();
             }
         } else {
             this.resetActiveProject();
@@ -62,6 +63,7 @@ export default {
     resetActiveProject: function() {
         if ($('.project--active').length) {
             $('.project--active .project__video').get(0).pause();
+            $('.project--active .project__video').get(1).pause();
             $('.project--active').removeClass('project--active');
         }
     },
@@ -74,6 +76,7 @@ export default {
             if (videoTop > scrollTop + height || videoBottom < scrollTop) {
                 $(el).removeClass('project--played');
                 $(el).find('.project__video').get(0).currentTime = 0;
+                $(el).find('.project__video').get(1).currentTime = 0;
             }
         }.bind(this));
     }

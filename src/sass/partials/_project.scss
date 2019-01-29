@@ -40,13 +40,15 @@
     left: 0;
     right: 0;
     width: 100%;
-    filter: grayscale(1) url('#duotone');
-    transition: filter 0.4s linear;
 }
 
-.project--active {
-    .project__video {
-        filter: none;
+.project__video--filtered {
+    z-index: 2;
+    filter: grayscale(1) url('#duotone');
+    transition: opacity 0.4s linear;
+
+    .project--active & {
+        opacity: 0;
     }
 }
 
