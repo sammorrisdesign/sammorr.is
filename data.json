@@ -16,9 +16,14 @@
             "description": "Design and development for a personal project that highlights the best new music of the month"
         },
         {
-            "title": "3,121 desperate journeys",
+            "title": "3,121 Desperate Journeys",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
             "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance policy"
+        },
+        {
+            "title": "Trump-Russia Investigation – The Key Questions",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
+            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's Trump-Russia investigation"
         },
         {
             "title": "Go Set A Watchman Extract",
@@ -54,9 +59,24 @@
             "description": "Live results page for 2018 US Midterms"
         },
         {
-            "title": "Black Radicals – in pictures",
+            "title": "Black Radicals – in Pictures",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/30/america-black-radicals-timeline-in-pictures",
             "description": "Archive photography and video provide historic background for a series on black radicials"
+        },
+        {
+            "title": "Who Will Run in 2020?",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jan/17/2020-election-candidates-list-democrats-primaries-trump-bernie-sanders-joe-biden-elizabeth-warren-kamala-harris-beto-o-rourke-running",
+            "description": "A complete list of Democrat candidates vying to to take on Trump in 2020"
+        },
+        {
+            "title": "Sound of Atlanta",
+            "url": "https://www.theguardian.com/cities/ng-interactive/2018/oct/22/sound-of-atlanta",
+            "description": "An interactive playlist of Atlanta's up and coming music artists"
+        },
+        {
+            "title": "How Much Does a Tech Bro Cost?",
+            "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
+            "description": "Analysis of the US government's tax giveaways to big tech"
         }
     ]
 }
