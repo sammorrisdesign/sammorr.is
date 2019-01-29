@@ -86,26 +86,10 @@ module.exports = {
             return markdown.toHTML(string);
         });
 
-        var adId = 0;
-
-        handlebars.registerHelper('adId', function(context, options) {
-            adId++;
-            return adId;
-        });
-
         handlebars.registerHelper('handlise', function(string) {
             if (string) {
-                return string.replace(/ /g, '-').replace(/,/g, '').toLowerCase();
+                return string.replace(/ – /g, '-').replace(/ /g, '-').replace(/,/g, '').toLowerCase();
             }
-        });
-
-        handlebars.registerHelper('markedCap', function(string) {
-            var markedIntro = markdown.toHTML(string);
-            var intro = markedIntro.slice(3);
-            var firstCharacter = intro.substring(0, 1);
-                intro = intro.slice(1);
-
-            return '<p><span class=\'uit-drop\'><span class=\'uit-drop__inner\'>' + firstCharacter + '</span></span>' + intro;
         });
 
         handlebars.registerHelper('inc', function(value, options) {
