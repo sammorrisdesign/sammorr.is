@@ -49,6 +49,7 @@
     z-index: 2;
     filter: grayscale(1) url('#duotone');
     transition: opacity 0.4s linear;
+    opacity: 1;
 
     .project--active & {
         opacity: 0;
