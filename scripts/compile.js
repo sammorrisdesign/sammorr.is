@@ -7,7 +7,7 @@ config.specs =  {
     'modified': process.argv.slice(2)[1] ? process.argv.slice(2)[2] : 'none'
 };
 config.path = '.build/';
-config.absolutePath = config.specs.deploy === false ? 'http://localhost:8000' :'http://sammorr.is';
+config.absolutePath = config.specs.deploy === false ? 'http://localhost:8000' :'http://sammorr.is/beta';
 config.data = require('../data.json');
 config.data.path = config.absolutePath
 

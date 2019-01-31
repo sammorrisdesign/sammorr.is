@@ -20,7 +20,7 @@ sftp.connect(config).then(() => {
 });
 
 function uploadFiles() {
-    files = glob.sync('.build/*');
+    files = glob.sync('.build/**/*');
 
     uploadNextItem();
 }

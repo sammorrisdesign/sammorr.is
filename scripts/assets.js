@@ -103,15 +103,6 @@ module.exports = {
         console.log('Updated static assets');
     },
 
-    finishUp: function(config) {
-        if (config.specs.deploy) {
-            fs.emptyDirSync('.deploy');
-            fs.copySync(config.path, '.deploy/' + config.version);
-            fs.writeFileSync('.deploy/' + config.specs.build, config.version);
-            deploy(config.specs.build);
-        }
-    },
-
     compile: function(config) {
         fs.mkdirsSync(config.path);
 
@@ -131,7 +122,5 @@ module.exports = {
             this.js(config);
             this.static(config);
         }
-
-        this.finishUp(config);
     }
 }
