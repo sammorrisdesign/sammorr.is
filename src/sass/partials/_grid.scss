@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr 40px;
+    grid: calc(100vh + 200px) / 1fr 1fr 40px;
     pointer-events: none;
     top: -100px;
     left: 0;
@@ -14,7 +14,7 @@
     border-right: 1px solid $blue;
 
     @include mq(desktop) {
-        grid-template-columns: 170px 50px 230px 230px 230px;
+        grid: calc(100vh + 200px) / 170px 50px 230px 230px 230px;
         grid-column-gap: 10px;
         margin: auto;
     }

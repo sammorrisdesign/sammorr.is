@@ -72,6 +72,7 @@ export default {
     resetActiveProject: function() {
         if ($('.project--active').length) {
             $('.project--active .project__video').get(0).pause();
+            $('.project--active .project__video').get(0).currentTime = $('.project--active .project__video').get(1).currentTime;
             $('.project--active .project__video').get(1).pause();
             $('.project--active').removeClass('project--active');
         }

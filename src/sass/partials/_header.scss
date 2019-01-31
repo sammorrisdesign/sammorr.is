@@ -1,4 +1,16 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 header .container {
+    animation: fade 0.4s linear 1 forwards;
+    animation-delay: 1s;
+
     @include mq($until: desktop) {
         padding-right: 70px;
     }

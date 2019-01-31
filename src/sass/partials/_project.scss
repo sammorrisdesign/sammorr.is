@@ -1,4 +1,7 @@
 .project {
+    animation: fade 0.4s linear 1 forwards;
+    animation-delay: 1.5s;
+
     @include mq(desktop) {
         display: flex;
         align-items: center;
