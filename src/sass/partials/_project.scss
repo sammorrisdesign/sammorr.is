@@ -10,7 +10,7 @@
 }
 
 .project__filter {
-    display: none;
+    display: hidden;
 }
 
 .project__content {
@@ -50,6 +50,10 @@
     filter: grayscale(1) url('#duotone');
     transition: opacity 0.4s linear;
     opacity: 1;
+
+    .is-safari & {
+        filter: grayscale(1);
+    }
 
     .project--active & {
         opacity: 0;

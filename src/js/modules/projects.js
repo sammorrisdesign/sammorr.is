@@ -2,6 +2,7 @@ let height, scrollTop, projects;
 
 export default {
     init: function () {
+        this.limitFiltersOnSafari();
         this.updateFixedValues();
         this.updateDynamicValues();
         this.checkForActiveProject();
@@ -20,6 +21,14 @@ export default {
             this.updateDynamicValues();
             this.checkForActiveProject();
         }.bind(this));
+    },
+
+    limitFiltersOnSafari: function() {
+        var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/) || navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+
+        if (isSafari) {
+            $('body').addClass('is-safari');
+        }
     },
 
     updateDynamicValues: function() {
