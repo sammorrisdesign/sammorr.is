@@ -10,7 +10,8 @@
 }
 
 .project__filter {
-    display: hidden;
+    position: absolute;
+    pointer-events: none;
 }
 
 .project__content {
