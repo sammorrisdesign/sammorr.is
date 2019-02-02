@@ -2,8 +2,7 @@ var fs = require('fs-extra');
 var handlebars = require('handlebars');
 var sass = require('node-sass');
 var deasync = require('deasync');
-var glob = require('glob-fs')({ gitignore: true });
-var markdown = require('markdown').markdown;
+var glob = require('glob');
 var rollup = require('rollup');
 var resolve = require('rollup-plugin-node-resolve');
 var minify = require('rollup-plugin-babel-minify');
@@ -83,11 +82,13 @@ module.exports = {
         var html = fs.readFileSync('src/templates/index.html', 'utf8');
         var template = handlebars.compile(html);
 
-        var partials = glob.readdirSync('src/templates/**/*.*');
+        var partials = glob.sync('src/templates/**/*.*');
+
+        console.log(partials);
 
         partials.forEach(function(partial) {
-            var name = partial.replace('sammorr.is/src/templates/', '').split('.')[0];
-            var template = fs.readFileSync(partial.replace('sammorr.is/', ''), 'utf8');
+            var name = partial.replace('src/templates/', '').split('.')[0];
+            var template = fs.readFileSync(partial, 'utf8');
 
             handlebars.registerPartial(name, template);
         });
