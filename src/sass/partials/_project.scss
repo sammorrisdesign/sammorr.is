@@ -39,6 +39,11 @@
         flex-shrink: 0;
         padding-top: 0;
     }
+
+    @include mq(wide) {
+        width: 880px;
+        height: 495px;
+    }
 }
 
 .project__video {
@@ -74,7 +79,11 @@
         flex-direction: column;
         justify-content: space-between;
         margin: 0;
-        width: 220px;
+        width: 280px;
+    }
+
+    @include mq(wide) {
+        width: 340px;
     }
 }
 
@@ -110,6 +119,11 @@
     transition: border 0.4s linear;
     display: inline;
     background-color: $light-blue;
+
+    @include mq(wide) {
+        font-size: $font-size-large;
+        line-height: $line-height-large;
+    }
 }
 
 .project__arrow {
@@ -123,6 +137,12 @@
 
     @include mq(desktop) {
         right: 10px;
+    }
+
+    @include mq(wide) {
+        width: 28px;
+        top: 9px;
+        right: 7px;
     }
 }
 

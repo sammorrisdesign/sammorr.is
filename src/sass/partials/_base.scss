@@ -41,7 +41,11 @@ main {
     }
 
     @include mq(desktop) {
-        width: 940px;
+        width: 1000px;
+    }
+
+    @include mq(wide) {
+        width: 1240px;
     }
 }
 

@@ -18,9 +18,13 @@
     }
 
     @include mq(desktop) {
-        grid: calc(100vh + 200px) / 170px 50px 230px 230px 230px;
+        grid: calc(100vh + 200px) / 230px 50px 230px 230px 230px;
         grid-column-gap: 10px;
         margin: auto;
+    }
+
+    @include mq(wide) {
+        grid: calc(100vh + 200px) / 290px 50px 290px 290px 290px;
     }
 }
 

@@ -50,6 +50,11 @@ header .container {
         font-size: $font-size-large;
         line-height: $line-height-large;
     }
+
+    @include mq(wide) {
+        width: 620px;
+        padding-right: 260px;
+    }
 }
 
 .header__content-highlight {

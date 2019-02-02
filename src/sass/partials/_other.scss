@@ -11,8 +11,14 @@
     font-weight: normal;
 
     @include mq(desktop) {
-        width: 240px;
+        width: 300px;
         flex-shrink: 0;
+    }
+
+    @include mq(wide) {
+        font-size: $font-size-large;
+        line-height: $line-height-large;
+        width: 360px;
     }
 }
 
