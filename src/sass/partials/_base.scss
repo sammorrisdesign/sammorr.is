@@ -36,6 +36,10 @@ main {
     padding: 10px 20px;
     margin: 0 auto;
 
+    @include mq(tablet) {
+        width: 700px;
+    }
+
     @include mq(desktop) {
         width: 940px;
     }
