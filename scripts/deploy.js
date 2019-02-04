@@ -11,7 +11,7 @@ var config = require('../config.json');
 
 sftp.connect(config).then(() => {
     console.log('connected to SFTP');
-    return sftp.rmdir('/var/www/sammorr.is/public_html/beta/', true)
+    return sftp.rmdir('/var/www/sammorr.is/public_html/', true)
 }).then(() => {
     console.log('remote site nuked');
     return uploadFiles();
@@ -36,7 +36,7 @@ function uploadNextItem() {
     var paths = path.split('/');
     var fileName = paths.pop();
     var isFile = fileName.includes('.');
-    var remotePath = '/var/www/sammorr.is/public_html/beta/' + path.replace('.build/', '');
+    var remotePath = '/var/www/sammorr.is/public_html/' + path.replace('.build/', '');
 
     console.log('uploading ' + path.replace('.build/', ''));
 
