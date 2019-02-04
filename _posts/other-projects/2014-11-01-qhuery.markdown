@@ -1,6 +1,0 @@
----
-title:          "Qhuery"
-date:           2014-11-01 12:00:00
-categories:     other-project
-project-url:    http://www.qhuery.com
----

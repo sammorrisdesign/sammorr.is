@@ -1,0 +1,70 @@
+header .container {
+    @include mq($until: tablet) {
+        padding-right: 70px;
+    }
+
+    @include mq(desktop) {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        min-height: 400px;
+    }
+}
+
+.header__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include mq($until: desktop) {
+        position: absolute;
+        left: calc(50% - 10px);
+        top: 10px;
+    }
+
+    @include mq(desktop) {
+        width: 160px;
+    }
+}
+
+.header__menu-item {
+    display: block;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+}
+
+.header__content {
+    margin: 0 0 60px 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: normal;
+
+    @include mq(tablet) {
+        width: 640px;
+    }
+
+    @include mq(desktop) {
+        margin: 0;
+        margin-top: -4px;
+        width: 700px;
+        font-size: $font-size-large;
+        line-height: $line-height-large;
+    }
+
+    @include mq(wide) {
+        width: 580px;
+        padding-right: 300px;
+    }
+}
+
+.header__content-highlight {
+    background-color: $light-blue;
+    box-shadow: $light-blue 0 12px; // find better method of doing this so grid lines stop at baselines
+}
+
+.header__name {
+    @include mq($until: desktop) {
+        margin-bottom: 3.5em;
+        display: inline-block;
+    }
+}

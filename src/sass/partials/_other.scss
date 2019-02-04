@@ -1,0 +1,109 @@
+.other .container {
+    @include mq(desktop) {
+        display: flex;
+    }
+}
+
+.other__main-title {
+    margin: 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: normal;
+
+    @include mq(desktop) {
+        width: 300px;
+        flex-shrink: 0;
+    }
+
+    @include mq(wide) {
+        font-size: $font-size-large;
+        line-height: $line-height-large;
+        width: 360px;
+        margin-top: -6px;
+    }
+}
+
+.other__projects {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include mq(desktop) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+}
+
+.other__project {
+    margin-bottom: 50px;
+}
+
+.other__link {
+    position: relative;
+    width: 100%;
+    display: block;
+    border: none;
+
+    @include mq(desktop) {
+        width: auto;
+        min-height: 2 * $line-height-body;
+        padding-right: 30px;
+    }
+
+    &:hover {
+        .other__title {
+            border-bottom-color: $blue;
+        }
+
+        .other__arrow {
+            transform: translate(3px, -3px);
+        }
+    }
+}
+
+.other__title {
+    margin: 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: normal;
+    border-bottom: 1px solid transparent;
+    transition: border 0.4s linear;
+    display: inline;
+}
+
+.other__arrow {
+    position: absolute;
+    top: 1px;
+    right: 7px;
+    width: 18px;
+    display: block;
+    margin: auto;
+    transition: transform 0.4s linear;
+
+    @include mq(desktop) {
+        right: 0;
+    }
+}
+
+.other__description {
+    color: $black;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    color: #1f1f26;
+    margin-right: 50px;
+    background-color: $light-blue;
+
+    @include mq(tablet, desktop) {
+        margin-left: calc(50% - 10px);
+        margin-top: -2.2rem;
+    }
+
+    @include mq(desktop) {
+        margin-right: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}

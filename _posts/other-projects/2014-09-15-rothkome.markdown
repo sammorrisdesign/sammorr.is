@@ -1,6 +1,0 @@
----
-title:          "Rothko.me"
-date:           2014-09-15 12:00:00
-categories:     other-project
-project-url:    http://www.rothko.me
----

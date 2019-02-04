@@ -1,0 +1,17 @@
+footer {
+    margin: 20px 0;
+    color: $dark-grey;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+
+    .container {
+        @include mq(desktop) {
+            padding-left: 300px;
+            box-sizing: border-box;
+        }
+
+        @include mq(wide) {
+            padding-left: 360px;
+        }
+    }
+}

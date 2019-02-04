@@ -1,9 +1,0 @@
-.title {
-    margin: 20px 0;
-    color: $red;
-    font-family: $sans-serif;
-    font-size: $font-size-extralarge;
-    @include mq($until: mobile) {
-        font-size: $font-size-large;
-    }
-}
