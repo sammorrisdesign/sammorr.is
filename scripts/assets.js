@@ -84,8 +84,6 @@ module.exports = {
 
         var partials = glob.sync('src/templates/**/*.*');
 
-        console.log(partials);
-
         partials.forEach(function(partial) {
             var name = partial.replace('src/templates/', '').split('.')[0];
             var template = fs.readFileSync(partial, 'utf8');
