@@ -17,7 +17,7 @@ From then on use `npm run start` to watch for changes to the SASS, JS and Handle
 
 ## Deployment
 
-TK TK TK
+To prepare for deploy you need to duplicate `config.example.json`, name it `config.json` and populate the file with the server information. From then on you can run `npm run deploy` to deploy.
 
 ## Video Capture Process
 
