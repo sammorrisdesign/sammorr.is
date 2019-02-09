@@ -1,3 +1,5 @@
+import offset from 'document-offset';
+
 let height, scrollTop, projects;
 
 export default {
@@ -10,13 +12,17 @@ export default {
     },
 
     bindings: function() {
-        $(window).scroll(function(e) {
+        window.addEventListener('scroll', function() {
+            console.log('scrollin');
             this.updateDynamicValues();
             this.checkForActiveProject();
             this.resetPlayedVideos();
-        }.bind(this));
+        }.bind(this),
+        {
+            passive: true
+        });
 
-        $(window).resize(function() {
+        window.addEventListener('resize', function() {
             this.updateFixedValues();
             this.updateDynamicValues();
             this.checkForActiveProject();
@@ -27,42 +33,43 @@ export default {
         var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/) || navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
 
         if (isSafari) {
-            $('body').addClass('is-safari');
+            document.body.classList.add("is-safari");
         }
     },
 
     updateDynamicValues: function() {
-        scrollTop = $(window).scrollTop();
+        scrollTop = window.pageYOffset;
     },
 
     updateFixedValues: function() {
-        height = $(window).height();
+        height = window.innerHeight;
 
         projects = [];
 
-        $('.project').each(function() {
-            projects.push($(this).offset().top)
+        document.querySelectorAll('.project').forEach((project) => {
+            projects.push(Math.floor(offset(project).top));
         });
     },
 
     checkForActiveProject: function() {
         let activeProject;
 
-        projects.forEach(function(top, i) {
+        projects.forEach((top, i) => {
             if (scrollTop + (height / 2) > top) {
                 activeProject = i;
             }
         });
 
         if (typeof activeProject === 'number') {
-            activeProject = $('.project').get(activeProject);
+            activeProject = document.querySelectorAll('.project')[activeProject];
 
-            if (!$(activeProject).hasClass('project--active')) {
+            if (!activeProject.classList.contains('project--active')) {
                 this.resetActiveProject();
 
-                $(activeProject).addClass('project--active project--played');
-                $('.project--active .project__video').get(0).play();
-                $('.project--active .project__video').get(1).play();
+                activeProject.classList.add('project--active', 'project--played');
+                activeProject.querySelectorAll('.project__video').forEach((video) => {
+                    video.play();
+                });
             }
         } else {
             this.resetActiveProject();
@@ -70,24 +77,26 @@ export default {
     },
 
     resetActiveProject: function() {
-        if ($('.project--active').length) {
-            $('.project--active .project__video').get(0).pause();
-            $('.project--active .project__video').get(0).currentTime = $('.project--active .project__video').get(1).currentTime;
-            $('.project--active .project__video').get(1).pause();
-            $('.project--active').removeClass('project--active');
+        if (document.querySelector('.project--active')) {
+            document.querySelectorAll('.project--active .project__video').forEach((video) => {
+                video.pause();
+                video.currentTime = document.querySelector('.project--active .project__video').currentTime;
+            });
+            document.querySelector('.project--active').classList.remove('project--active');
         }
     },
 
     resetPlayedVideos: function() {
-        $('.project--played').each(function(i , el) {
-            const videoTop = $(el).find('.project__content').offset().top;
-            const videoBottom = videoTop + $(el).find('.project__content').height();
+        document.querySelectorAll('.project--played').forEach((project) => {
+            const projectTop = offset(project.querySelector('.project__content')).top;
+            const projectBottom = projectTop + project.clientHeight;
 
-            if (videoTop > scrollTop + height || videoBottom < scrollTop) {
-                $(el).removeClass('project--played');
-                $(el).find('.project__video').get(0).currentTime = 0;
-                $(el).find('.project__video').get(1).currentTime = 0;
+            if (projectTop > scrollTop + height || projectBottom < scrollTop) {
+                project.classList.remove('project--played');
+                project.querySelectorAll('.project__video').forEach((video) => {
+                    video.currentTime = 0;
+                })
             }
-        }.bind(this));
+        });
     }
 }

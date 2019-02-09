@@ -22,10 +22,10 @@
     "devDependencies": {
         "browser-sync": "^2.26.3",
         "deasync": "^0.1.14",
+        "document-offset": "^1.0.4",
         "fs-extra": "^7.0.1",
         "glob": "^7.1.3",
         "handlebars": "^4.0.12",
-        "jquery": "^3.3.1",
         "node-cmd": "^3.0.0",
         "node-sass": "^4.11.0",
         "node-watch": "^0.6.0",
