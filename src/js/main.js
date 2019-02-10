@@ -1,3 +1,5 @@
-import projects from './modules/projects.js';
+import scroll from './modules/scroll.js';
+import jump from './modules/jump.js';
 
-projects.init();
+scroll.init();
+jump.init();

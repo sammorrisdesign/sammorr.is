@@ -3,7 +3,7 @@ import offset from 'document-offset';
 let height, scrollTop, projects;
 
 export default {
-    init: function () {
+    init: function() {
         this.limitFiltersOnSafari();
         this.updateFixedValues();
         this.updateDynamicValues();
@@ -13,7 +13,6 @@ export default {
 
     bindings: function() {
         window.addEventListener('scroll', function() {
-            console.log('scrollin');
             this.updateDynamicValues();
             this.checkForActiveProject();
             this.resetPlayedVideos();
