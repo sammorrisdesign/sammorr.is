@@ -9,6 +9,10 @@ export default {
         document.querySelector('.jump-area').addEventListener('click', function () {
             this.jumpToNextProject()
         }.bind(this));
+
+        window.addEventListener('scroll', function () {
+            this.checkIfAtBottom();
+        }.bind(this));
     },
 
     jumpToNextProject: function() {
@@ -28,12 +32,22 @@ export default {
     },
 
     getPointToJumpTo: function(projects, targetProject) {
-        if (targetProject >= projects.length) {
-            return offset(document.querySelector('.other')).top
+        if (document.body.classList.contains('is-at-bottom')) {
+            return 0;
+        } else if (targetProject >= projects.length) {
+            return offset(document.querySelector('.other')).top;
         } else if (projects[targetProject]) {
-            return offset(projects[targetProject]).top
+            return offset(projects[targetProject]).top;
         } else {
-            return 0
+            return 0;
+        }
+    },
+
+    checkIfAtBottom: function() {
+        if (window.pageYOffset >= offset(document.querySelector('.other')).top) {
+            document.body.classList.add('is-at-bottom');
+        } else {
+            document.body.classList.remove('is-at-bottom');
         }
     }
 }
