@@ -1,53 +1,46 @@
 import offset from 'document-offset';
 
+let stepPositions = [];
+
 export default {
     init: function() {
+        this.getPositionsForSteps();
         this.bindings();
     },
 
     bindings: function() {
-        document.querySelector('.jump-area').addEventListener('click', function () {
-            this.jumpToNextProject()
+        document.querySelectorAll('.is-step').forEach(function(step) {
+            step.addEventListener('click', function (e) {
+                this.jumpToNextProject(e.target);
+            }.bind(this));
         }.bind(this));
 
-        window.addEventListener('scroll', function () {
-            this.checkIfAtBottom();
+        window.addEventListener('resize', function() {
+            this.getPositionsForSteps();
         }.bind(this));
     },
 
-    jumpToNextProject: function() {
-        const projects = document.querySelectorAll('.project');
-        let projectToJumpTo;
-
-        projects.forEach((project, i) => {
-            if (project.classList.contains('project--active')) {
-                projectToJumpTo = i + 1;
-            }
-        });
-
-        window.scrollTo({
-            top: this.getPointToJumpTo(projects, projectToJumpTo),
-            behavior: 'smooth'
+    getPositionsForSteps: function() {
+        document.querySelectorAll('.is-step').forEach((step) => {
+            stepPositions.push(Math.floor(offset(step).top));
         });
     },
 
-    getPointToJumpTo: function(projects, targetProject) {
-        if (document.body.classList.contains('is-at-bottom')) {
-            return 0;
-        } else if (targetProject >= projects.length) {
-            return offset(document.querySelector('.other')).top;
-        } else if (projects[targetProject]) {
-            return offset(projects[targetProject]).top;
-        } else {
-            return 0;
+    jumpToNextProject: function(el) {
+        if (el.classList.contains('is-step')) {
+            window.scrollTo({
+                top: this.getPointToJumpTo(offset(el).top),
+                behavior: 'smooth'
+            });
         }
     },
 
-    checkIfAtBottom: function() {
-        if (window.pageYOffset >= offset(document.querySelector('.other')).top) {
-            document.body.classList.add('is-at-bottom');
-        } else {
-            document.body.classList.remove('is-at-bottom');
-        }
+    getPointToJumpTo: function(currentStepOffset) {
+        const scrollTop = window.pageYOffset;
+        let nextPoint = stepPositions.findIndex(function(position) {
+            return position === currentStepOffset
+        });
+
+        return stepPositions[nextPoint + 1] || 0;
     }
 }

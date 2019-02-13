@@ -35,6 +35,7 @@ main {
     overflow: auto;
     padding: 10px 20px;
     margin: 0 auto;
+    cursor: default;
 
     @include mq(tablet) {
         width: 700px;

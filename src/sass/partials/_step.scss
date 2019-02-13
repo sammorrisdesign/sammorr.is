@@ -1,0 +1,7 @@
+.is-step {
+    cursor: s-resize;
+
+    &.other {
+        cursor: n-resize;
+    }
+}
