@@ -79,9 +79,6 @@ module.exports = {
             }
         });
 
-        var html = fs.readFileSync('src/templates/index.html', 'utf8');
-        var template = handlebars.compile(html);
-
         var partials = glob.sync('src/templates/**/*.*');
 
         partials.forEach(function(partial) {
@@ -91,7 +88,22 @@ module.exports = {
             handlebars.registerPartial(name, template);
         });
 
-        fs.writeFileSync(config.path + '/index.html', template(config.data));
+        var homeHtml = fs.readFileSync('src/templates/index.html', 'utf8');
+        var homeTemplate = handlebars.compile(homeHtml);
+
+        fs.writeFileSync(config.path + '/index.html', homeTemplate(config.data));
+
+        var postHtml = fs.readFileSync('src/templates/post.html', 'utf8');
+        var postTemplate = handlebars.compile(postHtml);
+
+        fs.mkdirsSync(config.path + '/blog/');
+
+        for (var post in config.data.posts) {
+            var postData = config.data.posts[post];
+            fs.writeFileSync(config.path + 'blog/' + postData.title.replace(/ /g, '-').toLowerCase() + '.html', postTemplate(postData))
+        }
+
+        fs.writeFileSync(config.path + '/index.html', homeTemplate(config.data));
         console.log('Updated html!');
     },
 
