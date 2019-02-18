@@ -100,7 +100,17 @@ module.exports = {
 
         for (var post in config.data.posts) {
             var postData = config.data.posts[post];
-            fs.writeFileSync(config.path + 'blog/' + postData.title.replace(/ /g, '-').toLowerCase() + '.html', postTemplate(postData))
+            var date = new Date(postData.date);
+                date = {
+                    year: date.getFullYear(),
+                    month: ('0' + (date.getMonth() + 1)).slice(-2),
+                    date: ('0' + date.getDate()).slice(-2)
+                }
+
+            var path = config.path + 'blog/' + date.year + '/' + date.month + '/' + date.date + '/';
+
+            fs.mkdirsSync(path);
+            fs.writeFileSync(path + postData.title.replace(/ /g, '-').toLowerCase() + '.html', postTemplate(postData))
         }
 
         fs.writeFileSync(config.path + '/index.html', homeTemplate(config.data));
