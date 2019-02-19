@@ -1,5 +1,6 @@
 var fs = require('fs-extra');
 var handlebars = require('handlebars');
+var markdown = require('markdown').markdown;
 var sass = require('node-sass');
 var deasync = require('deasync');
 var glob = require('glob');
@@ -79,6 +80,18 @@ module.exports = {
             }
         });
 
+        handlebars.registerHelper('marked', function(string) {
+            return markdown.toHTML(decodeURI(string));
+        });
+
+        handlebars.registerHelper('if_eq', function(a, b, opts) {
+            if (a == b) {
+                return opts.fn(this);
+            } else {
+                return opts.inverse(this);
+            }
+        });
+
         var partials = glob.sync('src/templates/**/*.*');
 
         partials.forEach(function(partial) {
@@ -90,6 +103,7 @@ module.exports = {
 
         var homeHtml = fs.readFileSync('src/templates/index.html', 'utf8');
         var homeTemplate = handlebars.compile(homeHtml);
+        config.data.type = 'home';
 
         fs.writeFileSync(config.path + '/index.html', homeTemplate(config.data));
 
@@ -100,6 +114,7 @@ module.exports = {
 
         for (var post in config.data.posts) {
             var postData = config.data.posts[post];
+                postData.type = 'blog';
             var date = new Date(postData.date);
                 date = {
                     year: date.getFullYear(),
@@ -112,8 +127,6 @@ module.exports = {
             fs.mkdirsSync(path);
             fs.writeFileSync(path + postData.title.replace(/ /g, '-').toLowerCase() + '.html', postTemplate(postData))
         }
-
-        fs.writeFileSync(config.path + '/index.html', homeTemplate(config.data));
         console.log('Updated html!');
     },
 

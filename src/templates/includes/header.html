@@ -14,7 +14,12 @@
         <h1 class='header__content'>
             <span class='header__content-highlight'>
             <a class='header__name' href='http://www.sammorr.is'>Sam Morris</a><br />
-            Designer, developer and art director. Currently focusing on digital experiences that help people interpret the news as the Head of Design at the Guardian US in New York
+            {{#if_eq type 'home'}}
+                Designer, developer and art director. Currently focusing on digital experiences that help people interpret the news as the Head of Design at the Guardian US in New York
+            {{/if_eq}}
+            {{#if_eq type 'blog'}}
+                {{ title }}
+            {{/if_eq}}
             </span>
         </h1>
     </div>
