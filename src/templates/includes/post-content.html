@@ -3,7 +3,7 @@
         <div class='post-content__wrapper'>
             <h1 class='post-content__title'>{{ title }}</h1>
             <h4 class='post-content__date'>{{ formatDate date }}</h4>
-            <img class='post-content__image' src='{{ path }}/assets/images/blog/{{ handlise title }}.gif' />
+            <img class='post-content__image' src='{{ path }}/assets/images/blog/{{ handlise title }}.{{ imageFormat }}' />
             <div class='post-content__body'>
                 {{{ marked body }}}
             </div>
