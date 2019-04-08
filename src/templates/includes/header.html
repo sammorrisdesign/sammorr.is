@@ -1,5 +1,5 @@
 <header class='is-step'>
-    <div class='container'>
+    <div class='container {{#if_eq type 'home'}}header--home{{/if_eq}}'>
         <ul class='header__menu'>
             <li class="header__menu-item">
                 <a class='header__menu-link' href='mailto:mail@sammorrisdesign.co.uk'>Email</a>
@@ -16,9 +16,6 @@
             <a class='header__name' href='http://www.sammorr.is'>Sam Morris</a><br />
             {{#if_eq type 'home'}}
                 Designer, developer and art director. Currently focusing on digital experiences that help people interpret the news as the Head of Design at the Guardian US in New York
-            {{/if_eq}}
-            {{#if_eq type 'blog'}}
-                {{ title }}
             {{/if_eq}}
             </span>
         </h1>

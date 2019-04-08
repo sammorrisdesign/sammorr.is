@@ -8,6 +8,7 @@ var rollup = require('rollup');
 var resolve = require('rollup-plugin-node-resolve');
 var minify = require('rollup-plugin-babel-minify');
 var commonjs = require('rollup-plugin-commonjs');
+var moment = require('moment');
 
 module.exports = {
     js: function(config) {
@@ -90,6 +91,12 @@ module.exports = {
             } else {
                 return opts.inverse(this);
             }
+        });
+
+        handlebars.registerHelper('formatDate', function(date) {
+            var date = moment(date);
+
+            return date.format('d MMMM YYYY');
         });
 
         var partials = glob.sync('src/templates/**/*.*');
