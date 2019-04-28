@@ -1,16 +1,15 @@
 .post-content__wrapper {
-    position: relative;
     font-size: $font-size-body;
     line-height: $line-height-body;
     font-weight: normal;
+    background-color: $light-blue;
 
     @include mq(tablet) {
-        width: 650px;
+        width: 640px;
     }
 
     @include mq(desktop) {
         margin-left: 300px;
-        margin-top: 120px;
         width: 700px;
     }
 
@@ -18,44 +17,4 @@
         width: 580px;
         margin-left: 360px;
     }
-}
-
-.post-content__image {
-    width: 100%;
-    margin: 0;
-    display: block;
-}
-
-.post-content__title {
-    margin: 0;
-    font-size: $font-size-large;
-    line-height: $line-height-large;
-    font-weight: normal;
-    display: inline-block;
-    background-color: $light-blue;
-}
-
-.post-content__date {
-    font-size: $font-size-body;
-    line-height: $line-height-body;
-    font-weight: normal;
-    padding: 0 0 4px 0;
-    margin: 0;
-    display: block;
-    background-color: $light-blue;
-
-    @include mq(desktop) {
-        position: absolute;
-        left: -300px;
-        top: 7px;
-    }
-
-    @include mq(wide) {
-        left: -360px;
-    }
-}
-
-.post-content__body {
-    background-color: $light-blue;
-    padding: 4px 0;
 }
