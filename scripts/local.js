@@ -23,7 +23,7 @@ watch(['src', 'data.json'], { recursive: true }, function(event, file) {
     if (isAssets) {
         console.log('updating static assets');
         cmd.get('npm run compile -- local static', function(data) { console.log(data); });
-    } else if (fileExt === 'html' || fileExt === 'svg') {
+    } else if (fileExt === 'html' || fileExt === 'svg' || fileExt === 'json') {
         console.log('updating html');
         cmd.get('npm run compile -- local html', function(data) { console.log(data); });
     } else if (fileExt === 'scss') {
