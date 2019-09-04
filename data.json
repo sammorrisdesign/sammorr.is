@@ -1,11 +1,6 @@
 {
     "projects": [
         {
-            "title": "How to catch a catfisher",
-            "url": "https://www.theguardian.com/technology/ng-interactive/2019/feb/20/how-to-catch-a-catfisher",
-            "description": "Design, development and art direction for a Guardian US feature on what happens when someone uses your photos to catfish people"
-        },
-        {
             "title": "The World Cook",
             "url": "http://www.theworldcook.com",
             "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
@@ -26,14 +21,19 @@
             "description": "Design and development for a personal project that highlights the best new music of the&nbsp;month"
         },
         {
-            "title": "Trump-Russia Investigation – The Key Questions",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
-            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's investigation"
-        },
-        {
             "title": "Go Set A Watchman Extract",
             "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
             "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
+        },
+        {
+            "title": "How to catch a catfisher",
+            "url": "https://www.theguardian.com/technology/ng-interactive/2019/feb/20/how-to-catch-a-catfisher",
+            "description": "Design, development and art direction for a Guardian US feature on what happens when someone uses your photos to catfish people"
+        },
+        {
+            "title": "Trump-Russia Investigation – The Key Questions",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
+            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's investigation"
         },
         {
             "title": "The Guardian",
@@ -57,6 +57,11 @@
             "title": "Qhuery",
             "url": "http://www.qhuery.com/",
             "description": "A CSS colour picker using only media&nbsp;queries"
+        },
+        {
+            "title": "What's hiding in your groceries?",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/may/29/chemical-checkout-what-might-be-hiding-in-your-groceries",
+            "description": "An interactive shopping tool that exposes hidden chemicals in food"
         },
         {
             "title": "US Midterms 2018 Results",
