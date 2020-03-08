@@ -6,7 +6,7 @@ var cmd = require('node-cmd');
 var bs = require('browser-sync').create();
     bs.init({
         server: './.build',
-        port: 8000
+        port: 8500
     });
 
     bs.watch('./.build/*.css', function(event, file) {
