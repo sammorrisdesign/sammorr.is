@@ -4,22 +4,30 @@
     }
 }
 
+.other__about {
+    @include mq(desktop) {
+        width: 300px;
+        flex-shrink: 0;
+        padding-right: 80px;
+        box-sizing: border-box;
+    }
+
+    @include mq(wide) {
+        width: 360px;
+    }
+}
+
 .other__main-title {
     margin: 0;
     font-size: $font-size-body;
     line-height: $line-height-body;
     font-weight: normal;
 
-    @include mq(desktop) {
-        width: 300px;
-        flex-shrink: 0;
-    }
-
     @include mq(wide) {
         font-size: $font-size-large;
         line-height: $line-height-large;
-        width: 360px;
         margin-top: -6px;
+        margin-bottom: 5px;
     }
 }
 
@@ -27,29 +35,36 @@
     margin: 0;
     padding: 0;
     list-style: none;
-
-    @include mq(desktop) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 20px;
-    }
 }
 
 .other__project {
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.other__description,
+.other__tags,
+.other__meta {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+
+    @include mq(desktop) {
+        width: 220px;
+        margin-right: 20px;
+    }
+
+    @include mq(wide) {
+        width: 280px;
+    }
+}
+
 
 .other__link {
     position: relative;
     width: 100%;
     display: block;
     border: none;
-
-    @include mq(desktop) {
-        width: auto;
-        min-height: 2 * $line-height-body;
-        padding-right: 30px;
-    }
 
     &:hover {
         .other__title {
@@ -70,6 +85,7 @@
     border-bottom: 1px solid transparent;
     transition: border 0.4s linear;
     display: inline;
+    background-color: $light-blue;
 }
 
 .other__arrow {
@@ -82,7 +98,15 @@
     transition: transform 0.4s linear;
 
     @include mq(desktop) {
-        right: 0;
+        right: auto;
+        left: -48px;
+    }
+
+    @include mq(wide) {
+        width: 28px;
+        top: 7px;
+        left: -54px;
+        // right: 7px;
     }
 }
 
@@ -91,7 +115,6 @@
     font-size: $font-size-body;
     line-height: $line-height-body;
     color: #1f1f26;
-    margin-right: 50px;
     background-color: $light-blue;
 
     @include mq(tablet, desktop) {
@@ -99,11 +122,17 @@
         margin-top: -2.2rem;
     }
 
-    @include mq(desktop) {
-        margin-right: 0;
-    }
-
     p {
         margin: 0;
+    }
+}
+
+
+.other__meta {
+    margin-right: 0;
+
+    @include mq(desktop) {
+        display: flex;
+        justify-content: space-between;
     }
 }

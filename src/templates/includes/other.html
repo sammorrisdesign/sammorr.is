@@ -1,6 +1,11 @@
 <div class='other is-step'>
     <div class='container'>
-        <h3 class='other__main-title'>Other projects</h3>
+        <div class='other__about'>
+            <h3 class='other__main-title'>Other Projects</h3>
+            <div class='other__description'>
+                <!-- Filtered By The Guardian -->
+            </div>
+        </div>
         <ul class='other__projects'>
             {{#each otherProjects}}
                 <li class='other__project'>
@@ -12,6 +17,15 @@
                     </a>
                     <div class='other__description'>
                         {{{ description }}}
+                    </div>
+                    <div class='other__tags'>
+                        {{#each tags}}
+                            <span class='other__tag js-filter' data-filter='{{ handlise this }}'>{{ this }}</span>{{#if @last}}{{else}},{{/if}}
+                        {{/each}}
+                    </div>
+                    <div class='other__meta'>
+                        <div class='other__for js-filter' data-filter='{{ handlise for }}'>{{ for }}</div>
+                        <div class='other__year'>{{ year }}</div>
                     </div>
                 </li>
             {{/each}}
