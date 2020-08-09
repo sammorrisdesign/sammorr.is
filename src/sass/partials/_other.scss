@@ -84,8 +84,16 @@
     font-weight: normal;
     border-bottom: 1px solid transparent;
     transition: border 0.4s linear;
-    display: inline;
+    display: inline-block;
     background-color: $light-blue;
+
+    @include mq(desktop) {
+        max-width: 220px;
+    }
+
+    @include mq(wide) {
+        max-width: 280px;
+    }
 }
 
 .other__arrow {

@@ -9,6 +9,8 @@ config.specs =  {
 config.path = '.build/';
 config.absolutePath = config.specs.deploy === false ? 'http://localhost:8500' :'https://sammorr.is';
 config.data = require('../data.json');
+config.data.otherProjects.sort(function(a, b) { return a.year-b.year; });
+
 config.data.path = config.absolutePath
 
 assets.compile(config);
