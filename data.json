@@ -39,15 +39,18 @@
             "title": "The Guardian",
             "url": "https://www.theguardian.com",
             "description": "Design and development of fronts and special features for the first responsive relaunch of theguardian.com"
-        },
-        {
-            "title": "BBC Archive",
-            "url": "https://vimeo.com/22552332",
-            "description": "D&AD award winning entry that pitched a more interactive and representive version of the BBC&nbsp;Archive"
         }
     ],
 
     "otherProjects": [
+        {
+            "title": "BBC Archive",
+            "url": "https://vimeo.com/22552332",
+            "description": "D&AD student award winning pitch",
+            "for": "Personal Project",
+            "tags": ["Design"],
+            "year": 2011
+        },
         {
             "title": "Google's Top Search Result? Suprise! It's Google",
             "url": "https://themarkup.org/google-the-giant/2020/07/28/google-search-results-prioritize-google-products-over-competitors",

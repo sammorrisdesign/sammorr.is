@@ -67,7 +67,7 @@
     border: none;
 
     &:hover {
-        .other__title {
+        .other__title-span {
             border-bottom-color: $blue;
         }
 
@@ -82,9 +82,7 @@
     font-size: $font-size-body;
     line-height: $line-height-body;
     font-weight: normal;
-    border-bottom: 1px solid transparent;
-    transition: border 0.4s linear;
-    display: inline-block;
+    display: block;
     background-color: $light-blue;
 
     @include mq(desktop) {
@@ -94,6 +92,12 @@
     @include mq(wide) {
         max-width: 280px;
     }
+}
+
+.other__title-span {
+    display: inline;
+    border-bottom: 1px solid transparent;
+    transition: border 0.4s linear;
 }
 
 .other__arrow {
@@ -114,7 +118,6 @@
         width: 28px;
         top: 7px;
         left: -54px;
-        // right: 7px;
     }
 }
 
