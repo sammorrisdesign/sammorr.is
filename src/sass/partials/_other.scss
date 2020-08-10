@@ -39,8 +39,11 @@
 
 .other__project {
     margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
+
+    @include mq(desktop) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .other__description,
@@ -56,6 +59,15 @@
 
     @include mq(wide) {
         width: 280px;
+    }
+}
+
+.other__tags,
+.other__meta {
+    display: none;
+
+    @include mq(desktop) {
+        display: block;
     }
 }
 
