@@ -39,10 +39,15 @@
 
 .other__project {
     margin-bottom: 50px;
+    padding-right: 60px;
 
-    @include mq(desktop) {
+    @include mq(tablet) {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    @include mq(desktop) {
+        padding-right: 0;
     }
 }
 
@@ -95,7 +100,6 @@
     line-height: $line-height-body;
     font-weight: normal;
     display: block;
-    background-color: $light-blue;
 
     @include mq(desktop) {
         max-width: 220px;
@@ -110,12 +114,13 @@
     display: inline;
     border-bottom: 1px solid transparent;
     transition: border 0.4s linear;
+    background-color: $light-blue;
 }
 
 .other__arrow {
     position: absolute;
     top: 1px;
-    right: 7px;
+    right: -53px;
     width: 18px;
     display: block;
     margin: auto;
@@ -127,9 +132,9 @@
     }
 
     @include mq(wide) {
-        width: 28px;
-        top: 7px;
+        top: 3px;
         left: -54px;
+        width: 28px;
     }
 }
 
@@ -139,11 +144,6 @@
     line-height: $line-height-body;
     color: #1f1f26;
     background-color: $light-blue;
-
-    @include mq(tablet, desktop) {
-        margin-left: calc(50% - 10px);
-        margin-top: -2.2rem;
-    }
 
     p {
         margin: 0;
