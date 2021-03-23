@@ -11,7 +11,7 @@ var config = require('../config.json');
 
 sftp.connect(config).then(() => {
     console.log('connected to SFTP');
-    return sftp.rmdir('/var/www/sammorr.is/public_html/', true)
+    return sftp.rmdir('/var/www/sammorr.is/public_html/', true);
 }).then(() => {
     console.log('remote site nuked');
     return uploadFiles();

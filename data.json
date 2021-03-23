@@ -1,19 +1,9 @@
 {
     "projects": [
         {
-            "title": "The Markup",
-            "url": "https://www.themarkup.org",
-            "description": "Design and development for The Markup, a non-profit newsroom that investigates how powerful institutions are using technology to change our society"
-        },
-        {
             "title": "3,121 Desperate Journeys",
             "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
             "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance&nbsp;policy. Nominated for an SPD award for digital information graphics"
-        },
-        {
-            "title": "The World Cook",
-            "url": "http://www.theworldcook.com",
-            "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
         },
         {
             "title": "Firings and the Fury",
@@ -21,9 +11,9 @@
             "description": "A way to keep track of President Trump's ever-changing inside&nbsp;circle. Nominated for an SPD award for original photo-illustration"
         },
         {
-            "title": "Monthly Mix",
-            "url": "http://www.monthly.mx",
-            "description": "Design and development for a personal project that highlights the best new music of the&nbsp;month"
+            "title": "The Markup",
+            "url": "https://www.themarkup.org",
+            "description": "Design and development for The Markup, a non-profit newsroom that investigates how powerful institutions are using technology to change our society"
         },
         {
             "title": "Go Set A Watchman Extract",
@@ -31,9 +21,9 @@
             "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
         },
         {
-            "title": "Trump-Russia Investigation – The Key Questions",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
-            "description": "An interactive investigation pinboard of the numerous questions surrounding Mueller's investigation"
+            "title": "The World Cook",
+            "url": "http://www.theworldcook.com",
+            "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
         },
         {
             "title": "The Guardian",
@@ -43,6 +33,38 @@
     ],
 
     "otherProjects": [
+        {
+            "title": "Monthly Mix",
+            "url": "http://www.monthly.mx",
+            "description": "Music TV",
+            "for":"Personal Project",
+            "tags": ["Design", "Development"],
+            "year": 2015
+        },
+        {
+            "title": "Trump-Russia Investigation – The Key Questions",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
+            "description": "Interactive Investigation Pinboard",
+            "for": "The Guardian US",
+            "tags": ["Design", "Development", "Art Direction"],
+            "year": 2017
+        },
+        {
+            "title": "Split Screen: How Different Are Americans’ Facebook Feeds?",
+            "url": "https://themarkup.org/citizen-browser/2021/03/11/split-screen?feed=biden_trump",
+            "description": "Feed Viewer",
+            "for": "The Markup",
+            "tags": ["Design", "Graphics", "Development", "Art Direction", "Editing"],
+            "year": 2021
+        },
+        {
+            "title": "Are Youre Countries Cell Phone Plans A Rip-Off?",
+            "url": "https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country",
+            "description": "Data on Data",
+            "for": "The Markup",
+            "tags": ["Design", "Graphics", "Development", "Reporting"],
+            "year": 2020
+        },
         {
             "title": "BBC Archive",
             "url": "https://vimeo.com/22552332",
@@ -157,7 +179,7 @@
         },
         {
             "title": "Stonewall at 50",
-            "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
+            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jun/20/american-family-trans-gender-queer-nonbinary",
             "description": "Feature design",
             "for": "The Guardian US",
             "tags": ["Design", "Development"],
@@ -231,6 +253,14 @@
             "title": "Fall TV Guide",
             "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2017/sep/05/what-to-watch-tv-guide-netflix-hulu-amazon-hbo",
             "description": "What to watch",
+            "for": "The Guardian US",
+            "tags": ["Design", "Development"],
+            "year": 2017
+        },
+        {
+            "title": "How to tell if you damaged your eyes during the solar eclipse",
+            "url": "https://www.theguardian.com/science/2017/aug/21/solar-eclipse-eye-damage",
+            "description": "A Simple Test",
             "for": "The Guardian US",
             "tags": ["Design", "Development"],
             "year": 2017
