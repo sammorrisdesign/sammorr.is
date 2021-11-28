@@ -50,20 +50,52 @@
             "year": 2017
         },
         {
-            "title": "Split Screen: How Different Are Americans’ Facebook Feeds?",
-            "url": "https://themarkup.org/citizen-browser/2021/03/11/split-screen?feed=biden_trump",
-            "description": "Feed Viewer",
-            "for": "The Markup",
-            "tags": ["Design", "Graphics", "Development", "Art Direction", "Editing"],
-            "year": 2021
-        },
-        {
             "title": "Are Your Country's Cell Phone Plans a Rip-Off?",
             "url": "https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country",
             "description": "Data on Data",
             "for": "The Markup",
             "tags": ["Design", "Graphics", "Development", "Reporting"],
             "year": 2020
+        },
+        {
+            "title": "What Happened on United 93",
+            "url": "https://www.inquirer.com/news/inq2/shanksville-united-flight-93-what-happened-20210908.html",
+            "description": "Shanksville Explainer",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Reporting", "Editing"],
+            "year": 2021
+        },
+        {
+            "title": "The Dining Guide 2021",
+            "url": "https://www.inquirer.com/food/inq2/restaurant-guide-philadelphia-inquirer-2021-20211007.html",
+            "description": "Let's Eat, Philly",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development"],
+            "year": 2021
+        },
+        {
+            "title": "Race to the Senate",
+            "url": "https://www.inquirer.com/politics/election/inq2/us-senate-race-2022-pennsylvania-democrats-republicans-20210823.html",
+            "description": "PA Senate Tracker",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Reporting", "Editing"],
+            "year": 2021
+        },
+        {
+            "title": "Bryce Harper's Case for Cooperstown",
+            "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-mvp-hall-of-fame-stats-20211116.html",
+            "description": "Inside Baseball",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Editing"],
+            "year": 2021
+        },
+        {
+            "title": "Philly at the Olympics",
+            "url": "https://www.inquirer.com/sports/inq2/tokyo-olympics-schedule-philadelphia-athletes-competing-20210723.html",
+            "description": "Competition Calendar",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Reporting"],
+            "year": 2021
         },
         {
             "title": "BBC Archive",
@@ -112,6 +144,14 @@
             "for": "Personal Project",
             "tags": ["Design", "Development"],
             "year": 2014
+        },
+        {
+            "title": "Split Screen: How Different Are Americans’ Facebook Feeds?",
+            "url": "https://themarkup.org/citizen-browser/2021/03/11/split-screen?feed=biden_trump",
+            "description": "Feed Viewer",
+            "for": "The Markup",
+            "tags": ["Design", "Graphics", "Development", "Art Direction", "Editing"],
+            "year": 2021
         },
         {
             "title": "What's Hiding in Your Groceries?",
