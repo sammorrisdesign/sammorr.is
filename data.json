@@ -1,381 +1,542 @@
 {
-    "projects": [
-        {
-            "title": "3,121 Desperate Journeys",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
-            "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance&nbsp;policy. Nominated for an SPD award for digital information graphics"
-        },
-        {
-            "title": "Firings and The Fury",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/05/donald-trump-firings-resignations-white-house-full-list-latest",
-            "description": "A way to keep track of President Trump's ever-changing inside&nbsp;circle. Nominated for an SPD award for original photo-illustration"
-        },
-        {
-            "title": "The Markup",
-            "url": "https://www.themarkup.org",
-            "description": "Design and development for The Markup, a non-profit newsroom that investigates how powerful institutions are using technology to change our society"
-        },
-        {
-            "title": "Go Set A Watchman Extract",
-            "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
-            "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
-        },
-        {
-            "title": "The World Cook",
-            "url": "http://www.theworldcook.com",
-            "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
-        },
-        {
-            "title": "The Guardian",
-            "url": "https://www.theguardian.com",
-            "description": "Design and development of fronts and special features for the first responsive relaunch of theguardian.com"
-        }
-    ],
-
-    "otherProjects": [
-        {
-            "title": "Monthly Mix",
-            "url": "http://www.monthly.mx",
-            "description": "Music TV",
-            "for":"Personal Project",
-            "tags": ["Design", "Development"],
-            "year": 2015
-        },
-        {
-            "title": "Trump-Russia Investigation – The Key Questions",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
-            "description": "Interactive Investigation Pinboard",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Art Direction"],
-            "year": 2017
-        },
-        {
-            "title": "Are Your Country's Cell Phone Plans a Rip-Off?",
-            "url": "https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country",
-            "description": "Data on Data",
-            "for": "The Markup",
-            "tags": ["Design", "Graphics", "Development", "Reporting"],
-            "year": 2020
-        },
-        {
-            "title": "Hoagie Bracket",
-            "url": "https://www.inquirer.com/news/inq2/best-philadelphia-hoagies-bracket-2022-20220322.html",
-            "description": "Sandwich Selection",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Art Direction", "Editing"],
-            "year": 2022
-        },
-        {
-            "title": "Stay or Go",
-            "url": "https://www.inquirer.com/phillies/inq2/phillies-roster-decisions-offseason-free-agency-hot-stove-20221109.html",
-            "description": "Sports Roster Tinder",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Art Direction", "Editing"],
-            "year": 2022
-        },
-        {
-            "title": "Jeopardy! Quiz",
-            "url": "https://www.inquirer.com/entertainment/inq2/ryan-long-philadelphia-jeopardy-trivia-questions-20220607.html",
-            "description": "Let's go to work",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Art Direction", "Reporting"],
-            "year": 2022
-        },
-        {
-            "title": "Sean Scully",
-            "url": "https://www.inquirer.com/arts/inq2/sean-scully-exhibition-2022-philadelphia-art-museum-20220615.html",
-            "description": "Behind the Art",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Art Direction", "Reporting", "Editing"],
-            "year": 2022
-        },
-        {
-            "title": "Eagles Uniform Designer",
-            "url": "https://www.inquirer.com/eagles/inq2/philadelphia-eagles-new-uniforms-kelly-midnight-green-history-20220907.html",
-            "description": "Character Creator",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Art Direction", "Editing"],
-            "year": 2022
-        },
-        {
-            "title": "2022 Midterm Results",
-            "url": "https://www.inquirer.com/politics/election/inq2/pennsylvania-midterm-election-results-2022-20221108.html",
-            "description": "Local Election Dashboard",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Reporting", "Editing"],
-            "year": 2022
-        },
-        {
-            "title": "What Happened on United 93",
-            "url": "https://www.inquirer.com/news/inq2/shanksville-united-flight-93-what-happened-20210908.html",
-            "description": "Shanksville Explainer",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Reporting", "Editing"],
-            "year": 2021
-        },
-        {
-            "title": "The Dining Guide 2021",
-            "url": "https://www.inquirer.com/food/inq2/restaurant-guide-philadelphia-inquirer-2021-20211007.html",
-            "description": "Let's Eat, Philly",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development"],
-            "year": 2021
-        },
-        {
-            "title": "Race to the Senate",
-            "url": "https://www.inquirer.com/politics/election/inq2/us-senate-race-2022-pennsylvania-democrats-republicans-20210823.html",
-            "description": "PA Senate Tracker",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Reporting", "Editing"],
-            "year": 2021
-        },
-        {
-            "title": "Bryce Harper's Case for Cooperstown",
-            "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-mvp-hall-of-fame-stats-20211116.html",
-            "description": "Inside Baseball",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Editing"],
-            "year": 2021
-        },
-        {
-            "title": "Philly at the Olympics",
-            "url": "https://www.inquirer.com/sports/inq2/tokyo-olympics-schedule-philadelphia-athletes-competing-20210723.html",
-            "description": "Competition Calendar",
-            "for": "The Philadelphia Inquirer",
-            "tags": ["Design", "Development", "Reporting"],
-            "year": 2021
-        },
-        {
-            "title": "BBC Archive",
-            "url": "https://vimeo.com/22552332",
-            "description": "D&AD student award winning pitch",
-            "for": "Personal Project",
-            "tags": ["Design"],
-            "year": 2011
-        },
-        {
-            "title": "Google's Top Search Result? Suprise! It's Google",
-            "url": "https://themarkup.org/google-the-giant/2020/07/28/google-search-results-prioritize-google-products-over-competitors",
-            "description": "Search engine explanation",
-            "for": "The Markup",
-            "tags": ["Design", "Development", "Graphics"],
-            "year": 2020
-        },
-        {
-            "title": "Can You Spot the Banned Amazon Item?",
-            "url": "https://themarkup.org/banned-bounty/2020/07/09/amazon-content-moderation-banned-items-quiz",
-            "description": "Marketplace moderation quiz",
-            "for": "The Markup",
-            "tags": ["Design", "Development", "Editing", "Reporting"],
-            "year": 2020
-        },
-        {
-            "title": "Rothko Me",
-            "url": "http://www.rothko.me",
-            "description": "CSS experiment",
-            "for": "Personal Project",
-            "tags": ["Design", "Development"],
-            "year": 2014
-        },
-        {
-            "title": "How to Catch a Catfisher",
-            "url": "https://www.theguardian.com/technology/ng-interactive/2019/feb/20/how-to-catch-a-catfisher",
-            "description": "Feature design",
-            "for": "The Guardian US",
-            "tags": ["Art Direction", "Design", "Development"],
-            "year": 2019
-        },
-        {
-            "title": "Qhuery",
-            "url": "http://www.qhuery.com/",
-            "description": "Responsive colour picker",
-            "for": "Personal Project",
-            "tags": ["Design", "Development"],
-            "year": 2014
-        },
-        {
-            "title": "Split Screen: How Different Are Americans’ Facebook Feeds?",
-            "url": "https://themarkup.org/citizen-browser/2021/03/11/split-screen?feed=biden_trump",
-            "description": "Feed Viewer",
-            "for": "The Markup",
-            "tags": ["Design", "Graphics", "Development", "Art Direction", "Editing"],
-            "year": 2021
-        },
-        {
-            "title": "What's Hiding in Your Groceries?",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/may/29/chemical-checkout-what-might-be-hiding-in-your-groceries",
-            "description": "Interactive checkout tool",
-            "for": "The Guardian US",
-            "tags": ["Art Direction", "Design", "Development", "Editing"],
-            "year": 2019
-        },
-        {
-            "title": "The Austerity Delusion",
-            "url": "https://www.theguardian.com/business/ng-interactive/2015/apr/29/the-austerity-delusion",
-            "description": "Feature design",
-            "for": "The Guardian",
-            "tags": ["Art Direction", "Design", "Development"],
-            "year": 2015
-        },
-        {
-            "title": "US Midterms 2018",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/06/midterm-elections-2018-live-results-latest-winners-and-seats",
-            "description": "Live results tracker",
-            "for": "The Guardian US",
-            "tags": ["Branding", "Design", "Development", "Graphics"],
-            "year": 2019
-        },
-        {
-            "title": "Black Radicals",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/30/america-black-radicals-timeline-in-pictures",
-            "description": "Archival footage timeline",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Editing", "Reporting"],
-            "year": 2018
-        },
-        {
-            "title": "Who Will Run in 2020?",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jan/17/2020-election-candidates-list-democrats-primaries-trump-bernie-sanders-joe-biden-elizabeth-warren-kamala-harris-beto-o-rourke-running",
-            "description": "Presidental candidate tracker",
-            "for": "The Guardian US",
-            "tags": ["Art Direction", "Design", "Development"],
-            "year": 2019
-        },
-        {
-            "title": "Sound of Atlanta",
-            "url": "https://www.theguardian.com/cities/ng-interactive/2018/oct/22/sound-of-atlanta",
-            "description": "Interactive playlist",
-            "for": "The Guardian US",
-            "tags": ["Art Direction", "Design", "Development"],
-            "year": 2018
-        },
-        {
-            "title": "How Much Does a Tech Bro Cost?",
-            "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
-            "description": "Tax giveaway analysis",
-            "for": "The Guardian US",
-            "tags": ["Art Direction", "Design", "Development"],
-            "year": 2018
-        },
-        {
-            "title": "Which Democratic Candidates Are Powered by Fossil Fuels?",
-            "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
-            "description": "Dug up data vis",
-            "for": "The Guardian US",
-            "tags": ["Development", "Graphics", "Editing"],
-            "year": 2019
-        },
-        {
-            "title": "Stonewall at 50",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jun/20/american-family-trans-gender-queer-nonbinary",
-            "description": "Feature design",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development"],
-            "year": 2019
-        },
-        {
-            "title": "Facebook's Terrible 2018",
-            "url": "https://www.theguardian.com/technology/ng-interactive/2018/dec/24/facebook-2018-timeline-year-in-review-privacy-scandals",
-            "description": "Zuckerberg's news feed",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Editing"],
-            "year": 2018
-        },
-        {
-            "title": "How Reflective is The New US Congress?",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/15/new-congress-us-house-of-representatives-senate",
-            "description": "Democratic demographics",
-            "for": "The Guardian US",
-            "tags": ["Development", "Graphics", "Reporting"],
-            "year": 2018
-        },
-        {
-            "title": "Where is Weed Legal in the US?",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/05/americas-marijuana-map-midterm-elections",
-            "description": "Mapping marijuana",
-            "for": "The Guardian US",
-            "tags": ["Development", "Graphics", "Reporting"],
-            "year": 2018
-        },
-        {
-            "title": "Why the Golden Knights are the Best Expansion Team",
-            "url": "https://www.theguardian.com/sport/ng-interactive/2018/may/25/why-the-vegas-golden-knights-are-already-the-best-expansion-team-in-sports",
-            "description": "Started this season, now we're here",
-            "for":"The Guardian US",
-            "tags": ["Design", "Design", "Graphics", "Reporting"],
-            "year": 2018
-        },
-        {
-            "title": "March Madness Bracket Picker",
-            "url": "https://www.theguardian.com/sport/ng-interactive/2018/mar/11/march-madness-2018-mens-bracket-interactive-ncaa-tournament",
-            "description": "Sharable bracket generator",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development"],
-            "year": 2018
-        },
-        {
-            "title": "The Unstoppable Mikaela Shiffrin Wants it All",
-            "url": "https://www.theguardian.com/sport/ng-interactive/2018/feb/10/mikaela-shiffrin-olympics-skiing-medals",
-            "description": "Feature design",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Graphics"],
-            "year": 2018
-        },
-        {
-            "title": "Uber's Terrible 2017",
-            "url": "https://www.theguardian.com/technology/ng-interactive/2017/dec/27/uber-2017-scandals-investigation",
-            "description": "Rocky route",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Editing"],
-            "year": 2017
-        },
-        {
-            "title": "Inside the CIA's Black Site Torture Room",
-            "url": "https://www.theguardian.com/us-news/ng-interactive/2017/oct/09/cia-torture-black-site-enhanced-interrogation",
-            "description": "Feature design",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development", "Editing"],
-            "year": 2017
-        },
-        {
-            "title": "Fall TV Guide",
-            "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2017/sep/05/what-to-watch-tv-guide-netflix-hulu-amazon-hbo",
-            "description": "What to watch",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development"],
-            "year": 2017
-        },
-        {
-            "title": "How to Tell If You Damaged Your Eyes During The Solar Eclipse",
-            "url": "https://www.theguardian.com/science/2017/aug/21/solar-eclipse-eye-damage",
-            "description": "A Simple Test",
-            "for": "The Guardian US",
-            "tags": ["Design", "Development"],
-            "year": 2017
-        },
-        {
-            "title": "What You Need to Know",
-            "url": "https://www.theguardian.com/news/ng-interactive/2017/mar/17/republican-healthcare-explained-repeal-obamacare",
-            "description": "Reusable explainer format",
-            "for": "The Guardian US",
-            "tags": ["Branding", "Design", "Development", "Graphics"],
-            "year": 2017
-        },
-        {
-            "title": "I Love This City",
-            "url": "https://twitter.com/ilovethisbot",
-            "description": "Milton Glaser Twitter bot",
-            "for": "Personal Project",
-            "tags": ["Design", "Development"],
-            "year": 2016
-        },
-        {
-            "title": "Recipe Template",
-            "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2015/sep/04/ruby-tandoh-pear-blackberry-and-coconut-cake-recipe",
-            "description": "Cook-along format",
-            "for": "The Guardian",
-            "tags": ["Design", "Development"],
-            "year": 2015
-        }
-    ]
+  "projects": [
+    {
+      "title": "Hoagie Bracket",
+      "url": "https://www.inquirer.com/news/inq2/best-philadelphia-hoagies-bracket-2022-20220322.html",
+      "description": "OJA award-winning project that lets readers determine what local deli makes the best hoagie in Philadelphia"
+    },
+    {
+      "title": "Stay or Go",
+      "url": "https://www.inquirer.com/phillies/inq2/phillies-roster-decisions-offseason-free-agency-hot-stove-20221109.html",
+      "description": "Design and development for a local sports roster Tinder game"
+    },
+    {
+      "title": "Firings and The Fury",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/05/donald-trump-firings-resignations-white-house-full-list-latest",
+      "description": "A way to keep track of President Trump's ever-changing inside&nbsp;circle. Nominated for an SPD award for original photo-illustration"
+    },
+    {
+      "title": "The Markup",
+      "url": "https://www.themarkup.org",
+      "description": "Design and development for The Markup, a non-profit newsroom that investigates how powerful institutions are using technology to change our society"
+    },
+    {
+      "title": "3,121 Desperate Journeys",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
+      "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance&nbsp;policy. Nominated for an SPD award for digital information graphics"
+    },
+    {
+      "title": "Go Set A Watchman Extract",
+      "url": "https://www.theguardian.com/books/ng-interactive/2015/jul/10/go-set-a-watchman-read-the-first-chapter",
+      "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
+    },
+    {
+      "title": "The World Cook",
+      "url": "http://www.theworldcook.com",
+      "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
+    },
+    {
+      "title": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "description": "Design and development of fronts and special features for the first responsive relaunch of theguardian.com"
+    }
+  ],
+  "otherProjects": [
+    {
+      "title": "Monthly Mix",
+      "url": "http://www.monthly.mx",
+      "description": "Music TV",
+      "for": "Personal Project",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2015
+    },
+    {
+      "title": "Trump-Russia Investigation – The Key Questions",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2017/dec/08/donald-trump-russia-investigation-key-questions-latest-news-collusion-timeline",
+      "description": "Interactive Investigation Pinboard",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Art Direction"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "Are Your Country's Cell Phone Plans a Rip-Off?",
+      "url": "https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country",
+      "description": "Data on Data",
+      "for": "The Markup",
+      "tags": [
+        "Design",
+        "Graphics",
+        "Development",
+        "Reporting"
+      ],
+      "year": 2020
+    },
+    {
+      "title": "Jeopardy! Quiz",
+      "url": "https://www.inquirer.com/entertainment/inq2/ryan-long-philadelphia-jeopardy-trivia-questions-20220607.html",
+      "description": "Let's go to work",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Art Direction",
+        "Reporting"
+      ],
+      "year": 2022
+    },
+    {
+      "title": "Sean Scully",
+      "url": "https://www.inquirer.com/arts/inq2/sean-scully-exhibition-2022-philadelphia-art-museum-20220615.html",
+      "description": "Behind the Art",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Art Direction",
+        "Reporting",
+        "Editing"
+      ],
+      "year": 2022
+    },
+    {
+      "title": "Eagles Uniform Designer",
+      "url": "https://www.inquirer.com/eagles/inq2/philadelphia-eagles-new-uniforms-kelly-midnight-green-history-20220907.html",
+      "description": "Character Creator",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Art Direction",
+        "Editing"
+      ],
+      "year": 2022
+    },
+    {
+      "title": "2022 Midterm Results",
+      "url": "https://www.inquirer.com/politics/election/inq2/pennsylvania-midterm-election-results-2022-20221108.html",
+      "description": "Local Election Dashboard",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Reporting",
+        "Editing"
+      ],
+      "year": 2022
+    },
+    {
+      "title": "What Happened on United 93",
+      "url": "https://www.inquirer.com/news/inq2/shanksville-united-flight-93-what-happened-20210908.html",
+      "description": "Shanksville Explainer",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Reporting",
+        "Editing"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "The Dining Guide 2021",
+      "url": "https://www.inquirer.com/food/inq2/restaurant-guide-philadelphia-inquirer-2021-20211007.html",
+      "description": "Let's Eat, Philly",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "Race to the Senate",
+      "url": "https://www.inquirer.com/politics/election/inq2/us-senate-race-2022-pennsylvania-democrats-republicans-20210823.html",
+      "description": "PA Senate Tracker",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Reporting",
+        "Editing"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "Bryce Harper's Case for Cooperstown",
+      "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-mvp-hall-of-fame-stats-20211116.html",
+      "description": "Inside Baseball",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "Philly at the Olympics",
+      "url": "https://www.inquirer.com/sports/inq2/tokyo-olympics-schedule-philadelphia-athletes-competing-20210723.html",
+      "description": "Competition Calendar",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Reporting"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "BBC Archive",
+      "url": "https://vimeo.com/22552332",
+      "description": "D&AD student award winning pitch",
+      "for": "Personal Project",
+      "tags": [
+        "Design"
+      ],
+      "year": 2011
+    },
+    {
+      "title": "Google's Top Search Result? Suprise! It's Google",
+      "url": "https://themarkup.org/google-the-giant/2020/07/28/google-search-results-prioritize-google-products-over-competitors",
+      "description": "Search engine explanation",
+      "for": "The Markup",
+      "tags": [
+        "Design",
+        "Development",
+        "Graphics"
+      ],
+      "year": 2020
+    },
+    {
+      "title": "Can You Spot the Banned Amazon Item?",
+      "url": "https://themarkup.org/banned-bounty/2020/07/09/amazon-content-moderation-banned-items-quiz",
+      "description": "Marketplace moderation quiz",
+      "for": "The Markup",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2020
+    },
+    {
+      "title": "Rothko Me",
+      "url": "http://www.rothko.me",
+      "description": "CSS experiment",
+      "for": "Personal Project",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2014
+    },
+    {
+      "title": "How to Catch a Catfisher",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2019/feb/20/how-to-catch-a-catfisher",
+      "description": "Feature design",
+      "for": "The Guardian US",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "Qhuery",
+      "url": "http://www.qhuery.com/",
+      "description": "Responsive colour picker",
+      "for": "Personal Project",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2014
+    },
+    {
+      "title": "Split Screen: How Different Are Americans’ Facebook Feeds?",
+      "url": "https://themarkup.org/citizen-browser/2021/03/11/split-screen?feed=biden_trump",
+      "description": "Feed Viewer",
+      "for": "The Markup",
+      "tags": [
+        "Design",
+        "Graphics",
+        "Development",
+        "Art Direction",
+        "Editing"
+      ],
+      "year": 2021
+    },
+    {
+      "title": "What's Hiding in Your Groceries?",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2019/may/29/chemical-checkout-what-might-be-hiding-in-your-groceries",
+      "description": "Interactive checkout tool",
+      "for": "The Guardian US",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "The Austerity Delusion",
+      "url": "https://www.theguardian.com/business/ng-interactive/2015/apr/29/the-austerity-delusion",
+      "description": "Feature design",
+      "for": "The Guardian",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2015
+    },
+    {
+      "title": "US Midterms 2018",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/06/midterm-elections-2018-live-results-latest-winners-and-seats",
+      "description": "Live results tracker",
+      "for": "The Guardian US",
+      "tags": [
+        "Branding",
+        "Design",
+        "Development",
+        "Graphics"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "Black Radicals",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/30/america-black-radicals-timeline-in-pictures",
+      "description": "Archival footage timeline",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "Who Will Run in 2020?",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jan/17/2020-election-candidates-list-democrats-primaries-trump-bernie-sanders-joe-biden-elizabeth-warren-kamala-harris-beto-o-rourke-running",
+      "description": "Presidental candidate tracker",
+      "for": "The Guardian US",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "Sound of Atlanta",
+      "url": "https://www.theguardian.com/cities/ng-interactive/2018/oct/22/sound-of-atlanta",
+      "description": "Interactive playlist",
+      "for": "The Guardian US",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "How Much Does a Tech Bro Cost?",
+      "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
+      "description": "Tax giveaway analysis",
+      "for": "The Guardian US",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "Which Democratic Candidates Are Powered by Fossil Fuels?",
+      "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
+      "description": "Dug up data vis",
+      "for": "The Guardian US",
+      "tags": [
+        "Development",
+        "Graphics",
+        "Editing"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "Stonewall at 50",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jun/20/american-family-trans-gender-queer-nonbinary",
+      "description": "Feature design",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2019
+    },
+    {
+      "title": "Facebook's Terrible 2018",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2018/dec/24/facebook-2018-timeline-year-in-review-privacy-scandals",
+      "description": "Zuckerberg's news feed",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "How Reflective is The New US Congress?",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/15/new-congress-us-house-of-representatives-senate",
+      "description": "Democratic demographics",
+      "for": "The Guardian US",
+      "tags": [
+        "Development",
+        "Graphics",
+        "Reporting"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "Where is Weed Legal in the US?",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/nov/05/americas-marijuana-map-midterm-elections",
+      "description": "Mapping marijuana",
+      "for": "The Guardian US",
+      "tags": [
+        "Development",
+        "Graphics",
+        "Reporting"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "Why the Golden Knights are the Best Expansion Team",
+      "url": "https://www.theguardian.com/sport/ng-interactive/2018/may/25/why-the-vegas-golden-knights-are-already-the-best-expansion-team-in-sports",
+      "description": "Started this season, now we're here",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Design",
+        "Graphics",
+        "Reporting"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "March Madness Bracket Picker",
+      "url": "https://www.theguardian.com/sport/ng-interactive/2018/mar/11/march-madness-2018-mens-bracket-interactive-ncaa-tournament",
+      "description": "Sharable bracket generator",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "The Unstoppable Mikaela Shiffrin Wants it All",
+      "url": "https://www.theguardian.com/sport/ng-interactive/2018/feb/10/mikaela-shiffrin-olympics-skiing-medals",
+      "description": "Feature design",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Graphics"
+      ],
+      "year": 2018
+    },
+    {
+      "title": "Uber's Terrible 2017",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2017/dec/27/uber-2017-scandals-investigation",
+      "description": "Rocky route",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "Inside the CIA's Black Site Torture Room",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2017/oct/09/cia-torture-black-site-enhanced-interrogation",
+      "description": "Feature design",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "Fall TV Guide",
+      "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2017/sep/05/what-to-watch-tv-guide-netflix-hulu-amazon-hbo",
+      "description": "What to watch",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "How to Tell If You Damaged Your Eyes During The Solar Eclipse",
+      "url": "https://www.theguardian.com/science/2017/aug/21/solar-eclipse-eye-damage",
+      "description": "A Simple Test",
+      "for": "The Guardian US",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "What You Need to Know",
+      "url": "https://www.theguardian.com/news/ng-interactive/2017/mar/17/republican-healthcare-explained-repeal-obamacare",
+      "description": "Reusable explainer format",
+      "for": "The Guardian US",
+      "tags": [
+        "Branding",
+        "Design",
+        "Development",
+        "Graphics"
+      ],
+      "year": 2017
+    },
+    {
+      "title": "I Love This City",
+      "url": "https://twitter.com/ilovethisbot",
+      "description": "Milton Glaser Twitter bot",
+      "for": "Personal Project",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2016
+    },
+    {
+      "title": "Recipe Template",
+      "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2015/sep/04/ruby-tandoh-pear-blackberry-and-coconut-cake-recipe",
+      "description": "Cook-along format",
+      "for": "The Guardian",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2015
+    }
+  ]
 }
