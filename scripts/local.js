@@ -22,16 +22,16 @@ watch(['src', 'data.json'], { recursive: true }, function(event, file) {
 
     if (isAssets) {
         console.log('updating static assets');
-        cmd.get('npm run compile -- local static', function(data) { console.log(data); });
+        cmd.run('npm run compile -- local static', function(data) { console.log(data); });
     } else if (fileExt === 'html' || fileExt === 'svg' || fileExt === 'json') {
         console.log('updating html');
-        cmd.get('npm run compile -- local html', function(data) { console.log(data); });
+        cmd.run('npm run compile -- local html', function(data) { console.log(data); });
     } else if (fileExt === 'scss') {
         console.log('updating css');
-        cmd.get('npm run compile -- local css', function(data) { console.log(data); });
+        cmd.run('npm run compile -- local css', function(data) { console.log(data); });
     } else if (fileExt === 'js') {
         console.log('updating js');
-        cmd.get('npm run compile -- local js', function(data) { console.log(data); });
+        cmd.run('npm run compile -- local js', function(data) { console.log(data); });
     } else {
         console.log('non-watchable file extension changed :' + fileExt);
     }
