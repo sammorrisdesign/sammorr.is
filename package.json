@@ -19,20 +19,20 @@
         "url": "https://github.com/sammorrisdesign/sammorr.is/issues"
     },
     "homepage": "https://github.com/sammorrisdesign/sammorr.is#readme",
-    "devDependencies": {
-        "browser-sync": "^2.26.3",
-        "deasync": "^0.1.14",
+    "dependencies": {
+        "browser-sync": "^2.27.11",
+        "deasync": "^0.1.28",
         "document-offset": "^1.0.4",
-        "fs-extra": "^7.0.1",
-        "glob": "^7.1.3",
-        "handlebars": "^4.0.12",
-        "node-cmd": "^3.0.0",
-        "node-sass": "^4.11.0",
-        "node-watch": "^0.6.0",
-        "rollup": "^1.1.0",
-        "rollup-plugin-babel-minify": "^6.2.0",
-        "rollup-plugin-commonjs": "^9.2.0",
-        "rollup-plugin-node-resolve": "^4.0.0",
-        "ssh2-sftp-client": "^2.4.3"
+        "fs-extra": "^11.1.0",
+        "glob": "^8.0.3",
+        "handlebars": "^4.7.7",
+        "node-cmd": "^5.0.0",
+        "node-sass": "^8.0.0",
+        "node-watch": "^0.7.3",
+        "rollup": "^3.8.1",
+        "rollup-plugin-babel-minify": "^10.0.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "ssh2-sftp-client": "^9.0.4"
     }
 }

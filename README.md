@@ -5,7 +5,7 @@ It's my online portfolio. View the live version at [sammorr.is](http://www.sammo
 
 ## Requirements
 
-* [Node](https://nodejs.org/en/) Built using v11.4.0.
+* [Node](https://nodejs.org/en/) Built using v16.13.1.
 
 ## Installation
 
