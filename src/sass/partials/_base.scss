@@ -1,55 +1,55 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    margin: 0;
-    font-family: $sans-serif;
-    text-rendering: optimizeLegibility;
-    background-color: $light-blue;
+  margin: 0;
+  font-family: $sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: $light-blue;
 }
 
 a {
-    color: $blue;
-    border-bottom: 1px solid transparent;
-    transition: border 0.4s linear;
-    text-decoration: none;
+  color: $blue;
+  border-bottom: 1px solid transparent;
+  transition: border 0.4s linear;
+  text-decoration: none;
 
-    &:hover {
-        border-bottom-color: $blue;
-    }
+  &:hover {
+    border-bottom-color: $blue;
+  }
 
-    &:active {
-        position: relative;
-        top: 1px;
-    }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
 }
 
 main {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .container {
-    position: relative;
-    z-index: 2;
-    padding: 10px 20px;
-    margin: 0 auto;
-    cursor: default;
+  position: relative;
+  z-index: 2;
+  padding: 10px 20px;
+  margin: 0 auto;
+  cursor: default;
 
-    @include mq(tablet) {
-        width: 700px;
-    }
+  @include mq(tablet) {
+    width: 700px;
+  }
 
-    @include mq(desktop) {
-        width: 1000px;
-    }
+  @include mq(desktop) {
+    width: 1000px;
+  }
 
-    @include mq(wide) {
-        width: 1240px;
-    }
+  @include mq(wide) {
+    width: 1240px;
+  }
 }
 
 ::selection {
-    background-color: $black;
-    color: $light-blue;
+  background-color: $black;
+  color: $light-blue;
 }

@@ -1,40 +1,40 @@
 .grid {
-    position: fixed;
-    z-index: 1;
-    display: grid;
-    grid: calc(100vh + 200px) / 1fr 1fr 40px;
-    pointer-events: none;
-    top: -100px;
-    left: 0;
-    right: 0;
-    bottom: -100px;
-    margin: 0 10px;
-    padding: 0 10px;
-    border-left: 1px solid $blue;
-    border-right: 1px solid $blue;
+  position: fixed;
+  z-index: 1;
+  display: grid;
+  grid: calc(100vh + 200px) / 1fr 1fr 40px;
+  pointer-events: none;
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: -100px;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-left: 1px solid $blue;
+  border-right: 1px solid $blue;
 
-    @include mq(tablet) {
-        margin: auto;
-    }
+  @include mq(tablet) {
+    margin: auto;
+  }
 
-    @include mq(desktop) {
-        grid: calc(100vh + 200px) / 230px 50px 230px 230px 230px;
-        grid-column-gap: 10px;
-        margin: auto;
-    }
+  @include mq(desktop) {
+    grid: calc(100vh + 200px) / 230px 50px 230px 230px 230px;
+    grid-column-gap: 10px;
+    margin: auto;
+  }
 
-    @include mq(wide) {
-        grid: calc(100vh + 200px) / 290px 50px 290px 290px 290px;
-    }
+  @include mq(wide) {
+    grid: calc(100vh + 200px) / 290px 50px 290px 290px 290px;
+  }
 }
 
 .grid__section {
-    border-right: 1px solid $blue;
+  border-right: 1px solid $blue;
 }
 
 .grid__section--3,
 .grid__section--4 {
-    @include mq($until: desktop) {
-        display: none;
-    }
+  @include mq($until: desktop) {
+    display: none;
+  }
 }

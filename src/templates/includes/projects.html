@@ -1,42 +1,44 @@
 <svg class='project__filter' xmlns='http://www.w3.org/2000/svg' class='svg-filters'>
   <filter id='duotone'>
-      <feComponentTransfer color-interpolation-filters='sRGB' result='duotone'>
-        <feFuncR type='table' tableValues='0.050980392 0.835294118'></feFuncR>
-        <feFuncG type='table' tableValues='0.392156863 0.949019608'></feFuncG>
-        <feFuncB type='table' tableValues='0.956862745 0.949019608'></feFuncB>
-        <feFuncA type='table' tableValues='0.1 1'></feFuncA>
-      </feComponentTransfer>
+    <feComponentTransfer color-interpolation-filters='sRGB' result='duotone'>
+      <feFuncR type='table' tableValues='0.050980392 0.835294118'></feFuncR>
+      <feFuncG type='table' tableValues='0.392156863 0.949019608'></feFuncG>
+      <feFuncB type='table' tableValues='0.956862745 0.949019608'></feFuncB>
+      <feFuncA type='table' tableValues='0.1 1'></feFuncA>
+    </feComponentTransfer>
   </filter>
 </svg>
 
 {{#each projects}}
 <div class='project is-step'>
-    <div class='container'>
-        <div class='project__wrapper'>
-            <div class='project__content'>
-                <div class='project__video-crop'>
-                    <video class='project__video project__video--filtered' preload='auto' playsinline loop muted  autobuffer='false' poster='{{ ../path }}/assets/images/projects/{{ handlise title }}.jpg'>
-                        <source src='{{ ../path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
-                        <source src='{{ ../path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
-                    </video>
-                    <video class='project__video' preload='auto' playsinline loop muted autobuffer='false' poster='{{ ../path }}/assets/images/projects/{{ handlise title }}.jpg'>
-                        <source src='{{ ../path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
-                        <source src='{{ ../path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
-                    </video>
-                </div>
-            </div>
-            <div class='project__about'>
-                <a class='project__link' href='{{ url }}' target='_blank'>
-                    <h3 class='project__title'>
-                        {{ title }}
-                    </h3>
-                    <img class='project__arrow' src='{{ ../path }}/assets/images/link.svg' />
-                </a>
-                <div class='project__description'>
-                    {{{ description }}}
-                </div>
-            </div>
+  <div class='container'>
+    <div class='project__wrapper'>
+      <div class='project__content'>
+        <div class='project__video-crop'>
+          <video class='project__video project__video--filtered' preload='auto' playsinline loop muted
+            autobuffer='false' poster='{{ ../path }}/assets/images/projects/{{ handlise title }}.jpg'>
+            <source src='{{ ../path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
+            <source src='{{ ../path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
+          </video>
+          <video class='project__video' preload='auto' playsinline loop muted autobuffer='false'
+            poster='{{ ../path }}/assets/images/projects/{{ handlise title }}.jpg'>
+            <source src='{{ ../path }}/assets/videos/{{ handlise title }}.mp4' type='video/mp4'>
+            <source src='{{ ../path }}/assets/videos/{{ handlise title }}.webm' type='video/webm'>
+          </video>
         </div>
+      </div>
+      <div class='project__about'>
+        <a class='project__link' href='{{ url }}' target='_blank'>
+          <h3 class='project__title'>
+            {{ title }}
+          </h3>
+          <img class='project__arrow' src='{{ ../path }}/assets/images/link.svg' />
+        </a>
+        <div class='project__description'>
+          {{{ description }}}
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 {{/each}}
