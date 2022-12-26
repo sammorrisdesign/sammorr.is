@@ -1,70 +1,91 @@
 header .container {
-    @include mq($until: tablet) {
-        padding-right: 70px;
-    }
+  @include mq($until: tablet) {
+    padding-right: 70px;
+  }
 
-    @include mq(desktop) {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        min-height: 300px;
-    }
+  @include mq(desktop) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    min-height: 300px;
+  }
 }
 
 .header__menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
-    @include mq($until: desktop) {
-        position: absolute;
-        left: calc(50% - 10px);
-        top: 10px;
-    }
+  @include mq($until: desktop) {
+    position: absolute;
+    left: calc(50% - 10px);
+    top: 10px;
+  }
 
-    @include mq(desktop) {
-        width: 160px;
-    }
+  @include mq(desktop) {
+    width: 160px;
+  }
 }
 
 .header__menu-item {
-    display: block;
-    font-size: $font-size-body;
-    line-height: $line-height-body;
+  display: block;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
 }
 
 .header__content {
-    margin: 0 0 60px 0;
-    font-size: $font-size-body;
-    line-height: $line-height-body;
-    font-weight: normal;
+  margin-bottom: 60px;
 
-    @include mq(tablet) {
-        width: 640px;
-    }
+  @include mq(tablet) {
+    width: 640px;
+  }
 
-    @include mq(desktop) {
-        margin: 0;
-        margin-top: -4px;
-        width: 700px;
-        font-size: $font-size-large;
-        line-height: $line-height-large;
-    }
+  @include mq(desktop) {
+    margin-top: -4px;
+    width: 700px;
+  }
 
-    @include mq(wide) {
-        width: 580px;
-        padding-right: 300px;
-    }
+  @include mq(wide) {
+    width: 880px;
+  }
 }
 
-.header__content-highlight {
-    background-color: $light-blue;
-    box-shadow: $light-blue 0 12px; // find better method of doing this so grid lines stop at baselines
+.header__title {
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  font-weight: normal;
+  margin: 0 0 24px 0;
+  max-width: 480px;
+
+  @include mq(desktop) {
+    font-size: $font-size-large;
+    line-height: $line-height-large;
+  }
+}
+
+.header__subtitle {
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  font-weight: normal;
+  margin: 0 0 12px 0;
+
+  &--past {
+    color: $dark-grey;
+  }
 }
 
 .header__name {
-    @include mq($until: desktop) {
-        margin-bottom: 3.5em;
-        display: inline-block;
-    }
+  @include mq($until: desktop) {
+    margin-bottom: 5em;
+    display: inline-block;
+  }
+}
+
+.header__content-section {
+  display: block;
+}
+
+.header__content-highlight {
+  background-color: $light-blue;
+  box-shadow: $light-blue 0 3px, $light-blue 0 -3px;
 }
