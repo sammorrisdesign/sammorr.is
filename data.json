@@ -58,6 +58,46 @@
             "year": 2020
         },
         {
+            "title": "Hoagie Bracket",
+            "url": "https://www.inquirer.com/news/inq2/best-philadelphia-hoagies-bracket-2022-20220322.html",
+            "description": "Sandwich Selection",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Art Direction", "Editing"],
+            "year": 2022
+        },
+        {
+            "title": "Jeopardy! Quiz",
+            "url": "https://www.inquirer.com/entertainment/inq2/ryan-long-philadelphia-jeopardy-trivia-questions-20220607.html",
+            "description": "Let's go to work",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Art Direction", "Reporting"],
+            "year": 2022
+        },
+        {
+            "title": "Sean Scully",
+            "url": "https://www.inquirer.com/arts/inq2/sean-scully-exhibition-2022-philadelphia-art-museum-20220615.html",
+            "description": "Behind the Art",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Art Direction", "Reporting", "Editing"],
+            "year": 2022
+        },
+        {
+            "title": "Eagles Uniform Designer",
+            "url": "https://www.inquirer.com/eagles/inq2/philadelphia-eagles-new-uniforms-kelly-midnight-green-history-20220907.html",
+            "description": "Character Creator",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Art Direction", "Editing"],
+            "year": 2022
+        },
+        {
+            "title": "2022 Midterm Results",
+            "url": "https://www.inquirer.com/politics/election/inq2/pennsylvania-midterm-election-results-2022-20221108.html",
+            "description": "Local Election Dashboard",
+            "for": "The Philadelphia Inquirer",
+            "tags": ["Design", "Development", "Reporting", "Editing"],
+            "year": 2022
+        },
+        {
             "title": "What Happened on United 93",
             "url": "https://www.inquirer.com/news/inq2/shanksville-united-flight-93-what-happened-20210908.html",
             "description": "Shanksville Explainer",
