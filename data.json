@@ -31,17 +31,96 @@
       "description": "Art direction, design and development for an exclusive extract of Harper Lee’s second&nbsp;novel"
     },
     {
-      "title": "The World Cook",
-      "url": "http://www.theworldcook.com",
-      "description": "Design, development and photography for an interactive cookbook of recipes from all 32 nations at the 2018 FIFA World&nbsp;Cup"
-    },
-    {
       "title": "The Guardian",
       "url": "https://www.theguardian.com",
       "description": "Design and development of fronts and special features for the first responsive relaunch of theguardian.com"
     }
   ],
   "otherProjects": [
+    {
+      "title": "All 300 Bryce Harper Home Runs",
+      "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-home-run-phillies-300-nationals-20230829.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Graphics"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "Philadelphia 2023 Primary Results",
+      "url": "https://www.inquirer.com/politics/election/inq2/philly-election-results-2023-mayoral-city-council-20230516.html",
+      "description": "",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "How SEPTA's Bus Revolution could impact you",
+      "url": "https://www.inquirer.com/transportation/inq2/septa-bus-revolution-routes-schedules-wait-times-map-20230420.html",
+      "description": "Route planner",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Graphics",
+        "Reporting"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "The Cheesesteak Bracket",
+      "url": "https://www.inquirer.com/food/inq2/best-philly-cheesesteak-bracket-20230321.html",
+      "description": "Wit Wiz",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "Philly's flag is bad, design a better one",
+      "url": "https://www.inquirer.com/opinion/inq2/philadelphia-flag-design-your-own-20230307.html",
+      "description": "Best Betsy",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "Birdle",
+      "url": "https://www.inquirer.com/eagles/inq2/eagles-super-bowl-word-game-birdle-20230206.html",
+      "description": "Go Words",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "Jersey Shore Sandfill",
+      "url": "https://www.inquirer.com/science/climate/inq2/new-jersey-beaches-sand-erosion-storms-replenishment-20220825.html",
+      "description": "Sandstorm",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development",
+        "Reporting"
+      ],
+      "year": 2022
+    },
     {
       "title": "Monthly Mix",
       "url": "http://www.monthly.mx",
@@ -59,9 +138,9 @@
       "description": "Interactive investigation pinboard",
       "for": "The Guardian US",
       "tags": [
+        "Art Direction",
         "Design",
-        "Development",
-        "Art Direction"
+        "Development"
       ],
       "year": 2017
     },
@@ -394,6 +473,17 @@
         "Development"
       ],
       "year": 2019
+    },
+    {
+      "title": "The World Cook",
+      "url": "http://www.theworldcook.com",
+      "description": "Football cookbook",
+      "for": "Personal Project",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2018
     },
     {
       "title": "Facebook's Terrible 2018",

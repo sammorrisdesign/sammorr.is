@@ -53,7 +53,8 @@
 
 .other__description,
 .other__tags,
-.other__meta {
+.other__meta,
+.other__link {
   font-size: $font-size-body;
   line-height: $line-height-body;
 
@@ -67,8 +68,7 @@
   }
 }
 
-.other__tags,
-.other__meta {
+.other__tags {
   display: none;
 
   @include mq(desktop) {
@@ -76,10 +76,8 @@
   }
 }
 
-
 .other__link {
   position: relative;
-  width: 100%;
   display: block;
   border: none;
 
@@ -150,12 +148,22 @@
   }
 }
 
-
 .other__meta {
+  display: flex;
+  justify-content: flex-start;
   margin-right: 0;
 
   @include mq(desktop) {
-    display: flex;
     justify-content: space-between;
+  }
+}
+
+.other__for {
+  &:after {
+    content: ",\00a0";
+
+    @include mq(desktop) {
+      content: '';
+    }
   }
 }
