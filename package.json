@@ -6,8 +6,7 @@
         "compile": "node scripts/compile.js false",
         "prestart": "npm run compile",
         "start": "node scripts/local.js",
-        "predeploy": "node scripts/compile.js true",
-        "deploy": "node scripts/deploy.js"
+        "deploy": "node scripts/compile.js true"
     },
     "repository": {
         "type": "git",
