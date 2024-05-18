@@ -15,10 +15,6 @@ For first time usage, run `npm install` to get the required dependancies.
 
 From then on use `npm run start` to watch for changes to the SASS, JS and Handlebars templates. When running locally, visit [Localhost:8000](http://localhost:8000) to view.
 
-## Deployment
-
-To prepare for deploy you need to duplicate `config.example.json`, name it `config.json` and populate the file with the server information. From then on you can run `npm run deploy` to deploy.
-
 ## Video Capture Process
 
 Footage recorded in Chrome with [Nimbus](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en) at 1280x720 viewport - set using the [window resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) extension.
