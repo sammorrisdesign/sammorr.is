@@ -1,6 +1,6 @@
 var fs = require('fs-extra');
 var handlebars = require('handlebars');
-var sass = require('node-sass');
+var sass = require('sass');
 var deasync = require('deasync');
 var glob = require('glob');
 var rollup = require('rollup');

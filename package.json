@@ -21,18 +21,18 @@
     "homepage": "https://github.com/sammorrisdesign/sammorr.is#readme",
     "dependencies": {
         "browser-sync": "^2.27.11",
-        "deasync": "^0.1.28",
+        "deasync": "^0.1.29",
         "document-offset": "^1.0.4",
         "fs-extra": "^11.1.0",
         "glob": "^8.0.3",
         "handlebars": "^4.7.7",
         "node-cmd": "^5.0.0",
-        "node-sass": "^8.0.0",
         "node-watch": "^0.7.3",
         "rollup": "^3.8.1",
         "rollup-plugin-babel-minify": "^10.0.0",
         "rollup-plugin-commonjs": "^10.1.0",
         "rollup-plugin-node-resolve": "^5.2.0",
+        "sass": "^1.77.2",
         "ssh2-sftp-client": "^9.0.4"
     }
 }
