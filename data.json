@@ -13,7 +13,7 @@
     {
       "title": "Firings and The Fury",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/05/donald-trump-firings-resignations-white-house-full-list-latest",
-      "description": "A way to keep track of President Trump's ever-changing inside&nbsp;circle. Nominated for an SPD award for original photo-illustration"
+      "description": "A way to keep track of President Trump’s ever-changing inside&nbsp;circle. Nominated for an SPD award for original photo-illustration"
     },
     {
       "title": "The Markup",
@@ -23,7 +23,7 @@
     {
       "title": "3,121 Desperate Journeys",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
-      "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump's zero tolerance&nbsp;policy. Nominated for an SPD award for digital information graphics"
+      "description": "Data visualisation and art direction for a piece looking at the human cost behind Trump’s zero tolerance&nbsp;policy. Nominated for an SPD award for digital information graphics"
     },
     {
       "title": "Go Set A Watchman Extract",
@@ -38,6 +38,74 @@
   ],
   "otherProjects": [
     {
+      "title": "Let’s Chat Wrestlemania",
+      "url": "https://www.inquirer.com/sports/inq2/wrestlemania-40-philadelphia-history-salary-storylines-is-it-fake-20240328.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Horse-95",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/horse-i-95-highway-game-20240222.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Where in Philly were these film scenes shot?",
+      "url": "https://www.inquirer.com/entertainment/movies/inq2/philly-movie-location-guesser-game-20240116.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Philly’s restaurant scene is having a moment",
+      "url": "https://www.inquirer.com/food/inq2/philadelphia-restaurants-award-winners-20240124.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "One Hundred and Fifty Years of Philly’s Chinatown",
+      "url": "https://www.inquirer.com/history/inq2/chinatown-history-timeline-development-arena-20231128.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "SEPTA’s classic trolleys. Take a look inside",
+      "url": "https://www.inquirer.com/transportation/inq2/septa-refurbished-trolleys-route-15-photos-20230906.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2023
+    },
+    {
       "title": "All 300 Bryce Harper Home Runs",
       "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-home-run-phillies-300-nationals-20230829.html",
       "for": "The Philadelphia Inquirer",
@@ -45,6 +113,15 @@
         "Design",
         "Development",
         "Graphics"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "How Pennsylvania's schools are funded",
+      "url": "https://www.inquirer.com/education/inq2/how-pennsylvania-school-district-funding-formula-works-20230906.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
       ],
       "year": 2023
     },
@@ -60,7 +137,7 @@
       "year": 2023
     },
     {
-      "title": "How SEPTA's Bus Revolution could impact you",
+      "title": "How SEPTA’s Bus Revolution could impact you",
       "url": "https://www.inquirer.com/transportation/inq2/septa-bus-revolution-routes-schedules-wait-times-map-20230420.html",
       "description": "Route planner",
       "for": "The Philadelphia Inquirer",
@@ -85,7 +162,7 @@
       "year": 2023
     },
     {
-      "title": "Philly's flag is bad, design a better one",
+      "title": "Philly’s flag is bad, design a better one",
       "url": "https://www.inquirer.com/opinion/inq2/philadelphia-flag-design-your-own-20230307.html",
       "description": "Best Betsy",
       "for": "The Philadelphia Inquirer",
@@ -155,7 +232,7 @@
       "year": 2022
     },
     {
-      "title": "Are Your Country's Cell Phone Plans a Rip-Off?",
+      "title": "Are Your Country’s Cell Phone Plans a Rip-Off?",
       "url": "https://themarkup.org/2020/09/03/cost-speed-of-mobile-data-by-country",
       "description": "Data on data",
       "for": "The Markup",
@@ -170,7 +247,7 @@
     {
       "title": "Jeopardy! Quiz",
       "url": "https://www.inquirer.com/entertainment/inq2/ryan-long-philadelphia-jeopardy-trivia-questions-20220607.html",
-      "description": "Let's go to work",
+      "description": "Let’s go to work",
       "for": "The Philadelphia Inquirer",
       "tags": [
         "Design",
@@ -236,7 +313,7 @@
     {
       "title": "The Dining Guide 2021",
       "url": "https://www.inquirer.com/food/inq2/restaurant-guide-philadelphia-inquirer-2021-20211007.html",
-      "description": "Let's Eat, Philly",
+      "description": "Let’s Eat, Philly",
       "for": "The Philadelphia Inquirer",
       "tags": [
         "Design",
@@ -258,7 +335,7 @@
       "year": 2021
     },
     {
-      "title": "Bryce Harper's Case for Cooperstown",
+      "title": "Bryce Harper’s Case for Cooperstown",
       "url": "https://www.inquirer.com/phillies/inq2/bryce-harper-mvp-hall-of-fame-stats-20211116.html",
       "description": "Inside baseball",
       "for": "The Philadelphia Inquirer",
@@ -292,7 +369,7 @@
       "year": 2011
     },
     {
-      "title": "Google's Top Search Result? Suprise! It's Google",
+      "title": "Google’s Top Search Result? Suprise! It’s Google",
       "url": "https://themarkup.org/google-the-giant/2020/07/28/google-search-results-prioritize-google-products-over-competitors",
       "description": "Search engine explanation",
       "for": "The Markup",
@@ -365,7 +442,7 @@
       "year": 2021
     },
     {
-      "title": "What's Hiding in Your Groceries?",
+      "title": "What’s Hiding in Your Groceries?",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2019/may/29/chemical-checkout-what-might-be-hiding-in-your-groceries",
       "description": "Interactive checkout tool",
       "for": "The Guardian US",
@@ -453,7 +530,7 @@
     },
     {
       "title": "Which Democratic Candidates Are Powered by Fossil Fuels?",
-      "url": "https://www.theguardian.com/cities/ng-interactive/2018/jul/02/how-much-does-a-tech-bro-cost",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2019/jun/20/democrats-2020-fossil-fuel-donations",
       "description": "Dug up data vis",
       "for": "The Guardian US",
       "tags": [
@@ -486,9 +563,9 @@
       "year": 2018
     },
     {
-      "title": "Facebook's Terrible 2018",
+      "title": "Facebook’s Terrible 2018",
       "url": "https://www.theguardian.com/technology/ng-interactive/2018/dec/24/facebook-2018-timeline-year-in-review-privacy-scandals",
-      "description": "Zuckerberg's news feed",
+      "description": "Zuckerberg’s news feed",
       "for": "The Guardian US",
       "tags": [
         "Design",
@@ -524,7 +601,7 @@
     {
       "title": "Why the Golden Knights are the Best Expansion Team",
       "url": "https://www.theguardian.com/sport/ng-interactive/2018/may/25/why-the-vegas-golden-knights-are-already-the-best-expansion-team-in-sports",
-      "description": "Started this season, now we're here",
+      "description": "Started this season, now we’re here",
       "for": "The Guardian US",
       "tags": [
         "Design",
@@ -558,7 +635,7 @@
       "year": 2018
     },
     {
-      "title": "Uber's Terrible 2017",
+      "title": "Uber’s Terrible 2017",
       "url": "https://www.theguardian.com/technology/ng-interactive/2017/dec/27/uber-2017-scandals-investigation",
       "description": "Rocky route",
       "for": "The Guardian US",
@@ -570,7 +647,7 @@
       "year": 2017
     },
     {
-      "title": "Inside the CIA's Black Site Torture Room",
+      "title": "Inside the CIA’s Black Site Torture Room",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2017/oct/09/cia-torture-black-site-enhanced-interrogation",
       "description": "Feature design",
       "for": "The Guardian US",
