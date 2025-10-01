@@ -86,6 +86,24 @@
       "year": 2025
     },
     {
+      "title": "How common is your dog's name?",
+      "url": "https://www.inquirer.com/health/pets/inq2/top-dog-names-breeds-philly-20250726.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Can you avoid parking tickets?",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/ppa-car-parking-fine-data-quiz-20250716.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
       "title": "Rum Ham Hunt",
       "url": "https://www.inquirer.com/entertainment/tv/inq2/always-sunny-rum-ham-hunt-game-20250806.html",
       "for": "The Philadelphia Inquirer",
@@ -111,6 +129,25 @@
       "year": 2025
     },
     {
+      "title": "How Philly heat waves have intensified in your lifetime",
+      "url": "https://www.inquirer.com/weather/inq2/philly-heatwave-lifetime-increase-study-data-20250620.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Treasure Hunter",
+      "url": "https://www.inquirer.com/arts/inq2/stained-glass-repair-salvage-old-church-comic-20250708.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
       "title": "Where in Philly? A Geoguesser game",
       "url": "https://www.inquirer.com/history/inq2/historic-philly-geo-guesser-location-quiz-20250701.html",
       "for": "The Philadelphia Inquirer",
@@ -124,6 +161,16 @@
       "year": 2025
     },
     {
+      "title": "Philly's most dangerous intersection",
+      "url": "https://www.inquirer.com/transportation/inq2/broad-germantown-erie-intersection-design-vision-zero-20250721.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
       "title": "Who should the Sixers draft?",
       "url": "https://www.inquirer.com/sixers/inq2/sixers-nba-draft-lottery-vote-bailey-edgecombe-20250619.html",
       "for": "The Philadelphia Inquirer",
@@ -131,6 +178,24 @@
         "Art Direction",
         "Design",
         "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Pennsylvania uncorked",
+      "url": "https://www.inquirer.com/food/drink/inq2/pennsylvania-fine-wine-good-spirits-sales-data-uncorked-20250425.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Navigating the green card maze",
+      "url": "https://www.inquirer.com/politics/nation/inq2/green-card-process-philadelphia-legal-immigration-rates-20250417.html",
+      "tags": [
+        "Editing"
       ],
       "year": 2025
     },
@@ -147,6 +212,16 @@
        "year": 2025
     },
     {
+      "title": "How much the scrapped Sixers arena cost",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/76-place-cost-taxpayers-mayor-council-hearings-20250117.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2025
+    },
+    {
       "title": "How Cooper DeJean won the Super Bowl",
       "url": "https://www.inquirer.com/eagles/inq2/eagles-play-cooper-dejean-pick-six-analysis-play-20250211.html",
       "for": "The Philadelphia Inquirer",
@@ -156,6 +231,16 @@
         "Editing"
       ],
       "year": 2025
+    },
+    {
+      "title": "How Philly celebrated the Super Bowl win",
+      "url": "https://www.inquirer.com/eagles/inq2/eagles-fans-broad-street-celebration-super-bowl-20250210.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ]
     },
     {
       "title": "Dance Dance Celebration",
@@ -203,6 +288,23 @@
       "year": 2024
     },
     {
+      "title": "Did Mayor Parker clean up plan work?",
+      "url": "https://www.inquirer.com/politics/philadelphia/inq2/clean-every-block-plan-philadelphia-before-after-20241008.html",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "What is it like to sing in a choir",
+      "url": "https://www.inquirer.com/arts/inq2/feels-sing-animated-philadelphia-symphonic-choir-orchestra-20240718.html",
+      "tags": [
+        "Editing",
+        "Art Direction"
+      ],
+      "year": 2024
+    },
+    {
       "title": "Let’s Chat Wrestlemania",
       "url": "https://www.inquirer.com/sports/inq2/wrestlemania-40-philadelphia-history-salary-storylines-is-it-fake-20240328.html",
       "for": "The Philadelphia Inquirer",
@@ -222,6 +324,24 @@
         "Art Direction",
         "Design",
         "Development",
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Joel Embiid injury tracker",
+      "url": "https://www.inquirer.com/sixers/inq2/joel-embiid-injury-status-current-history-20250129.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "How your kids are being taught to read",
+      "url": "https://www.inquirer.com/news/inq2/year-in-interactives-best-visual-stories-20241219.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
         "Editing"
       ],
       "year": 2024
