@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "title": "Five neighbors, four months later",
+      "url": "https://share.inquirer.com/Wk3xnl",
+      "description": "A timeline of five neighbors after a plane crashed on their street, told from their perspective"
+    },
+    {
+      "title": "Ask-a-centenarian",
+      "url": "https://share.inquirer.com/AJdPo0",
+      "description": "Ask a panel of Pennsylvanians over 100 years old for advice, wisdom, and thoughts on a life well-lived"
+    },
+    {
+      "title": "The 76",
+      "url": "https://share.inquirer.com/X5973O",
+      "description": "Art direction, design, and development for the Inquirer’s new look food guide"
+    },
+    {
       "title": "Hoagie Bracket",
       "url": "https://www.inquirer.com/news/inq2/best-philadelphia-hoagies-bracket-2022-20220322.html",
       "description": "OJA award-winning project that lets readers determine what local deli makes the best hoagie in Philadelphia"
@@ -37,6 +52,156 @@
     }
   ],
   "otherProjects": [
+    {
+      "title": "Every homerun from Kyle Schwarbers epic 2025 season",
+      "url": "https://www.inquirer.com/phillies/inq2/kyle-schwarber-home-runs-record-season-phillies-20250930.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Task Location guide",
+      "url": "https://www.inquirer.com/entertainment/tv/inq2/task-filming-locations-philadelphia-episode-1-20250907.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Hanging around: Virtual tour of Calder Gardens",
+      "url": "https://www.inquirer.com/arts/inq2/calder-gardens-philly-tour-inside-museum-20250918.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Rum Ham Hunt",
+      "url": "https://www.inquirer.com/entertainment/tv/inq2/always-sunny-rum-ham-hunt-game-20250806.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "How much trash piled up during the strike?",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/trash-strike-scale-estimate-uncollected-20250710.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Editing",
+        "Graphics",
+        "Reporting",
+        "Design",
+        "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Where in Philly? A Geoguesser game",
+      "url": "https://www.inquirer.com/history/inq2/historic-philly-geo-guesser-location-quiz-20250701.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Reporting",
+        "Art Direction",
+        "Editing",
+        "Design",
+        "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Who should the Sixers draft?",
+      "url": "https://www.inquirer.com/sixers/inq2/sixers-nba-draft-lottery-vote-bailey-edgecombe-20250619.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Design",
+        "Development"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Breakfast Sandwich Bracket",
+      "url": "https://www.inquirer.com/food/inq2/best-breakfast-sandwich-philly-bracket-20250320.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing",
+        "Reporting"
+      ],
+       "year": 2025
+    },
+    {
+      "title": "How Cooper DeJean won the Super Bowl",
+      "url": "https://www.inquirer.com/eagles/inq2/eagles-play-cooper-dejean-pick-six-analysis-play-20250211.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "Dance Dance Celebration",
+      "url": "https://www.inquirer.com/eagles/inq2/eagles-super-bowl-gillie-da-kid-king-rhythm-game-20250206.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Branding",
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2025
+    },
+    {
+      "title": "How I-95 will reconnect Philly with the riverfront",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/i95-cap-construction-project-philadelphia-chinatown-stitch-20240821.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Development",
+        "Design",
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Design your own Pa. license plate",
+      "url": "https://www.inquirer.com/news/pennsylvania/inq2/pennsylvania-license-plate-new-design-history-20240711.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2024
+    },
+    {
+      "title": "Build your ideal Sixers lineup",
+      "url": "https://www.inquirer.com/sixers/inq2/sixers-create-your-starting-five-20240627.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Design",
+        "Development",
+        "Editing"
+      ],
+      "year": 2024
+    },
     {
       "title": "Let’s Chat Wrestlemania",
       "url": "https://www.inquirer.com/sports/inq2/wrestlemania-40-philadelphia-history-salary-storylines-is-it-fake-20240328.html",
