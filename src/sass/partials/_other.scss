@@ -22,6 +22,8 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: normal;
+  width: fit-content;
+  background-color: $light-blue;
 
   @include mq(wide) {
     font-size: $font-size-large;
@@ -44,6 +46,8 @@
   @include mq(tablet) {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 0;
   }
 
   @include mq(desktop) {
@@ -58,9 +62,12 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
 
+  @include mq(tablet) {
+    width: 320px;
+  }
+
   @include mq(desktop) {
     width: 220px;
-    margin-right: 20px;
   }
 
   @include mq(wide) {
@@ -97,7 +104,7 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: normal;
-  display: block;
+  display: flex;
 
   @include mq(desktop) {
     max-width: 220px;
@@ -124,6 +131,10 @@
   margin: auto;
   transition: transform 0.4s linear;
 
+  @include mq(tablet) {
+    right: -375px;
+  }
+
   @include mq(desktop) {
     right: auto;
     left: -48px;
@@ -149,9 +160,11 @@
 }
 
 .other__meta {
-  display: flex;
-  justify-content: flex-start;
   margin-right: 0;
+  @include mq(tablet) {
+    display: flex;
+    justify-content: flex-start;
+  }
 
   @include mq(desktop) {
     justify-content: space-between;
@@ -159,6 +172,9 @@
 }
 
 .other__for {
+  width: fit-content;
+  background-color: $light-blue;
+
   &:after {
     content: ",\00a0";
 
@@ -166,4 +182,9 @@
       content: '';
     }
   }
+}
+
+.other__year {
+  width: fit-content;
+  background-color: $light-blue;
 }

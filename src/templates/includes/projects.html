@@ -30,13 +30,15 @@
       <div class='project__about'>
         <a class='project__link' href='{{ url }}' target='_blank'>
           <h3 class='project__title'>
-            {{ title }}
+            <span class="project__highlight">
+              {{ title }}
+            </span>
           </h3>
           <img class='project__arrow' src='{{ ../path }}/assets/images/link.svg' />
         </a>
         <div class='project__description'>
-          <span class="project__description-highlight">
-          {{{ description }}}
+          <span class="project__highlight">
+            {{{ description }}}
           </span>
         </div>
       </div>

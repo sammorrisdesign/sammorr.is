@@ -115,8 +115,9 @@
     font-weight: normal;
     border-bottom: 1px solid transparent;
     transition: border 0.4s linear;
-    display: inline;
+    display: inline-block;
     background-color: $light-blue;
+    width: fit-content;
 
     @include mq(wide) {
         font-size: $font-size-large;
@@ -153,7 +154,7 @@
     }
 }
 
-.project__description-highlight {
+.project__highlight {
     background-color: $light-blue;
     box-shadow: $light-blue 0 3px, $light-blue 0 -3px;
 }
