@@ -53,6 +53,36 @@
   ],
   "otherProjects": [
     {
+      "title": "Tyrese Maxey has levled up",
+      "url": "https://www.inquirer.com/sixers/inq2/tyrese-maxey-sixers-all-star-game-choose-play-20260211.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Editing"
+      ],
+      "year": 2026
+    },
+    {
+      "title": "Perfect date night finder",
+      "url": "https://www.inquirer.com/food/inq2/date-night-restaurant-recommendation-quiz-20260210.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Art Direction",
+        "Editing",
+        "Illustration"
+      ],
+      "year": 2026
+    },
+    {
+      "title": "Can you 311 that?",
+      "url": "https://www.inquirer.com/news/philadelphia/inq2/philly-311-non-emergency-request-line-game-20260122.html",
+      "for": "The Philadelphia Inquirer",
+      "tags": [
+        "Editing"
+      ],
+      "year": 2026
+    },
+    {
       "title": "A Tale of Two Philadelphians in the Mütter Museum",
       "url": "https://www.inquirer.com/arts/inq2/mutter-museum-human-remains-philadelphians-20251114.html",
       "for": "The Philadelphia Inquirer",
@@ -203,6 +233,7 @@
     },
     {
       "title": "Navigating the green card maze",
+      "for": "The Philadelphia Inquirer",
       "url": "https://www.inquirer.com/politics/nation/inq2/green-card-process-philadelphia-legal-immigration-rates-20250417.html",
       "tags": [
         "Editing"
@@ -250,7 +281,8 @@
         "Design",
         "Development",
         "Editing"
-      ]
+      ],
+      "year": 2025
     },
     {
       "title": "Dance Dance Celebration",
@@ -299,6 +331,7 @@
     },
     {
       "title": "Did Mayor Parker clean up plan work?",
+      "for": "The Philadelphia Inquirer",
       "url": "https://www.inquirer.com/politics/philadelphia/inq2/clean-every-block-plan-philadelphia-before-after-20241008.html",
       "tags": [
         "Editing"
@@ -308,6 +341,7 @@
     {
       "title": "What is it like to sing in a choir",
       "url": "https://www.inquirer.com/arts/inq2/feels-sing-animated-philadelphia-symphonic-choir-orchestra-20240718.html",
+      "for": "The Philadelphia Inquirer",
       "tags": [
         "Editing",
         "Art Direction"
