@@ -29,20 +29,17 @@
 
 .project__video-crop {
     position: relative;
-    height: 0;
-    padding-top: 56.25%;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
 
     @include mq(desktop) {
         width: 700px;
-        height: 393.75px;
         flex-shrink: 0;
         padding-top: 0;
     }
 
     @include mq(wide) {
         width: 880px;
-        height: 495px;
     }
 }
 
@@ -52,6 +49,7 @@
     left: 0;
     right: 0;
     width: 100%;
+    height: 100%;
 }
 
 .project__video--filtered {
