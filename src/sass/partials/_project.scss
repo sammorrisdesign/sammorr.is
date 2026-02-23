@@ -146,10 +146,14 @@
 
 .project__description {
     color: $black;
-    background-color: $light-blue;
     margin-right: 60px;
 
     p {
         margin: 0;
     }
+}
+
+.project__description-highlight {
+    background-color: $light-blue;
+    box-shadow: $light-blue 0 3px, $light-blue 0 -3px;
 }
